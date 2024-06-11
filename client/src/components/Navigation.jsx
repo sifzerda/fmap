@@ -87,7 +87,7 @@ function Navigation() {
 
            {/* New Tab Linking to Horror-Map - currently a Google placeholder */}
            <li className="nav-item">
-        <a href="https://www.google.com" className="nav-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://horror-map-3b5accd83dc7.herokuapp.com" className="nav-link" target="_blank" rel="noopener noreferrer">
           Horror Map
         </a>
       </li>
