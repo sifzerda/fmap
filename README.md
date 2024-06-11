@@ -2,21 +2,20 @@
 
 ## Table of Contents
 
-- [The Fiction Map](#the-fiction-map)
-  - [Table of Contents](#table-of-contents)
-- [Description ](#description-)
-- [Badges ](#badges-)
-- [Visuals ](#visuals-)
-- [Installation ](#installation-)
-- [Usage ](#usage-)
-- [Support ](#support-)
-- [Contributing ](#contributing-)
-- [Authors and Acknowledgment ](#authors-and-acknowledgment-)
-- [License ](#license-)
-- [Project Status ](#project-status-)
-- [To Do ](#to-do-)
+- [Table of Contents](#table-of-contents)
+- [Description ](#description)
+- [Badges ](#badges)
+- [Visuals ](#visuals)
+- [Installation ](#installation)
+- [Usage ](#usage)
+- [Support ](#support)
+- [Contributing ](#contributing)
+- [Authors and Acknowledgment ](#authors-and-acknowledgment)
+- [License ](#license)
+- [Project Status ](#project-status)
+- [To Do ](#to-do)
 
-# Description <a name="description-"></a>
+# Description <a name="description"></a>
 
 A fullstack MERN blog. My blog provides an in-depth guide on fiction and narrative writing. It runs front-end in React, on an Express server, with Node.js. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. The back-end has a Mongodb database, and graphql queries, and enables user registration for basic account access, user authentication by JWT. Users can leave comments on each page, and contact me via a working contact form on the contact page (to do).
 
@@ -26,7 +25,7 @@ The aim was to create a comprehensive guide for fiction-writing, compiling all t
 
 It cites professional advice, techniques, and examples, examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
 
-# Badges <a name="badges-"></a>
+# Badges <a name="badges"></a>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -51,13 +50,13 @@ It cites professional advice, techniques, and examples, examples. The guide assu
 ![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD.svg?style=for-the-badge&logo=Stripe&logoColor=white)
 
-# Visuals <a name="visuals-"></a>
+# Visuals <a name="visuals"></a>
 
 Link to app deployed on Heroku:
 
 https://fiction-map-d72538a215a2.herokuapp.com/
 
-# Installation <a name="installation-"></a>
+# Installation <a name="installation"></a>
 
 CODE EDITOR TERMINAL:
 
@@ -80,17 +79,17 @@ Pre-made working accounts for logging in debugging purposes:
     email: xandro@aol.com
     password: password12345
 
-# Usage <a name="usage-"></a>
+# Usage <a name="usage"></a>
 
 User authentication with JWTs allow users to create an account, which stores user posts ('thoughts') on subjects. Each page displays a separate comment list. The user profile page shows a user's posts.
 
 Registered users are welcome to leave comments, criticism, and feedback on the pages. I appreciate your feedback or comments if any part of the site has been helpful to your writing.
 
-# Support <a name="support-"></a>
+# Support <a name="support"></a>
 
 For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
 
-# Contributing <a name="contributing-"></a>
+# Contributing <a name="contributing"></a>
 
 Any contributions you make are greatly appreciated. 
 
@@ -103,7 +102,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Contributors can also help provide writing tips or techniques, or anything not covered. Email me with writing tips and I will add these to the site, and attribute to you. You can also sign up for a user account and leave your feedback as comments.
 
-# Authors and Acknowledgment <a name="authors-and-acknowledgment-"></a>
+# Authors and Acknowledgment <a name="authors-and-acknowledgment"></a>
 
 The author acknowledges and credits those who have contributed to this project, including:
 
@@ -111,15 +110,15 @@ The author acknowledges and credits those who have contributed to this project, 
 -   Chat GPT and the Xpert Learning Assistant on Monash Bootcamp portal
 -   Refer to references page on app for list of writing materials referred to throughout site pages.
 
-# License <a name="license-"></a>
+# License <a name="license"></a>
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-# Project Status <a name="project-status-"></a>
+# Project Status <a name="project-status"></a>
 
 This project is substantially complete, with minor formalization that still needs to be done throughout site.
 
-# To Do <a name="to-do-"></a>
+# To Do <a name="to-do"></a>
 
 - [x] User accounts
 - [x] Commenting on each page
