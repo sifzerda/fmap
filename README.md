@@ -1,23 +1,32 @@
-# Final Project: Tour-de-force Tour Tracker
+# The Fiction Map
 
 ## Table of Contents
 
-1. Description
-2. Badges
-3. Visuals
-4. Installation
-5. Usage
-6. Support
-7. Contributing 
-8. Authors and acknowledgment
-9. License
-10. Project status
+- [The Fiction Map](#the-fiction-map)
+  - [Table of Contents](#table-of-contents)
+- [Description ](#description-)
+- [Badges ](#badges-)
+- [Visuals ](#visuals-)
+- [Installation ](#installation-)
+- [Usage ](#usage-)
+- [Support ](#support-)
+- [Contributing ](#contributing-)
+- [Authors and Acknowledgment ](#authors-and-acknowledgment-)
+- [License ](#license-)
+- [Project Status ](#project-status-)
+- [To Do ](#to-do-)
 
-# Description
+# Description <a name="description-"></a>
 
-This is a fullstack MERN app that runs a ticket purchasing system and merchandise store. It uses express, a MongoDB database, graphql and Apollo server. It allows users to search for gigs and shows, check venues and times where these are showing, and then purchase a ticket, or merchandise from the store.
+A fullstack MERN blog. My blog provides an in-depth guide on fiction and narrative writing. It runs front-end in React, on an Express server, with Node.js. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. The back-end has a Mongodb database, and graphql queries, and enables user registration for basic account access, user authentication by JWT. Users can leave comments on each page, and contact me via a working contact form on the contact page (to do).
 
-## 2. Badges
+This is a personal project that has been probably 10 or so years in the making, including accumulation of 113,000 words worth of writing advice from various published sources, as well as the piles of fiction I've read. Examples are also sourced from non-fiction which uses narrative-style writing.
+
+The aim was to create a comprehensive guide for fiction-writing, compiling all the good advice I've found in various helpful how-to-write guides all in one single place. It includes advice on fiction-writing, screenwriting, and even improv acting guides.
+
+It cites professional advice, techniques, and examples, examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
+
+# Badges <a name="badges-"></a>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -42,19 +51,20 @@ This is a fullstack MERN app that runs a ticket purchasing system and merchandis
 ![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD.svg?style=for-the-badge&logo=Stripe&logoColor=white)
 
-## 3. Visuals
+# Visuals <a name="visuals-"></a>
 
 Link to app deployed on Heroku:
 
-https://tour-de-force-397007b365cc.herokuapp.com/
+https://fiction-map-d72538a215a2.herokuapp.com/
 
-## 4. Installation
+# Installation <a name="installation-"></a>
 
 CODE EDITOR TERMINAL:
 
 - npm install i
 - npm run seed
-- npm run start
+- npm run build
+- npm run start or develop
 
 Pre-made working accounts for logging in debugging purposes:
 
@@ -70,34 +80,19 @@ Pre-made working accounts for logging in debugging purposes:
     email: xandro@aol.com
     password: password12345
 
-Dummy stripe card number:
+# Usage <a name="usage-"></a>
 
-- 4242 4242 4242 4242
-- other details can be made up
+User authentication with JWTs allow users to create an account, which stores user posts ('thoughts') on subjects. Each page displays a separate comment list. The user profile page shows a user's posts.
 
-Dummy PayPal account info:
-- Email: sb-2vzk530821041@personal.example.com
-- Password: wQ9jfet@
-- Name: John Doe
-- Card: 
-   - Type: VISA
-   - Card Number: 4239535067551077
-   - Expiry: 06/2029
-   - CVC Code: Any 3 digits
+Registered users are welcome to leave comments, criticism, and feedback on the pages. I appreciate your feedback or comments if any part of the site has been helpful to your writing.
 
-## 5. Usage
-
-User authentication with JWTs allow users to create an account, which stores data on past store and ticket purchases. Users can also leave reviews to shows they've seen. Visitors can browse current shows and make a purchase of a ticket to a show. Payment for tickets uses PayPal, while merchandise store purchases use Stripe. 
-
-Once purchasing a ticket or merchandise, users can find records of purchases displaying on their profile page. 
-
-## 6. Support
+# Support <a name="support-"></a>
 
 For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
 
-## 8. Contributing
+# Contributing <a name="contributing-"></a>
 
-Any contributions you make are greatly appreciated.
+Any contributions you make are greatly appreciated. 
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". 
 1.	Fork the Project
@@ -106,20 +101,37 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.	Push to the Branch (git push origin feature/NewFeature)
 5.	Open a Pull Request
 
-## 9. Authors and acknowledgment
+Contributors can also help provide writing tips or techniques, or anything not covered. Email me with writing tips and I will add these to the site, and attribute to you. You can also sign up for a user account and leave your feedback as comments.
+
+# Authors and Acknowledgment <a name="authors-and-acknowledgment-"></a>
 
 The author acknowledges and credits those who have contributed to this project, including:
 
 -	https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FSF-PT-11-2023-U-LOLC
--	Chee Ho Tai
--	Pranita Shrestha
--	Phil Loy 
--   Chat GPT and the Xpert Learning Assistant
+-   Chat GPT and the Xpert Learning Assistant on Monash Bootcamp portal
+-   Refer to references page on app for list of writing materials referred to throughout site pages.
 
-## 10. License
+# License <a name="license-"></a>
 
 Distributed under the MIT License. See LICENSE.txt for more information.
- 
-## 11. Project status
 
-This project is completed.
+# Project Status <a name="project-status-"></a>
+
+This project is substantially complete, with minor formalization that still needs to be done throughout site.
+
+# To Do <a name="to-do-"></a>
+
+- [x] User accounts
+- [x] Commenting on each page
+- [x] Footnotes
+- [x] Put Hero's Journey into separate page accessible via Story
+- [x] Make Thought model, link to User model
+- [x] User Account page with list of all comments user made
+- [ ] ~~There may have to be models for each chapter/subject, to attach thoughts to that page (and not spawn every post)~~
+- [ ] A web3form contact page (pull from react challenge) 
+- [ ] ~~Go through source word .doc, find all review comments, insert these as cross-hyperlinks to page paragraphs~~
+- [ ] Fix up reference page, grab all footnotes
+- [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
+- [ ] Create a more forum-like user presence; avatar, every post shows date when user joined, other stuff
+- [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
+
