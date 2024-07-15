@@ -23,7 +23,7 @@ This is a personal project that has been probably 10 or so years in the making, 
 
 The aim was to create a comprehensive guide for fiction-writing, compiling all the good advice I've found in various helpful how-to-write guides all in one single place. It includes advice on fiction-writing, screenwriting, and even improv acting guides.
 
-It cites professional advice, techniques, and examples, examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
+It cites professional advice, techniques, and examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
 
 # Badges <a name="badges"></a>
 
