@@ -170,9 +170,9 @@ function Subjects() {
 
             <li className="nav-item">
                 <Link
-                    to="/FirstWords"
+                    to="/TheFirstWords"
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === '/FirstWords' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/TheFirstWords' ? 'nav-link active' : 'nav-link'}
                 >
                     FirstWords
                 </Link>
@@ -180,9 +180,9 @@ function Subjects() {
 
             <li className="nav-item">
                 <Link
-                    to="/NextWords"
+                    to="/TheNextWords"
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === '/NextWords' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/TheNextWords' ? 'nav-link active' : 'nav-link'}
                 >
                     NextWords
                 </Link>
@@ -190,9 +190,9 @@ function Subjects() {
 
             <li className="nav-item">
                 <Link
-                    to="/LastWords"
+                    to="/TheLastWords"
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === '/LastWords' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/TheLastWords' ? 'nav-link active' : 'nav-link'}
                 >
                     TheLastWords
                 </Link>
