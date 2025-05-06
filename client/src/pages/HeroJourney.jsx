@@ -1,4 +1,5 @@
 import '../App.css'
+import hjBanner from '../assets/hjbanner.jpg'
 
 export default function HeroJourney() {
     return (
@@ -13,31 +14,17 @@ export default function HeroJourney() {
                 </div>
             </div>
 
-            <div className="col-md-6"></div>
-            <div className="card flex-md-row mb-4 box-shadow h-md-250">
-                <div className="card-body d-flex flex-column align-items-start">
-                    <strong className="d-inline-block mb-2 text-success">Design</strong>
-                    <h3 className="mb-0">
-                        <a className="text-dark" href="#">Post title</a>
-                    </h3>
-                    <div className="mb-1 text-muted">Nov 11</div>
-                    <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to dditional content.</p>
-                    <a href="#">Continue reading</a>
-                </div>
-
-                <img className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18eeca52e10%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18eeca52e10%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true"></img>
-            </div>
-
+      <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
+        <img className="card-img-top w-100" src={hjBanner} alt="Thumbnail" />
+      </div>
 
             <main role="main" className="container">
                 <div className="row">
                     <div className="col-md-8 blog-main">
                         <div className="blog-post">
-                        <h2 className="blog-post-title" id="post-act-i">Act I. Departure</h2>
-                            <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+                            <h2 className="blog-post-title" id="post-act-i">Act I. Departure</h2>    
 
                             <div id="content">
-
 
                                 <h5>(1.1) The Call to Adventure</h5>
                                 <p>This event signals the beginning of the mythological journey. There are countless forms this might take. Generally, the protagonist is voluntarily or involuntarily lured away ‘from the frequented paths of man.’ The occurrence may be by accident – e.g. blunder of the protagonist’s doing, or the act of another. Another character (the ‘herald’) may give the protagonist the call to adventure. Usually, the ‘herald’ is ‘dark, loathly, or terrifying, judged evil by the world’ representing the ‘rejected, unrecognised’ unknown into which the protagonist must go. If there is no herald, the setting itself may possess these qualities, such as a dark forest. </p>
@@ -92,46 +79,45 @@ export default function HeroJourney() {
 
                                 <h2 className="blog-post-title" id="post-act-iii">Act III. Return</h2>
 
-<p>Most of the Act III Steps have Act I counterparts, because they are ‘upside down’ versions of those in Act I. It’s as if the protagonist is moving backwards (through each stage) to the starting position again.</p>
+                                <p>Most of the Act III Steps have Act I counterparts, because they are ‘upside down’ versions of those in Act I. It’s as if the protagonist is moving backwards (through each stage) to the starting position again.</p>
 
                                 <h5>(3.1) Refusal of the Return</h5>
-<p>Once the quest has been accomplished, the protagonist must begin the labour of returning with his ‘boon.’ The boon may be some elixir for the restoration of society, or otherwise have life-renewing abilities to be applied to the original community, or – if the ‘sleeping princess’ is the boon – taken away from danger to the safety of the original homeplace.</p>
-<p>Just as the protagonist first refused the call, here, the protagonist will first refuse the responsibility to return. It may be the protagonist doubts the viability of his return, or its purpose, or he may want to take up permanent residence in the quest land.</p>
-<p>As forces pushed the protagonist to begin his journey, forces will commission him to return. They may be external, or internal.</p>
-                                
+                                <p>Once the quest has been accomplished, the protagonist must begin the labour of returning with his ‘boon.’ The boon may be some elixir for the restoration of society, or otherwise have life-renewing abilities to be applied to the original community, or – if the ‘sleeping princess’ is the boon – taken away from danger to the safety of the original homeplace.</p>
+                                <p>Just as the protagonist first refused the call, here, the protagonist will first refuse the responsibility to return. It may be the protagonist doubts the viability of his return, or its purpose, or he may want to take up permanent residence in the quest land.</p>
+                                <p>As forces pushed the protagonist to begin his journey, forces will commission him to return. They may be external, or internal.</p>
+
                                 <h5>(3.2) The Magic Flight</h5>
                                 <p>Once the protagonist has been commissioned to return, he will do so supported by the power of his ‘supernatural patron.’ This is the ‘god’ whose blessing he has (symbolically) won in the ‘apotheosis’ stage.</p>
                                 <p>Alternatively, if the protagonist attained the boon against the opposition of its guardian/god/demon then (like Prometheus and the stolen fire) the protagonist’s return may be resented by the gods or demons, and there may be a pursuit. The flight may be “complicated by marvels of magical obstruction and evasion.”</p>
                                 <p>In other words, the flight is magical either because the assenting god supports it (the magic providing for it), or opposes it (the magic creating obstacles).</p>
-<p>The Act I equivalent is ‘Supernatural Aid,’ in which the protagonist ‘flight’ from his community is supported by the magical protective figure. It may be the same force.</p>
-                               
+                                <p>The Act I equivalent is ‘Supernatural Aid,’ in which the protagonist ‘flight’ from his community is supported by the magical protective figure. It may be the same force.</p>
+
                                 <h5>(3.3) Rescue from Without</h5>
-                               <p>The protagonist may have to be rescued from his supernatural adventure by ‘without’ – i.e. the natural world he originally left. This is like the child who is called back inside after dark – the world the protagonist left behind calls to him again.</p>
-<p>If the protagonist is consciously unwilling to return, he will suffer a nasty shock, driving him (from within) to return. If, on the other hand, the protagonist is unconsciously unwilling to return; in a higher, beatific state of perfect being (resembling death), so cut off from his forgotten original starting place, a ‘rescue from without’ is necessary to get him back.</p>
+                                <p>The protagonist may have to be rescued from his supernatural adventure by ‘without’ – i.e. the natural world he originally left. This is like the child who is called back inside after dark – the world the protagonist left behind calls to him again.</p>
+                                <p>If the protagonist is consciously unwilling to return, he will suffer a nasty shock, driving him (from within) to return. If, on the other hand, the protagonist is unconsciously unwilling to return; in a higher, beatific state of perfect being (resembling death), so cut off from his forgotten original starting place, a ‘rescue from without’ is necessary to get him back.</p>
 
                                 <h5>(3.4) The Crossing of the Return Threshold</h5>
                                 <p>The protagonist must pass back from the ‘mystic world’ to re-enter, with his boon, the ‘world of common day…where men who are fractions imagine themselves to be complete.’ The last part suggests the common society would not relate to the protagonist’s quest (reinforcing the hero’s ‘death’; that he is no longer like them). </p>
-<p>As the Mother and Father are actually one, the two worlds are actually one – the mystic world is merely “a forgotten dimension of the world we know.” From different perspectives, “the hags [are] goddesses and the dragons [are] the watchdogs of the gods.” However, a certain baffling incongruence between the worlds, perpetuating the need for another hero to redeem the world.</p>
-<p>Now a god, the protagonist must return to the earthly world of men. The protagonist may struggle to accept the “passing joys and sorrows, banalities and noisy obscenities” of his previous world. However, his apotheosis may fade as a dream which was momentous by night, seeming silly in the light of day.</p>
+                                <p>As the Mother and Father are actually one, the two worlds are actually one – the mystic world is merely “a forgotten dimension of the world we know.” From different perspectives, “the hags [are] goddesses and the dragons [are] the watchdogs of the gods.” However, a certain baffling incongruence between the worlds, perpetuating the need for another hero to redeem the world.</p>
+                                <p>Now a god, the protagonist must return to the earthly world of men. The protagonist may struggle to accept the “passing joys and sorrows, banalities and noisy obscenities” of his previous world. However, his apotheosis may fade as a dream which was momentous by night, seeming silly in the light of day.</p>
                                 <p>As compromise, the protagonist may occupy an ‘in-between’ position on an ‘insulating horse.’ The protagonist may walk amongst the common society, but not on the same ground; he has knowledge, skill or ability they don’t, and they may recognise it, even if they treat him the same. The ‘insulating horse’ sets him apart from them. It may act as a precaution for his sake, or theirs, since he may be dangerous to them now. The protagonist may have some sign or mark or indicator of his distinction from them.</p>
-<p>The returning hero must survive the impact of the world. This may entail a confrontation with the common society with his “ego-shattering, life-redeeming elixir, [he must] take the return blow of reasonable enquiries, hard resentment, and good people at a loss to comprehend.” The protagonist may be celebrated, or disbelieved, ridiculed or rejected.</p>
+                                <p>The returning hero must survive the impact of the world. This may entail a confrontation with the common society with his “ego-shattering, life-redeeming elixir, [he must] take the return blow of reasonable enquiries, hard resentment, and good people at a loss to comprehend.” The protagonist may be celebrated, or disbelieved, ridiculed or rejected.</p>
 
                                 <h5>(3.5) Master of the Two Worlds </h5>
-                               <p>The protagonist has gained and proved his talent to pass back and forth between the world division, gaining the insight of both. </p>
+                                <p>The protagonist has gained and proved his talent to pass back and forth between the world division, gaining the insight of both. </p>
 
                                 <h5>(3.6)  Freedom to Live </h5>
-<p>Before the quest, the protagonist may have doubted his worth, but having proved his worth by the completion of the quest, gives the protagonist a will or purpose to live and feel justified in his own life. He has surrendered himself to a higher purpose or action, losing his ego in the process, freeing him from selfishness and suffering.</p>
+                                <p>Before the quest, the protagonist may have doubted his worth, but having proved his worth by the completion of the quest, gives the protagonist a will or purpose to live and feel justified in his own life. He has surrendered himself to a higher purpose or action, losing his ego in the process, freeing him from selfishness and suffering.</p>
 
                                 <h2 id="post-act-summary" className="blog-post-title">Summary</h2>
-<p>To summarise the Hero’s Journey:</p>
+                                <p>To summarise the Hero’s Journey:</p>
 
-<p className='indent-text-1'>The mythological hero, setting forth from his common-day hut or castle, is lured, carried away, or else voluntarily proceeds to the threshold of adventure. There he encounters a shadow presence that guards the passage. The hero may defeat or conciliate this power and go alive into the kingdom of the dark (brother battle; dragon battle; offering; charm), or be slain by the opponent and descend in death (dismemberment, crucifixion). </p>
-<p className='indent-text-1'>Beyond the threshold, then, the hero journeys through a world of unfamiliar yet strangely intimate forces, some of which severely threaten him (tests), some of which give magical aid (helpers).  </p>
-<p className='indent-text-1'>When he arrives at the nadir of the mythological round, he undergoes a supreme ordeal and gains his reward. The triumph may be represented as the hero&apos;s sexual union with the goddess-mother of the world (sacred marriage), his recognition by the father-creator (father atonement), his own divinization (apotheosis), or again—if the powers have remained unfriendly to him—his theft of the boon he came to gain (bride-theft, fire-theft); intrinsically it is an expansion of consciousness and therewith of being (illumination, transfiguration, freedom).   </p>
-<p className='indent-text-1'>The final work is that of the return. If the powers have blessed the hero, he now sets forth under their protection (emissary); if not, he flees and is pursued (transformation flight, obstacle flight). At the return threshold the transcendental powers must remain behind; the hero re-emerges from the kingdom of dread (return, resurrection). The boon that he brings restores the world (elixir).   </p>
+                                <p className='indent-text-1'>The mythological hero, setting forth from his common-day hut or castle, is lured, carried away, or else voluntarily proceeds to the threshold of adventure. There he encounters a shadow presence that guards the passage. The hero may defeat or conciliate this power and go alive into the kingdom of the dark (brother battle; dragon battle; offering; charm), or be slain by the opponent and descend in death (dismemberment, crucifixion). </p>
+                                <p className='indent-text-1'>Beyond the threshold, then, the hero journeys through a world of unfamiliar yet strangely intimate forces, some of which severely threaten him (tests), some of which give magical aid (helpers).  </p>
+                                <p className='indent-text-1'>When he arrives at the nadir of the mythological round, he undergoes a supreme ordeal and gains his reward. The triumph may be represented as the hero&apos;s sexual union with the goddess-mother of the world (sacred marriage), his recognition by the father-creator (father atonement), his own divinization (apotheosis), or again—if the powers have remained unfriendly to him—his theft of the boon he came to gain (bride-theft, fire-theft); intrinsically it is an expansion of consciousness and therewith of being (illumination, transfiguration, freedom).   </p>
+                                <p className='indent-text-1'>The final work is that of the return. If the powers have blessed the hero, he now sets forth under their protection (emissary); if not, he flees and is pursued (transformation flight, obstacle flight). At the return threshold the transcendental powers must remain behind; the hero re-emerges from the kingdom of dread (return, resurrection). The boon that he brings restores the world (elixir).   </p>
 
-{/* ---------------------------------------------------------------------------------------------------------- */}
-
+                                {/* ---------------------------------------------------------------------------------------------------------- */}
 
                             </div>
                         </div>
@@ -146,7 +132,7 @@ export default function HeroJourney() {
                     <aside className="col-md-4 blog-sidebar">
                         <div className="p-3 mb-3 blue rounded">
                             <h4 className="font">About</h4>
-                            <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                            <p className="mb-0-1">The Hero's Journey is a narrative archetype which describes the most common story structure.</p>
                         </div>
 
                         <div className="p-3 mb-3 blue rounded">
@@ -160,11 +146,11 @@ export default function HeroJourney() {
                         </div>
 
                         <div className="p-3 mb-3 blue rounded">
-                            <h4 className="font">Elsewhere</h4>
+                            <h4 className="font">Also See</h4>
                             <ol className="list-unstyled">
-                                <li><a href="#">GitHub</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Facebook</a></li>
+                                <li><a href="/Story">1. Story</a></li>
+                                <li><a href="/Plot">3. Plot</a></li>
+                                <li><a href="/WritingDevices">20. Writing Devices</a></li>
                             </ol>
                         </div>
                     </aside>

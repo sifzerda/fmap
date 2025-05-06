@@ -1,7 +1,5 @@
 import profilePic from '../assets/propic.jpg'
 import '../App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faSquare, faLaptop, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 
 export default function About () {
   return (

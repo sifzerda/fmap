@@ -325,24 +325,7 @@ h1.jumbo-bg-dark-text {
   font-size: 35px;
   font-family: 'Josefin Sans', 'Rubik', 'Arial Narrow Bold', sans-serif
 }
-
-.profile-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.profile-container h1 {
-  text-align: center;
-}
-
-.profile-container p.email-info {
-  color: var(--light-red);
-  font-size: 0.9rem;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
+ 
 .thought-cards-p {
   display: flex;
   flex-wrap: wrap;
