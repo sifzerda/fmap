@@ -35,7 +35,6 @@ It cites professional advice, techniques, and examples. The guide assumes the us
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) 
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
 ![NPM](https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) 
@@ -46,9 +45,6 @@ It cites professional advice, techniques, and examples. The guide assumes the us
 ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) 
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) 
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-538DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white)
-![Material Design](https://img.shields.io/badge/Material%20Design-757575.svg?style=for-the-badge&logo=Material-Design&logoColor=white)
-![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD.svg?style=for-the-badge&logo=Stripe&logoColor=white)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 # Visuals <a name="visuals"></a>
@@ -64,23 +60,7 @@ https://fiction-map-d72538a215a2.herokuapp.com/
 CODE EDITOR TERMINAL:
 
 - npm install i
-- npm run seed
-- npm run build
 - npm run start or develop
-
-Pre-made working accounts for logging in debugging purposes:
-
-    email: sal@hotmail.com
-    password: password12345
-
-    email: lernantino@gmail.com
-    password: password12345
-
-    email: amiko2k20@aol.com
-    password: password12345
-
-    email: xandro@aol.com
-    password: password12345
 
 # Usage <a name="usage"></a>
 
@@ -109,8 +89,6 @@ Contributors can also help provide writing tips or techniques, or anything not c
 
 The author acknowledges and credits those who have contributed to this project, including:
 
--	https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FSF-PT-11-2023-U-LOLC
--   Chat GPT and the Xpert Learning Assistant on Monash Bootcamp portal
 -   Refer to references page on app for list of writing materials referred to throughout site pages.
 
 # License <a name="license"></a>
@@ -119,7 +97,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 # Project Status <a name="project-status"></a>
 
-This project is substantially complete, with minor formalization that still needs to be done throughout site.
+This project is substantially complete, with minor formalization and addition of content that still needs to be done throughout site.
 
 # To Do <a name="to-do"></a>
 
@@ -134,6 +112,5 @@ This project is substantially complete, with minor formalization that still need
 - [ ] ~~Go through source word .doc, find all review comments, insert these as cross-hyperlinks to page paragraphs~~
 - [ ] Fix up reference page, grab all footnotes
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
-- [ ] Create a more forum-like user presence; avatar, every post shows date when user joined, other stuff
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
 

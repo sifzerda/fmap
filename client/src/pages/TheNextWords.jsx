@@ -1,4 +1,6 @@
 import '../App.css';
+import deimos from '../assets/Deimos.jpg';
+import itComesAtNight from '../assets/itcomesatnight.jpg';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -330,10 +332,10 @@ export default function TheNextWords() {
                 <p>Taking the above paragraph example: A picture of a swamp would not place the reader relative to the swamp. You need to show a person or even a row boat to give the reader a sense of size and human presence. You need to make the reader wonder how they would feel going into the swamp. The whole point of placement is to elicit the question: ‘How would you feel in this situation?’</p>
                 <p>Placement in imagery can be very subtle, and still be powerfully effective. A poster for the movie <i>It Comes At Night</i>shows the back of an alarmed dog barking into a dark forest. There is no person in sight but the angle and rope leash suggests we are standing right behind the dog, as if it’s our dog. This gives us a visceral access point into the scene:</p>
 
-                <img src="../../src/assets/itcomesatnight.jpg" alt="It Comes At Night Poster" className="img-fluid" />
+                <img src={itComesAtNight} alt="It Comes At Night Poster" className="img-fluid" />
 
                 <p>This was likely ‘inspired’ by Dragan Bibin’s 2015 painting, <i>Deimos</i>,  which illustrates the same effect:</p>
-                <img src="../../src/assets/Deimos.jpg" alt="Deimos Painting" className="img-fluid" />
+                <img src={deimos} alt="Deimos Painting" className="img-fluid" />
 
                 <h5>18.1.7 	Negative Description</h5>
                 <p>Description should be <u>positive</u>: it tells you what something is like, or how it is, or what happened, i.e. it describes what is actually there. David Carroll says, <i>"our psyches prefer affirmation to disaffirmation. They prefer to learn what did happen, not what didn't." </i><a href="#f9"><sup>9</sup></a></p>

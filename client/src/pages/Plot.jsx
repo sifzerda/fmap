@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
+import threeRt from '../assets/3rt.jpg'
+import crossArrow from '../assets/crossarrow.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -144,7 +146,7 @@ export default function Plot() {
                 <p>The third turn is a special turn, because it designates the ending. Your protagonist can’t just make a right turn into anywhere; they have to end up somewhere that completes the narrative. For the purpose of your third turn, note that, if you make three right-angled turns, you end up heading in the same direction you began:</p>
 
                 <div className='img-container'>
-                  <img src='../../src/assets/3rt.jpg' alt="Three Right-Angled Turns" width="500" height="500"></img>
+                  <img src={threeRt} alt="Three Right-Angled Turns" width="500" height="500"></img>
                 </div>
 
                 <p>To ensure the turn is diametric, each time your protagonist makes a turn, work out where your protagonist is (their current position) and where they appear to be heading (their direction, motivation, goals, objectives), and either flip it, or contrast it in some major way.</p>
@@ -242,7 +244,7 @@ export default function Plot() {
                 <p>‘Chiastic’ originates from the Greek word ‘Chiasmus’ meaning ‘crosswise arrangement,’ i.e. –</p>
 
                 <div className='img-container'>
-                  <img src="../../src/assets/crossarrow.jpg" alt="Chiastic Structure" width="500" height="500"></img>
+                  <img src={crossArrow} alt="Chiastic Structure" width="500" height="500"></img>
                 </div>
 
 <p>Chiastic structure can effect a sense of ‘circularity,’ or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>

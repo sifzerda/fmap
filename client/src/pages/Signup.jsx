@@ -38,7 +38,7 @@ console.log('addUser mutation:', addUser.mutation);
     <div className="signup-container">
       <Link to="/login" className="back-link">← Go to Login</Link>
 
-      <h2 className="signup-title">Signup</h2>
+      <h2 className="signup-title">Create an Account</h2>
       <form className="signup-form" onSubmit={handleFormSubmit}>
         <div className="form-group-z">
           <label htmlFor="username" className="label-z">Username:</label>

@@ -5,11 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App.jsx';
 import Error from './pages/Error.jsx';
-import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
-import Portfolio from './pages/Portfolio.jsx';
-import Profile from './pages/Profile.jsx';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
 
 // subjects
 
@@ -40,8 +39,6 @@ import Title from './pages/Title.jsx';
 import Logline from './pages/Logline.jsx';
 import Synopsis from './pages/Synopsis.jsx';
 import References from './pages/References.jsx';
-import Login from './pages/Login.jsx';
-import Signup from './pages/Signup.jsx';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -55,16 +52,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Portfolio',
-        element: <Portfolio />,
-      },
-      {
         path: '/Contact',
         element: <Contact />,
-      },
-      {
-        path: '/Resume',
-        element: <Resume />,
       },
       {
         path: '/Story',
@@ -185,10 +174,6 @@ const router = createBrowserRouter([
         element: <Signup />
       },
 
-      {
-        path: '/Profile',
-        element: <Profile />
-      },
     ],
   },
 ]);
