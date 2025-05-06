@@ -1,5 +1,5 @@
 import '../App.css'
-//import antagBanner from '../assets/antagbanner.jpg'
+import antagBanner from '../assets/antagbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -16,11 +16,9 @@ export default function Antagonists() {
         </div>
       </div>
 
-{/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={antagBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">

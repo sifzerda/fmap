@@ -534,6 +534,12 @@ header.header {
   margin: 0 auto;
 }
 
+/* ---- chapter banner rounded corners ----*/
+.card-img-top {
+  border-radius: 0.375rem;
+  border:  solid 1px var(--bootstrap-dark);
+}
+
 /* end---------------------------------------------------------------------*/
 
 *, *:before, *:after {

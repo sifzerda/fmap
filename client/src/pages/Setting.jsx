@@ -1,5 +1,5 @@
 import '../App.css'
-//import settingBanner from '../assets/settingbanner.jpg'
+import settingBanner from '../assets/settingbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -13,15 +13,12 @@ export default function Setting() {
         <div id="wrapper" className="text-left">
           <p className="lead my-3">Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?... </p>
           <i>— Eudora Welty</i>
-
         </div>
       </div>
 
-{/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={settingBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">

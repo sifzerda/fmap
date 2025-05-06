@@ -1,5 +1,5 @@
 import '../App.css'
-//import conflictBanner from '../assets/conflictbanner.jpg'
+import conflictBanner from '../assets/conflictbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -16,11 +16,9 @@ export default function Conflict() {
         </div>
       </div>
 
-{/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={conflictBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">
