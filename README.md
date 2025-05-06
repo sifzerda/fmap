@@ -53,6 +53,8 @@ It cites professional advice, techniques, and examples. The guide assumes the us
 
 # Visuals <a name="visuals"></a>
 
+![screenshot](https://github.com/user-attachments/assets/f88a64b6-5f3c-4e1f-a250-0ac4eb3a823a)
+
 Link to app deployed on Heroku:
 
 https://fiction-map-d72538a215a2.herokuapp.com/
