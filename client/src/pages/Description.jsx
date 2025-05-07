@@ -38,7 +38,7 @@ export default function Description() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 className="blog-post-title">11.1: Show Don&apos;t Tell</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+             
               <div id="content">
 
                 <p>This rule deals mainly with conveying exposition. Exposition comprises all the non-plot related ‘facts’ or neutral information about your story, e.g. dates, times, histories, biography, setting information, etc. The ‘background information.’</p>
@@ -588,11 +588,11 @@ export default function Description() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Voice">15. Voice</a></li>
+                <li><a href="/WritingDevices">20. Writing Devices</a></li>
+                <li><a href="/Editing">22. Editing</a></li>
               </ol>
             </div>
           </aside>

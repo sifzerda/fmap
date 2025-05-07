@@ -1,5 +1,5 @@
 import '../App.css'
-//import secoBanner from '../assets/secobanner.jpg'
+import secoBanner from '../assets/secobanner.png'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -18,19 +18,16 @@ export default function SecondaryCharacters() {
         </div>
       </div>
 
-{/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={secoBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-8-1" className="blog-post-title">8.1: What is A Secondary Character?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+           
               <div id="content">
                 <p>DEFINE A SECONDARY CHARACTER.
                 </p>
@@ -164,11 +161,11 @@ export default function SecondaryCharacters() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/MainCharacters">7. Main Characters</a></li>
+                <li><a href="/Dialogue">12. Dialogue</a></li>
+                <li><a href="/POV">14. POV</a></li>
               </ol>
             </div>
           </aside>

@@ -31,8 +31,7 @@ export default function Suspense() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-13-1" className="blog-post-title">13.1 What is Suspense?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
 
                 <p>Suspense is basically just holding off on resolving conflict or answering plot-related questions for as long as possible. It’s necessary if you want the reader to keep reading until the end. </p>
@@ -186,11 +185,11 @@ export default function Suspense() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Conflict">5. Conflict</a></li>
+                <li><a href="/Suspense">10. Subtext</a></li>
+                <li><a href="/WritingDevices">20. Writing Devices</a></li>
               </ol>
             </div>
           </aside>

@@ -35,7 +35,7 @@ export default function WritersBlock() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-21-1" className="blog-post-title">21.1: What is Writer's Block?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+            
               <div id="content">
 
 <p>DEFINE WRITER'S BLOCK, SPECULATE ON ORIGIN</p>
@@ -167,11 +167,11 @@ export default function WritersBlock() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/TheFirstWords">17. The First Words</a></li>
+                <li><a href="/TheNextWords">18. The Next Words</a></li>
+                <li><a href="/TheLastWords">19. The Last Words</a></li>
               </ol>
             </div>
           </aside>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
-//import plotBanner from '../assets/plotbanner.jpg'
+import plotBanner from '../assets/plotbanner.jpg'
 import threeRt from '../assets/3rt.jpg'
 import crossArrow from '../assets/crossarrow.jpg'
 import ThoughtForm from '../components/ThoughtForm';
@@ -21,19 +21,16 @@ export default function Plot() {
         </div>
       </div>
 
-{/*
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={plotBanner} alt="Thumbnail" />
       </div>
-      */}
 
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-3-1" className="blog-post-title">3.1: Plotting in a Vacuum</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
                 <p>You might have more stories than the Burj Khalifa. But stories aren’t enough; you’ve got to know what to do with them.</p>
                 <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
@@ -567,11 +564,11 @@ export default function Plot() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Story">1. Story</a></li>
+                <li><a href="/Premise">2. Premise</a></li>
+                <li><a href="/Title">23. Title</a></li>
               </ol>
             </div>
           </aside>

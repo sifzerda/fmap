@@ -25,7 +25,6 @@ export default function Antagonists() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-16-1" className="blog-post-title">16.1: What is an Antagonist?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
               <div id="content">
 
                 <p>DEFINE ANTAGONISM/ANTAGONIST</p>
@@ -162,11 +161,11 @@ export default function Antagonists() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Conflict">5. Conflict</a></li>
+                <li><a href="/MainCharacters">7. Main Characters</a></li>
+                <li><a href="/Suspense">13. Suspense</a></li>
               </ol>
             </div>
           </aside>

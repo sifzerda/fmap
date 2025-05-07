@@ -35,7 +35,7 @@ export default function TheFirstWords() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-17-1" className="blog-post-title">17.1: Why the First Words Matter</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+              
               <div id="content">
 
 
@@ -418,11 +418,11 @@ export default function TheFirstWords() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/TheNextWords">18. The Next Words</a></li>
+                <li><a href="/TheLastWords">19. The Last Words</a></li>
+                <li><a href="WritersBlock">21. Writer's Block</a></li>
               </ol>
             </div>
           </aside>

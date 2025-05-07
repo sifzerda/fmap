@@ -35,8 +35,7 @@ export default function Logline() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-24-1" className="blog-post-title">24.1 What Is A Logline?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
 
                 <p>In Dante’s Inferno, the punishment of writing a logline sits between the 5th-6th level of Hell. You do it over and over until you get it right (you never do). If it sounds scary, don’t worry, you have to murder about 10 people to be punished with it in the afterlife. </p>
@@ -222,11 +221,11 @@ export default function Logline() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Story">1. Story</a></li>
+                <li><a href="/Premise">2. Premise</a></li>
+                <li><a href="/Title">24. Title</a></li>
               </ol>
             </div>
           </aside>

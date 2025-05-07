@@ -25,14 +25,12 @@ export default function Editing() {
       </div>
 */}
 
-
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-22-1" className="blog-post-title">22.1: General Deadweights</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
 
                 <p>Writing is the skill of putting words on the page; writing well is the skill of taking words off the page. This is a simple matter of knowing what kinds of words you take out. Here are some examples:</p>
@@ -240,11 +238,11 @@ export default function Editing() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Themes">4. Themes</a></li>
+                <li><a href="/Description">11. Description</a></li>
+                <li><a href="/Logline">24. Logline</a></li>
               </ol>
             </div>
           </aside>

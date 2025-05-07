@@ -1,5 +1,5 @@
 import '../App.css'
-//import themesBanner from '../assets/themesbanner.jpg'
+import themesBanner from '../assets/themesbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -18,18 +18,16 @@ export default function Themes() {
         </div>
       </div>
 
-{/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={themesBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
             <h2 id="post-4-1" className="blog-post-title">4.1: What is Theme?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+            
               <div id="content">
 
               <div className="p-3 mb-3 bg-light rounded">
@@ -181,11 +179,11 @@ export default function Themes() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Plot">3. Plot</a></li>
+                <li><a href="/Subtext">10. Subtext</a></li>
+                <li><a href="/Voice">15. Voice</a></li>
               </ol>
             </div>
           </aside>

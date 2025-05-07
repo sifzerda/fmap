@@ -25,7 +25,7 @@ export default function Conflict() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
             <h2 id="post-5-1" className="blog-post-title">5.1. What is Conflict?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+            
               <div id="content">
 
                 <p>Conflict is struggle between your protagonist and their goals. Conflict is hardship but it is not ‘Fate,’ ‘Adversity,’ ‘Bad Luck,’ ‘Misfortune,’ or ‘Coincidence.’  These things happen by blind accident or by random chance. They are caused by forces which are indifferent to your protagonist, have no explanation, no resolution, and no purpose. They make the existence of your protagonist unnecessary because they would have happened anyway, to someone else, or no one at all. </p>
@@ -202,11 +202,11 @@ export default function Conflict() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Dialogue">12. Dialogue</a></li>
+                <li><a href="/Suspense">13. Suspense</a></li>
+                <li><a href="/Antagonists">16. Antagonists</a></li>
               </ol>
             </div>
           </aside>

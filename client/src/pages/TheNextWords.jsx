@@ -37,7 +37,7 @@ export default function TheNextWords() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-18-1" className="blog-post-title">18.1: Don't Do This!</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+             
               <div id="content">
 
                 <p>Before detailing what to do, here’s a general list of things not to do:</p>
@@ -1037,11 +1037,11 @@ export default function TheNextWords() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/TheFirstWords">17. The First Words</a></li>
+                <li><a href="/TheLastWords">19. The Last Words</a></li>
+                <li><a href="/Editing">22. Editing</a></li>
               </ol>
             </div>
           </aside>

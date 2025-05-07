@@ -35,8 +35,7 @@ export default function Synopsis() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-25-1" className="blog-post-title">25.1 Purpose of a Synopsis</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
 
                 <p>Now that you’ve written your story, you want to think about marketing and publishing. Most publishers require a synopsis to generate interest in your manuscript. This is critical because if the synopsis is no good, they won’t look at your manuscript. However, a synopsis must be written differently to your story.</p>
@@ -289,11 +288,11 @@ export default function Synopsis() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Premise">2. Premise</a></li>
+                <li><a href="/Title">23. Title</a></li>
+                <li><a href="/Logline">24. Logline</a></li>
               </ol>
             </div>
           </aside>

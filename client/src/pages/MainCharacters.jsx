@@ -1,5 +1,5 @@
 import '../App.css'
-import mainCharBanner from '../assets/maincharbanner.jpg'
+import mainCharBanner from '../assets/maincharbanner.png'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
@@ -22,16 +22,13 @@ export default function MainCharacters() {
         <img className="card-img-top w-100" src={mainCharBanner} alt="Thumbnail" />
       </div>
 
-
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
             <h2 id="post-7-1" className="blog-post-title">7.1: The People with the Most at Stake</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+           
               <div id="content">
-
-
 
 <p>It’s been said a story should focus on the characters who stand to lose the most, or have the most at stake. We like to hear stories about people who have something to lose—family, careers, ideals, opportunities, reputations, realistic hopes and dreams.</p>
 <p>It should be noted that generally humans value ideas over physical realities, and a story will be more interesting if those ideas are the things at stake. The potential loss of reputation hits harder than the potential loss of a house or car.</p>
@@ -718,11 +715,11 @@ export default function MainCharacters() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/SecondaryCharacters">8. Secondary Characters</a></li>
+                <li><a href="/Dialogue">12. Dialogue</a></li>
+                <li><a href="/Antagonists">16. Antagonists</a></li>
               </ol>
             </div>
           </aside>

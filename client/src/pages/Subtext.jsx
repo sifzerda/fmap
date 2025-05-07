@@ -27,8 +27,7 @@ export default function Subtext() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-10-1" className="blog-post-title">10.1: What is subtext?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
-
+            
               <div id="content">
                 <p>Stories are made up of text and subtext. Text is the surficial and literal meaning conveyed by the words. Subtext is the latent implied (or belied) meaning. </p>
                 <p>One way of thinking of it; Subtext conveys that people cohabit two worlds simultaneously: one of present reality, of words, sights, sounds and activity. And a second; the inner world of conscious and subconscious thought, desire, impulse and emotion.</p>
@@ -151,11 +150,11 @@ export default function Subtext() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Themes">4. Themes</a></li>
+                <li><a href="/Conflict">5. Conflict</a></li>
+                <li><a href="/Dialogue">12. Dialogue</a></li>
               </ol>
             </div>
           </aside>

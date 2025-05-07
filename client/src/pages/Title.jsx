@@ -27,7 +27,7 @@ export default function Title() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-23-1" className="blog-post-title">23.1: What is An Effective Title?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+             
               <div id="content">
 
                 <p>Some writers may defer this stage until they finish the story, but I recommend creating a list of possible titles for your story as you write it, continually adding or subtracting from the list as you think of a new one. </p>
@@ -121,11 +121,11 @@ export default function Title() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/WritersBlock">21. Writer's Block</a></li>
+                <li><a href="/Logline">24. Logline</a></li>
+                <li><a href="/Synopsis">25. Synopsis</a></li>
               </ol>
             </div>
           </aside>

@@ -35,7 +35,7 @@ export default function Scenes() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-6-1" className="blog-post-title">6.1: Anatomy of a Scene</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
+            
               <div id="content">
 
                 <h5>6.1.1 What Is A Scene?</h5>
@@ -646,11 +646,11 @@ export default function Scenes() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="/Setting">9. Setting</a></li>
+                <li><a href="/Suspense">13. Suspense</a></li>
+                <li><a href="/POV">14. POV</a></li>
               </ol>
             </div>
           </aside>
