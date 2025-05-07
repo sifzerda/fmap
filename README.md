@@ -113,4 +113,4 @@ This project is substantially complete, with minor formalization and addition of
 - [ ] Fix up reference page, grab all footnotes
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
-
+- [ ] fill in About summary cards for each chapter
