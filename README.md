@@ -114,3 +114,21 @@ This project is substantially complete, with minor formalization and addition of
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
 - [ ] fill in About summary cards for each chapter
+
+
+
+
+
+Changes:
+
+- removed padding-top: 40px for div justify center (footer)
+- removed zerda author attribution
+- removed disabled newer button
+- changed banner image html and added banner images
+- filled in elsewhere box to say Also see with 3 links
+- changed img location from public to assets
+- removed spare portfolio and profile and other navs
+- removed sidebar comp and subjects comp
+- removed superfluous package json installations
+- filled about section summaries
+- removed extra router links from main and app.jsx
