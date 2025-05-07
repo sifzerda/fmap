@@ -69,14 +69,13 @@ background-color: var(--bs-warning-rgb);
 
 .justify-content-center {
 justify-content: center !important;
-padding-top: 40px;
+padding-top: 0px;
 }
 
 p.lead.my-3 {
 color: white;
 }
 
-  
 *:focus,
 *:active {
   outline: none !important;

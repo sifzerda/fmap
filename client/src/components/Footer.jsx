@@ -15,7 +15,7 @@ function Footer() {
 
           <br></br>
 
-          <a href="https://react-td-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">My Project Portfolio</a>
+          <a href="https://react-td-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
 
         </div>
       </div>
