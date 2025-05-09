@@ -4,9 +4,7 @@ import { useState } from 'react';
 function ContactForm() {
     const [input, setInput] = useState({
         name: '',
-        email: '',
         message: '',
-        subject: ''
     });
 
     const [submitted, setSubmitted] = useState(false);
@@ -23,22 +21,12 @@ function ContactForm() {
         e.preventDefault();
         setInput({
             name: '',
-            email: '',
-            subject: '',
             message: '',
         });
         setSubmitted(true);
     };
 
-    //  const handleChange = (e) => {
-    //    setInput(e.target.value);
-    //  };
-
-    // First we check to see if "edit" prop exists. If not, we render the normal form
-    // If the prop "edit" exists, we know to render the update form instead
     return (
-// if submitted, display confirmation message
-// if not not, handle submit
      <div className="form-container">
         {submitted ? (
           <div className="confirmation-message">
@@ -60,32 +48,7 @@ function ContactForm() {
                     required
                 />
             </div>
-            <div>
-                <label htmlFor="email">Email</label>
-                <input
-                    type="email"
-                    placeholder="Email address..."
-                    id="email"
-                    name="email"
-                    value={input.email}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
-                />
-            </div>
-            <div>
-                <label htmlFor="subject">Subject</label>
-                <input
-                    type="subject"
-                    placeholder="Enter message subject..."
-                    id="subject"
-                    name="subject"
-                    value={input.subject}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
-                />
-            </div>
+
             <div>
                 <label htmlFor="message">Message</label>
                 <textarea

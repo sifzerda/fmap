@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import storyBanner from '../assets/storybanner.png'
+import storyBanner from '../assets/storybanner.png';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 import '../App.css'
