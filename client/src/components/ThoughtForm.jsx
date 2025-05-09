@@ -17,9 +17,26 @@ export default function ThoughtForm() {
     const username = data?.me?.username || 'Anonymous';
 
     // Define mutation
-    const [addThought] = useMutation(ADD_THOUGHT, {
-        // Refetch queries to update the UI
-        refetchQueries: [{ query: QUERY_ME }],
+    const [addThought, { loading, error }] = useMutation(ADD_THOUGHT, {
+        update(cache, { data: { addThought } }) {
+            try {
+                const existingData = cache.readQuery({ query: QUERY_ME });
+    
+                if (existingData && existingData.me) {
+                    cache.writeQuery({
+                        query: QUERY_ME,
+                        data: {
+                            me: {
+                                ...existingData.me,
+                                thoughts: [addThought, ...existingData.me.thoughts],
+                            },
+                        },
+                    });
+                }
+            } catch (err) {
+                console.error('Apollo cache update error:', err);
+            }
+        },
     });
 
     const handleSubmit = async (e) => {
@@ -37,11 +54,8 @@ export default function ThoughtForm() {
                     }
                 });
                 console.log("Thought submitted successfully!");
-
                 // Clear input field after submission
                 setThought('');
-                // Refresh the page (to update with posted thought automatically)
-                window.location.reload();
             } catch (err) {
                 console.error("Error submitting thought:", err); // Log any errors
             }

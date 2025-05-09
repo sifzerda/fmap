@@ -11,7 +11,6 @@ function Hrefs() {
 
     const handleLinkClick = () => {
         setTimeout(() => {
-            window.location.reload();
         }, 100);
     };
 
