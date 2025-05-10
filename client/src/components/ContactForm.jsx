@@ -27,7 +27,8 @@ function ContactForm() {
     };
 
     return (
-     <div className="form-container">
+     <div className="container my-1-9">
+        <h2 className='login-title'>Leave a Message</h2>
         {submitted ? (
           <div className="confirmation-message">
             <p>Thank you for your message!</p>
@@ -36,32 +37,34 @@ function ContactForm() {
 
         <form onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name" className="label-z">Name:</label>
                 <input
                     type="text"
                     placeholder="Name or contact reference..."
                     id="name"
                     name="name"
                     value={input.name}
-                    className="contact-form-input"
+                    className="input-z"
                     onChange={handleChange}
                     required
                 />
             </div>
 
             <div>
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message" className="label-z">Message:</label>
                 <textarea
                     id="message"
                     placeholder="Enter your message here"
                     name="message"
                     value={input.message}
-                    className="contact-form-input"
+                    className="input-z"
                     onChange={handleChange}
                     required
                 />
             </div>
-            <button type="submit">Submit</button>
+            <div className="button-container-z">
+            <button className='submit-button-z' type="submit">Submit</button>
+        </div>
         </form>
 )}
         </div>

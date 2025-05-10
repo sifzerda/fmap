@@ -5,7 +5,7 @@ export default function HeroJourney() {
     return (
         <div>
 
-            <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+            <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
                 <h1 className="display-4">The Hero&apos;s Journey</h1>
 
                 <div id="wrapper" className="text-left">

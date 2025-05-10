@@ -7,7 +7,7 @@ export default function Dialogue() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Dialogue</h1>
 
         <div id="wrapper" className="text-left">
@@ -33,7 +33,7 @@ export default function Dialogue() {
                 <p>First, what dialogue is <i>not: </i><strong>it is not real speech. </strong>Dialogue is the illusion, or semblance, of real speech.</p>
                 <p>You do not get dialogue from a verbatim transcription of human speech. Real speech is disordered, fractured and meandering. A large percentage is junk, noise, filler. Dialogue can never be passive background noise; it must be active, tight, abridged and filled with meaning and subtext. It can also reveal more by what is not said, than by what is.</p>
 
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">"[Every bit of] dialogue has the obligation to advance the story..."</p>
                   <p><i>— Hallie & Whit Burnett.</i><a href="#f1"><sup>1</sup></a></p>
                 </div>

@@ -5,7 +5,9 @@ export default function About() {
   return (
     <div>
 
-      <h1>About</h1>
+<div className="jumbotron p-1 text-center text-white text-center rounded bg-dark">
+  <h1 className="m-0 p-0">About</h1>
+</div>
 
       <p className="separator-line"></p>
 
@@ -13,10 +15,9 @@ export default function About() {
 
       <div className="separator-line"></div>
 
-      <div className="jumbotron p-3 p-md-3 text-white rounded bg-dark">
-
+      <div className="jumbotron p-1 p-md-1 text-center text-white rounded bg-dark">
         <div id="wrapper" className="text-left">
-          <p className="lead my-3"><i>By this art you may contemplate the variation of the 23 letters. </i></p>
+          <p className="lead my-1 text-white"><i>By this art you may contemplate the variation of the 23 letters. </i></p>
           <i>— 'The Library of Babel', Jorge Luis Borges</i>
         </div>
       </div>
@@ -39,38 +40,6 @@ export default function About() {
 
       <div className="separator-line"></div>
 
-      <h2>Index</h2>
-
-      <div className="index-card">
-        <ul className="index-list">
-          <li>Story: where this is the goal.</li>
-          <li>Premise: where this is the goal.</li>
-          <li>Plot: where this is the goal.</li>
-          <li>Themes: where this is the goal.</li>
-          <li>Conflict: where this is the goal.</li>
-          <li>Scenes: where this is the goal.</li>
-          <li>Main Characters: where this is the goal.</li>
-          <li>Secondary Characters: where this is the goal.</li>
-          <li>Setting: where this is the goal.</li>
-          <li>Subtext: where this is the goal.</li>
-          <li>Description: where this is the goal.</li>
-          <li>Dialogue: where this is the goal.</li>
-          <li>Suspense: where this is the goal.</li>
-          <li>POV: where this is the goal.</li>
-          <li>Voice: where this is the goal.</li>
-          <li>Antagonists: where this is the goal.</li>
-          <li>The First Words: where this is the goal.</li>
-          <li>The Next Words: where this is the goal.</li>
-          <li>The Last Words: where this is the goal.</li>
-          <li>Writing Devices: where this is the goal.</li>
-          <li>Writer's Block: where this is the goal.</li>
-          <li>Editing: where this is the goal.</li>
-          <li>Title: where this is the goal.</li>
-          <li>Logline: where this is the goal.</li>
-          <li>Synopsis: where this is the goal.</li>
-          <li>References: all cited sources</li>
-        </ul>
-      </div>
     </div>
   );
 }

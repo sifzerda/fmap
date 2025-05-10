@@ -7,7 +7,7 @@ export default function Antagonists() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Antagonists</h1>
 
         <div id="wrapper" className="text-left">
@@ -113,23 +113,24 @@ export default function Antagonists() {
 
                 <p>Then, referring back to 14.4 The Negation of a Negation, the negxneg in both above cases would be for protagonist to be friendless, but duped into thinking he has friends. The antagonist may cause this to prevent protagonist from challenging his influence.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-<ThoughtForm />
+                <ThoughtForm />
 
-<ThoughtList />
+                <ThoughtList />
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
                 <div className="footnotes">
-                  <h4>Footnotes</h4>
-                  <ol>
-                    <li id="f1">Sol Stein, <i>How To Grow A Novel.</i></li>
-                    <li id="f2">For instance, while George Orwell’s <i> 1984 </i>made intelligence the positive value, Daniel Keyes  <i> Flowers for Algernon </i>made intelligence the negative value. </li>
-                  </ol>
+                  <div className="p-3 mb-3 rounded pixar-box">
+                    <h4>Footnotes</h4>
+                    <ol>
+                      <li id="f1">Sol Stein, <i>How To Grow A Novel.</i></li>
+                      <li id="f2">For instance, while George Orwell’s <i> 1984 </i>made intelligence the positive value, Daniel Keyes  <i> Flowers for Algernon </i>made intelligence the negative value. </li>
+                    </ol>
+                  </div>
                 </div>
-
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>

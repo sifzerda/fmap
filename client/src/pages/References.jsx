@@ -4,7 +4,7 @@ export default function References() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
         <h1 className="display-4">References</h1>
 
       </div>

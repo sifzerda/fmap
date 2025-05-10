@@ -9,7 +9,7 @@ export default function TheNextWords() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
         <h1 className="display-4">The Next Words</h1>
 
         <div id="wrapper" className="text-left">

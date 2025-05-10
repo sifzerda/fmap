@@ -8,7 +8,7 @@ export default function Story() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Story</h1>
 
         <div id="wrapper" className="text-left">
@@ -43,11 +43,13 @@ export default function Story() {
                 <p>A story is not simply a random series of events. A series of events becomes a ‘story’ when there is some extra element —an overarching unifying factor— which transforms the events into a new thing in itself, with a whole greater than the sum of its parts, such that if you took away any piece, it would revert back to being a random series of events.</p>
                 <p>This unifying factor is what the story is ‘really’ about, and should itself be simple; expressible in little more than a single sentence.</p>
 
-                <ol><li><u>A SERIES OF EVENTS</u></li></ol>
-                <p className='indent-text-1'><u>He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not talk to the girl at all. Then people began to leave. The girl refused to open his wine, but took it home with her instead.</u></p>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <li className='remove-bullets'><u>A SERIES OF EVENTS</u></li>
+                  <p className='indent-text-1'> He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not talk to the girl at all. Then people began to leave. The girl refused to open his wine, but took it home with her instead.</p>
 
-                <ol><li><u>A STORY</u></li></ol>
-                <p className='indent-text-1'><u>He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not talk to the girl at all. Then people began to leave. The girl refused to open his wine. They had it at her place, instead. But they didn’t talk much there, either.</u></p>
+                  <li className='remove-bullets'><u>A STORY</u></li>
+                  <p className='indent-text-1'> He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not talk to the girl at all. Then people began to leave. The girl refused to open his wine. They had it at her place, instead. But they didn’t talk much there, either.</p>
+                </div>
 
                 <p>In the first example, the series of events is vague and unconnected. But in the story, all the events build up and make sense at the conclusion – every detail had a reason to be there; nothing was random or trivial. The series of events has an overall meaning.</p>
                 <p>To put it another way, if someone asked you what (1) was about, you could say, a guy goes to a party. But if someone asks you what it meant, you don’t know. If someone asks you what (2) was about, you can say, a guy goes to a party. If someone asks you what it meant, you can say, the guy likes the girl, and we find out she likes him back. All of the details are used to communicate this. More than pure chronological content, self-contained meaningfulness is the indicator of a story.</p>
@@ -71,11 +73,13 @@ export default function Story() {
 
                 <h2 id="post-1-3" className="blog-post-title">1.3 The Main Elements of a Story</h2>
 
-                <p>These are the main elements of story structure, in order of priority:</p><a href="#f4"><sup>4</sup></a>
-                <ol><li>PLOT;</li></ol>
-                <ol><li>CHARACTERS;</li></ol>
-                <ol><li>SETTING;</li></ol>
-                <ol><li>THEME.</li></ol>
+                <p>These are the main elements of story structure, in order of priority:<a href="#f4"><sup>4</sup></a></p>
+                <ol>
+                  <li>PLOT;</li>
+                  <li>CHARACTERS;</li>
+                  <li>SETTING;</li>
+                  <li>THEME.</li>
+                </ol>
 
                 <p>Generally, this means if a character’s development gets in the way of a plot event, the character needs to change in order to express the plot event. If a setting inhibits the expression of a character, the setting needs to change, etc.</p>
 
@@ -83,7 +87,7 @@ export default function Story() {
 
                 <p>There are roughly two types of stories: (1) stories about people who ‘rise’ and end up better off at the end; (2) stories about people who ‘fall’ and end up worse off at the end (even if a person ends up where they started, they still may be in a worse position; having lost time or opportunities, or not learned anything from their experiences). </p>
                 <p>Throughout your entire planning process you need to bear in mind whether your story is about gain or loss. The tone and structure of your whole story will follow. Regardless which applies, there generally needs to be change and conflict.</p>
-                <p>You may have heard of the 'hero's journey' or the typical story structure where the protagonist faces a challenge, and must overcome it. Don't feel restricted by these formulas. A group of scientists at the University of California researched thousands of books and movie scripts and found that the vast majority of stories actually fall into 6 different categories: </p><a href="#f5"><sup>5</sup></a>
+                <p>You may have heard of the 'hero's journey' or the typical story structure where the protagonist faces a challenge, and must overcome it. Don't feel restricted by these formulas. A group of scientists at the University of California researched thousands of books and movie scripts and found that the vast majority of stories actually fall into 6 different categories: <a href="#f5"><sup>5</sup></a></p>
 
                 <ol>
                   <li>Rags to Riches (rise);</li>
@@ -96,7 +100,7 @@ export default function Story() {
 
                 <p>Incidentally they found Harry Potter and the Deathly Hallows (among others) was an exception: in which the hero falls, rises, falls, rises, falls, rises, falls, rises, falls, rises, falls, rises, falls, rises, falls, and then finally rises.</p>
 
-                <p>Roy Clark lists a number of traditional story structures, many of them ancient archetypes:</p><a href="#f6"><sup>6</sup></a>
+                <p>Roy Clark lists a number of traditional story structures, many of them ancient archetypes:<a href="#f6"><sup>6</sup></a></p>
 
                 <ul>
                   <li>Winning the Prize;</li>
@@ -121,7 +125,7 @@ export default function Story() {
 
                 <h2 id="post-1-5" className="blog-post-title">1.5 Joseph Campbell’s Myths </h2>
 
-                <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being ‘The Adventure of the Hero,’ more commonly known as <i>‘The Hero’s Journey.’</i></p><a href="#f7"><sup>7</sup></a>
+                <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being ‘The Adventure of the Hero,’ more commonly known as <i>‘The Hero’s Journey.’</i><a href="#f7"><sup>7</sup></a></p>
                 <u>The Hero with a Thousand Faces, Joseph Campbell.</u>
                 <p>Campbell argues that virtually every story (including folk tales, mythologies and fairy tales) is a variation on his formula. It’s worth knowing the formula even if you disagree. </p>
                 <p>The way the myths manifest in stories is manifold: the myths may occur in stories literally or symbolically, overtly or impliedly, and be present in physical or intangible forms. The roles may be occupied by characters – alternatively male or female – multiple characters performing collective roles, singular characters performing multiple roles, animals, objects, settings, or other. This gives the journey enormous scope for application.</p>
@@ -137,17 +141,20 @@ export default function Story() {
                 <h5>1.6.2 	Don’t Take Ideas from Other Writers</h5>
                 <p>Anyone who gives a blanket proscription against ‘stealing’ ideas (it’s not really ‘borrowing’ if you never give them back) is out of touch with writing practice. 99% of fiction writers are readers of other fiction writers, or ‘fans’, and hence get their ideas from someone else. However, some forms of ‘copying’ (or more politically correct: ‘drawing inspiration’) are more permissible than others:</p>
 
-                <ul><li><h6>Steal More</h6></li></ul>
+                <ul><li className='remove-bullets'><h6>(1) Steal More</h6></li></ul>
                 <p>If your ‘stealing’ is easily found out, ironically you’re probably not stealing enough. There’s a saying: <i>“If you steal from one person it’s plagiarism, steal from many, it’s research.”</i> Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your ‘idea base’, and when it comes to writing your own, the ‘cross-fertilisation’ of ideas will mask your tracks, burying the echoes of one author under the echoes of all the others, and making it less clear where one ‘stolen’ idea begins and another ends;</p>
-                <p>Note: Avoid slavishly copy-pasting ideas, even in mass volume. A ton of shit is no less shit than an ounce of shit. Borrow ideas lots of ideas, yes, but borrow selectively. If you think purely having read thousands of stories makes you a better writer, note what Robert McKee says about writing ‘instinct’:  </p><a href="#f9"><sup>9</sup></a>
+                <p>Note: Avoid slavishly copy-pasting ideas, even in mass volume. A ton of shit is no less shit than an ounce of shit. Borrow ideas lots of ideas, yes, but borrow selectively. If you think purely having read thousands of stories makes you a better writer, note what Robert McKee says about writing ‘instinct’:<a href="#f9"><sup>9</sup></a></p>
 
-                <i><p className='indent-text-1'>“…what the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated reading and watching. The unschooled writer calls this "instinct," but it's merely habit and it's rigidly limiting…But the haphazard groping toward or revolt against the sum of unconsciously ingrained repetitions is not, in any sense, technique, and leads to screenplays clogged with clichés of either the commercial or the art house variety.”</p></i>
 
-                <ul><li><h6>Steal Further Back</h6></li></ul>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <i><p className='indent-text-1'>“…[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated reading and watching. The unschooled writer calls this "instinct," but it's merely habit and it's rigidly limiting…But the haphazard groping toward or revolt against the sum of unconsciously ingrained repetitions is not, in any sense, technique, and leads to screenplays clogged with clichés of either the commercial or the art house variety.”</p></i>
+                </div>
+
+                <ul><li className='remove-bullets'><h6>(2) Steal Further Back</h6></li></ul>
                 <p>There’s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i><a href="#f10"><sup>10</sup></a>   So if you want to take from ‘Dracula’, don’t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
                 <p>So if you want to take from ‘Dracula’, don’t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
-                <ul><li><h6>Aim Lower</h6></li></ul>
+                <ul><li className='remove-bullets'><h6>(3) Aim Lower</h6></li></ul>
                 <p>Writers are most tempted to steal from the most widely-known, or idolized, ‘untouchable’ works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work, then why are you trying to get published? What will the public get from your work that LOTR did not already give them? </p>
                 <p>In contrast, do you remember a time you’ve read a book and thought ‘How did that turn out so bad? That could’ve been really good.’ Those are the books you want to steal from. You want to rewrite the book the way you think it should’ve gone. Even if the story is well known, this form of copying is more permissible because you are making active changes to the story.  </p>
 
@@ -173,9 +180,12 @@ export default function Story() {
                 <h2 id="post-1-7" className="blog-post-title">1.7 The Philosophy of Storytelling </h2>
                 <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don’t want to write about those things, or you can’t, your story won’t be worth telling.</p>
                 <p>Robert McKee puts it better:</p>
-                <i><p className='indent-text-1'>“As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time […] Writers who cannot grasp the truth of our transitory existence, who have been mislead by the counterfeit comforts of the modern world, who believe that life is easy once you know how to play the game, give conflict a false inflection. Their scripts fail for one of two reasons: either a glut of meaningless and absurdly violent conflict, or a vacancy of meaningful and honestly expressed conflict. </p></i>
-                <i><p className='indent-text-1'>The former are exercises in turbo special effects, written by those who follow textbook imperatives to create conflict, but, because they're disinterested in or insensitive to the honest struggles of life, devise phony, overwrought excuses for mayhem.  </p></i>
-                <i><p className='indent-text-1'>The latter are tedious portraits written in reaction against conflict itself. These writers take the Pollyanna view that life would really be nice ... if it weren't for conflict. Therefore, their films avoid it in favor of low-key depictions to suggest that if we learned to communicate a little better, be a little more charitable, respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch.” </p></i>
+
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <i><p className='indent-text-1'>“As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time […] Writers who cannot grasp the truth of our transitory existence, who have been mislead by the counterfeit comforts of the modern world, who believe that life is easy once you know how to play the game, give conflict a false inflection. Their scripts fail for one of two reasons: either a glut of meaningless and absurdly violent conflict, or a vacancy of meaningful and honestly expressed conflict. </p></i>
+                  <i><p className='indent-text-1'>The former are exercises in turbo special effects, written by those who follow textbook imperatives to create conflict, but, because they're disinterested in or insensitive to the honest struggles of life, devise phony, overwrought excuses for mayhem.  </p></i>
+                  <i><p className='indent-text-1'>The latter are tedious portraits written in reaction against conflict itself. These writers take the Pollyanna view that life would really be nice ... if it weren't for conflict. Therefore, their films avoid it in favor of low-key depictions to suggest that if we learned to communicate a little better, be a little more charitable, respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch.” </p></i>
+                </div>
 
                 <p>Yikes.</p>
 
@@ -254,8 +264,8 @@ export default function Story() {
 
                 <h2 id="post-1-9" className="blog-post-title">1.9 Pixar Storytelling </h2>
                 <p>Animation company Pixar has a list of tips which it has used in its films:</p>
-
-                <div className="p-3 mb-3 bg-light rounded-pixar">
+         
+                  <div className="p-3 mb-3 rounded custom-light-box">
                   <ol>
                     <li>You admire a character for trying more than for their successes.</li>
                     <li>You gotta keep in mind what’s interesting to you as an audience, not what’s fun to do as a writer. They can be v. different.</li>
@@ -290,7 +300,10 @@ export default function Story() {
 
                 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
+
+
                 <div className="footnotes">
+                  <div className="p-3 mb-3 rounded pixar-box">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Hallie & Whit Burnett, <i>Fiction Writer's Handbook.</i></li>
@@ -304,6 +317,7 @@ export default function Story() {
                     <li id="f9">Robert McKee, <i>TStory, Substance, Structure, Style and the Principles of Screenwriting.</i></li>
                     <li id="f6">Reverend Charles Caleb Colton.</li>
                   </ol>
+                </div>
                 </div>
 
                 {/* ---------------------------------------------------------------------------------------------- */}

@@ -7,7 +7,7 @@ export default function Scenes() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
         <h1 className="display-4">Scenes</h1>
 
         <div id="wrapper" className="text-left">
@@ -24,7 +24,7 @@ export default function Scenes() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={scenesBanner} alt="Thumbnail" />
       </div>
@@ -35,7 +35,7 @@ export default function Scenes() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-6-1" className="blog-post-title">6.1: Anatomy of a Scene</h2>
-            
+
               <div id="content">
 
                 <h5>6.1.1 What Is A Scene?</h5>
@@ -272,7 +272,7 @@ export default function Scenes() {
                 <p>Here’s an extended example from <i>‘Under the Volcano’ </i>by Malcolm Lowe – notice it communicates information without ever actually stating it:</p>
 
 
-                <div className="p-3 mb-3 bg-light rounded-pixar">
+                <div className="p-3 mb-3 rounded pixar-box">
                   <p><i>Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house <strong>[1]</strong>, his brother’s jacket balanced on his shoulder <strong>[2] </strong>, one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised — <strong> [3]</strong></i></p>
                   <p><i> Yvonne, or something woven from the filaments of the past that looked like her <strong>[4]</strong>, was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks  <strong>[5] </strong>— and was squinting at him, one hand raised to shield her eyes from the sun.</i></p>
                   <p><i> Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.  <strong>[6]</strong> The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City <strong>[7]. </strong>Yvonne was waving.</i></p>
@@ -345,257 +345,257 @@ export default function Scenes() {
 
                 <p>Readers and writers put a lot of focus on the climax, at the risk of the dénouement getting sidelined as the ‘soft’ and ‘uninteresting’ follow-up: this kind of thinking is a grave mistake – here’s an example showing why:</p>
                 <p>In a traditional fantasy, the knight slays the dragon and rescues the princess. The slaying of the dragon (the climax) might be the most exciting part, but I’m willing to bet a lot of people would think the rescue (dénouement) is the best/most satisfying part. </p>
-<p>Imagine 2 variants of this fantasy story: </p>
+                <p>Imagine 2 variants of this fantasy story: </p>
 
-<p><strong>[A strong climax and a weak dénouement]:</strong></p>
-<ul>
-  <li>The knight slays the dragon only to discover it has already killed the princess; </li>
-</ul>
+                <p><strong>[A strong climax and a weak dénouement]:</strong></p>
+                <ul>
+                  <li>The knight slays the dragon only to discover it has already killed the princess; </li>
+                </ul>
 
-<p><strong>[A weak climax and a strong dénouement]:</strong></p>
-<ul>
-  <li>The knight can’t defeat the dragon, but finds a way to the princess and they both escape. </li>
-</ul>
+                <p><strong>[A weak climax and a strong dénouement]:</strong></p>
+                <ul>
+                  <li>The knight can’t defeat the dragon, but finds a way to the princess and they both escape. </li>
+                </ul>
 
-<p>I think general consensus would find number (1) more unsatisfying than number (2). </p>
+                <p>I think general consensus would find number (1) more unsatisfying than number (2). </p>
 
-<div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 bg-light rounded">
                   <p className="mb-0">“Keep one thing in mind when you’re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don’t push your luck. Wrap things up as quickly as possible and leave the stage Once you’ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”</p>
                   <p></p><i>— Jack Hart </i><a href="#f5"><sup>5</sup></a>
                 </div>
 
-<u>Storycraft: Complete Guide to Writing Narrative Nonfiction, Jack Hart.</u>
+                <u>Storycraft: Complete Guide to Writing Narrative Nonfiction, Jack Hart.</u>
 
-<h5>6.7.2 The Ending</h5>
-<p>On story resolutions, Jon Franklin insists, they <i>“absolutely and without exception, must be products of the character’s own efforts.” </i></p><a href="#f6"><sup>6</sup></a>
- 
-<p>There are obviously two kinds of endings: happy endings (a rise) and unhappy endings (a fall). </p>
+                <h5>6.7.2 The Ending</h5>
+                <p>On story resolutions, Jon Franklin insists, they <i>“absolutely and without exception, must be products of the character’s own efforts.” </i></p><a href="#f6"><sup>6</sup></a>
 
-<p className='purple-bold'>(1)	Happy endings</p>
-<p>There are two kinds of happy ending:</p>
-<p><strong>I. The protagonist gets what he/she wants in the end:</strong></p>
-<p>Here, the protagonist successfully achieves what they set out for. This is the most common ending, which is odd because it’s the weaker of the two. There’s nothing inherently wrong with it; you are satisfying the ‘promise’ made at the start of the story. But you are punching in at 8:59 and leaving at 5:01pm. You aren’t going above and beyond the call of duty. That’s fine. But it’s only fine, and no better.</p>
+                <p>There are obviously two kinds of endings: happy endings (a rise) and unhappy endings (a fall). </p>
 
-<p><strong>II.	The protagonist doesn’t get what he/she wants, but gets what he/she needs.</strong></p>
-<p>You can call this the ‘Pixar ending,’ though they certainly did not invent it. Here, the protagonist fails their original aim, but, along the way, achieves something even better. It may not be immediately obvious that the alternative achievement is better, there is often a lesson learned throughout the story along the lines that, although having X is desirable, having Y is better. It sounds very feel-good and ‘Disney’ but you don’t have to moralise or make the ‘lesson’ obvious. You can make the ending subtle and bittersweet.  </p>
-<p>Done authentically, this is a stronger, more complex ending because it’s poignant, bittersweet; it can contain both a loss and a win (i.e. you can have your cake (both unhappy and happy ending) and eat it). </p>
-<p>For instance, the hero wants to win a competition. Their opponent also wants to win – but not in itself, rather to get the attention of a desirable love interest. The hero trains but in the end loses because the opponent cheated. However, the love interest is turned off the opponent because they cheated, and instead admires the strong, honest performance put in by the hero. This ends up meaning more to the hero than winning.</p>
-               
-<p className='purple-bold'>(2)	Unhappy endings</p>    
-               <p>There are three kinds of unhappy ending:</p>
-               <p><strong>I.	The protagonist doesn’t get what they want (a fall)</strong></p>
-               <p>This is what people think of when you say ‘unhappy ending’: the protagonist dies, the villain wins; the love interest dies; the competition is lost; the warning unheeded; civilization falls; order unrestored; the lesson not learned; the priceless artifact broken; the evil survives; the secret unrevealed; the treasure undiscovered; the sacred knowledge forgotten…etc.</p>
-               
-               <p><strong>II.	The protagonist doesn’t get what they want, but are a better person for it (a righteous fall)</strong></p>
-               <p>This occurs where the protagonist commits a bad action and, by the end, is punished for it. They may be an anti-hero or a villain in the process of reform (they don’t have to be, good people also do bad things). It may not be a morally ‘bad’ action, it may morally neutral, but be unadvised or unwise, or disadvantageous for some other reason. The point of the ending is not to give the protagonist what they want, but show them they didn’t really want what they formerly wanted. By the end, they don’t necessarily get something better, but do learn against wanting something not good for them, and thereby avoid a worse fate. If the protagonist disregards this warning, they get a fall ending (number I. above).</p>
+                <p className='purple-bold'>(1)	Happy endings</p>
+                <p>There are two kinds of happy ending:</p>
+                <p><strong>I. The protagonist gets what he/she wants in the end:</strong></p>
+                <p>Here, the protagonist successfully achieves what they set out for. This is the most common ending, which is odd because it’s the weaker of the two. There’s nothing inherently wrong with it; you are satisfying the ‘promise’ made at the start of the story. But you are punching in at 8:59 and leaving at 5:01pm. You aren’t going above and beyond the call of duty. That’s fine. But it’s only fine, and no better.</p>
 
-               <p><strong>III.	The protagonist doesn’t get what they want, but may, eventually (a fall…and maybe a rise?)</strong></p>
-               <p>I also refer to this ending as the ‘rising inflection’ ending. It ostensibly plays out like a typical fall ending (number I. above), except the very end suggests a tiny ray of hope that things will turn out alright, somehow. It’s like one of those “THE END…or is it?” lines, except the ‘or is it?’ is signified ambiguously with dialogue, action or some other subtlety right at the end. </p>
-<p>For example, at the end of Stephen King’s ‘The Dark Tower,’ the protagonist finds himself back at the start of an eternal time loop. This is an unhappy ending, except for the hopeful implication that the forthcoming iteration of the loop will, for once, play out differently.</p>
-<p>Just be aware once you suggest a single alternate possibility, you’re all but confirming it, so don’t phone it in. In real life, contingencies are never real until they eventuate. But in fiction the author merely suggesting a contingency (to the exclusion of all other possibilities) virtually makes it real. Imagine you were at a Harry Potter convention and someone asked if Dumbledore is married and J. K. Rowling said ‘Maybe he’s gay.’ The word ‘maybe’ means nothing; this is virtually a confirmation, because it was raised in any case and no alternative is similarly provided. </p>
-<p>A fortiori, when you suggest a single alternate possibility, and then close the story. If that’s not a confirmation of the alternative, I don’t know what is. Consider, when someone says ‘maybe no’ and then closes the door on your face, they are actually saying ‘really, seriously, no.’</p>
-<p>Conversely, saying ‘maybe X, maybe Y, maybe Z,’ does not confirm anything, it just cautions not to get locked into the most obvious possibility. But you should never end a story like that, because then you subvert your own ending entirely and invalidate your whole story. </p>               
-               
-<h5>6.7.3 	The True Value of Events</h5>
-<p>If you’ve ever been frustrated by the ending of a book or movie (the usual complaint is the ‘is-that-it? syndrome’) it’s probably the creator failed to properly sequence a climax and/or dénouement. For instance, a movie ended on a climax which should have had a dénouement, and you’re left wondering how things resolved.</p>
-<p>The takeaway from this links back to the distinction between climaxes and dénouements: end the story once the reader has learned the true value of the journey or ultimate fate of the character (the two might be interlinked). If your climax does that, end on the climax – as in Pet Sematary (see above), we know the true ‘value’ of the resurrections come the climax – the burial ground never makes things better. If your climax does not do that, end on a dénouement. </p>
+                <p><strong>II.	The protagonist doesn’t get what he/she wants, but gets what he/she needs.</strong></p>
+                <p>You can call this the ‘Pixar ending,’ though they certainly did not invent it. Here, the protagonist fails their original aim, but, along the way, achieves something even better. It may not be immediately obvious that the alternative achievement is better, there is often a lesson learned throughout the story along the lines that, although having X is desirable, having Y is better. It sounds very feel-good and ‘Disney’ but you don’t have to moralise or make the ‘lesson’ obvious. You can make the ending subtle and bittersweet.  </p>
+                <p>Done authentically, this is a stronger, more complex ending because it’s poignant, bittersweet; it can contain both a loss and a win (i.e. you can have your cake (both unhappy and happy ending) and eat it). </p>
+                <p>For instance, the hero wants to win a competition. Their opponent also wants to win – but not in itself, rather to get the attention of a desirable love interest. The hero trains but in the end loses because the opponent cheated. However, the love interest is turned off the opponent because they cheated, and instead admires the strong, honest performance put in by the hero. This ends up meaning more to the hero than winning.</p>
 
-<h5>6.7.4 	Bad Endings</h5>
-<p>Mittelmark and Newman provide examples of bad endings:</p>
-<p className='purple-bold'>(1) Deus Ex Machina</p>  
-<p>Ensure the ultimate pay-off of your ending is properly set up in advance, otherwise you’ll have an unsatisfying ‘Deus Ex Machina’ ending. This is where a device comes out of nowhere to resolve the plot for your protagonist.</p>
-<p className='purple-bold'>(2) Homo sit Deus </p>  
-<p>In observing the above rule, ensure you don’t make things too easy for the protagonist, or telegraph your pay-off too obviously. This is the opposite of a Deus Ex Machina; where you explain your away your pay-off so early (or in so much detail), assuring your protagonist’s victory (and how that victory will eventuate), that your reader feels no anxiety by the climax. In other words, your protagonist never breaks a sweat. If your protagonist is not in suspense, then the reader won’t be either.</p>
-<p>For instance, as set-up, your protagonist may learn the necessary skill, but not the exact method they will rely on to defeat the antagonist, i.e. what they need to do, but not how they will need to do it. </p>
-<p className='purple-bold'>(3) Step Aside </p>  
-<p>Ensure its your protagonist who ultimately saves the day; don’t give the limelight to another character, otherwise the reader will wonder why you didn’t make that character the protagonist.</p>
-<p className='purple-bold'>(4) Backstories should be kept back </p>  
-<p>Don’t make the ultimate explanation/reveal for the plot ending longer and/or more complicated than the actual plot.</p>
-<p>If the explanation involves backstories of characters doing exciting things, the reader will wonder why those stories weren’t the plot itself. I.e. if the explanation is more interesting than the story, the explanation should be the story.</p>
-<p className='purple-bold'>(5) Epilogue Echo </p>  
-<p>Don’t use the ending to reiterate everything that’s just happened over the course of the plot, or ‘remind’ the reader of important events. Maybe there’s an argument for it in film, where it’s inconvenient to rewind, but in novels, trust a reader to be able to flip back and reread anything they’ve forgotten. You also spite the readers with a working memory.</p>
+                <p className='purple-bold'>(2)	Unhappy endings</p>
+                <p>There are three kinds of unhappy ending:</p>
+                <p><strong>I.	The protagonist doesn’t get what they want (a fall)</strong></p>
+                <p>This is what people think of when you say ‘unhappy ending’: the protagonist dies, the villain wins; the love interest dies; the competition is lost; the warning unheeded; civilization falls; order unrestored; the lesson not learned; the priceless artifact broken; the evil survives; the secret unrevealed; the treasure undiscovered; the sacred knowledge forgotten…etc.</p>
 
-<h2 id="post-6-8" className="blog-post-title">6.8 All The Other Scenes</h2>
-<p>Some general rules applying to all scenes (including the first and last).</p>
+                <p><strong>II.	The protagonist doesn’t get what they want, but are a better person for it (a righteous fall)</strong></p>
+                <p>This occurs where the protagonist commits a bad action and, by the end, is punished for it. They may be an anti-hero or a villain in the process of reform (they don’t have to be, good people also do bad things). It may not be a morally ‘bad’ action, it may morally neutral, but be unadvised or unwise, or disadvantageous for some other reason. The point of the ending is not to give the protagonist what they want, but show them they didn’t really want what they formerly wanted. By the end, they don’t necessarily get something better, but do learn against wanting something not good for them, and thereby avoid a worse fate. If the protagonist disregards this warning, they get a fall ending (number I. above).</p>
 
-<h5>6.8.1 	To Not Be Continued…</h5>
-<p>All of your scenes must do their own work. Never use two different scenes to do the same thing.  </p><a href="#f7"><sup>7</sup></a>
-<u>How NOT to Write a Novel, Howard Mittelmark and Sandra Newman.</u>
-<p>This is so even if you want to show your character stuck doing the same thing, i.e. you want to suggest circumstances haven’t changed. </p>
-<p>There are at least two kinds of breaches of this rule:</p>
+                <p><strong>III.	The protagonist doesn’t get what they want, but may, eventually (a fall…and maybe a rise?)</strong></p>
+                <p>I also refer to this ending as the ‘rising inflection’ ending. It ostensibly plays out like a typical fall ending (number I. above), except the very end suggests a tiny ray of hope that things will turn out alright, somehow. It’s like one of those “THE END…or is it?” lines, except the ‘or is it?’ is signified ambiguously with dialogue, action or some other subtlety right at the end. </p>
+                <p>For example, at the end of Stephen King’s ‘The Dark Tower,’ the protagonist finds himself back at the start of an eternal time loop. This is an unhappy ending, except for the hopeful implication that the forthcoming iteration of the loop will, for once, play out differently.</p>
+                <p>Just be aware once you suggest a single alternate possibility, you’re all but confirming it, so don’t phone it in. In real life, contingencies are never real until they eventuate. But in fiction the author merely suggesting a contingency (to the exclusion of all other possibilities) virtually makes it real. Imagine you were at a Harry Potter convention and someone asked if Dumbledore is married and J. K. Rowling said ‘Maybe he’s gay.’ The word ‘maybe’ means nothing; this is virtually a confirmation, because it was raised in any case and no alternative is similarly provided. </p>
+                <p>A fortiori, when you suggest a single alternate possibility, and then close the story. If that’s not a confirmation of the alternative, I don’t know what is. Consider, when someone says ‘maybe no’ and then closes the door on your face, they are actually saying ‘really, seriously, no.’</p>
+                <p>Conversely, saying ‘maybe X, maybe Y, maybe Z,’ does not confirm anything, it just cautions not to get locked into the most obvious possibility. But you should never end a story like that, because then you subvert your own ending entirely and invalidate your whole story. </p>
 
-<p className='purple-bold'>A.	Different Place, Same Thing: </p>  
-<p>Let's say your character goes on a string of failed dates. You would give one of these dates (the most interesting) its own scene, and then, either:</p>
-<ol>
-  <li>subsequently summarise the other dates as being no better; or</li>
-  <li>summarise the dates, ending with the date scene, as if to see whether it'll be any different.</li>
-</ol>
-<p>Only describe the scene if it introduces a new character or plot element.</p>
+                <h5>6.7.3 	The True Value of Events</h5>
+                <p>If you’ve ever been frustrated by the ending of a book or movie (the usual complaint is the ‘is-that-it? syndrome’) it’s probably the creator failed to properly sequence a climax and/or dénouement. For instance, a movie ended on a climax which should have had a dénouement, and you’re left wondering how things resolved.</p>
+                <p>The takeaway from this links back to the distinction between climaxes and dénouements: end the story once the reader has learned the true value of the journey or ultimate fate of the character (the two might be interlinked). If your climax does that, end on the climax – as in Pet Sematary (see above), we know the true ‘value’ of the resurrections come the climax – the burial ground never makes things better. If your climax does not do that, end on a dénouement. </p>
 
-<p className='purple-bold'>B.	Different Thing, Same Place: </p>  
-<p>This may occur anytime your character must go to the same location multiple times. Normally you would describe the location the first time, and then dispense with description subsequent times – the reader doesn’t need to be told twice where it is and what it looks like.</p>
-<p>The problem is where the setting is difficult or time-consuming to reach or traverse through, because skipping description implies the setting is straightforward and unremarkable to get through.</p>
-<p>One method of handling this is ‘The French Scene’ (see 6.10); that is, the setting doesn’t change, but the character’s relationship to it (or to others) does. This means a setting which was warm and comforting may turn hostile and foreboding, or a setting which is mildly foreboding becomes outright terrifying. This enables you to describe the same setting multiple times, but each time the description will be different; you will create different metaphors, or draw attention to different things.</p>
-<p>Here are some other solutions:</p>
-<ul>
-  <li>Seeing the same setting from a different perspective (e.g. on the ground versus from a hilltop, from the sea, or inside a plane);</li>
-  <li>Dividing the setting into parts and having different scenes occur in different parts (e.g. a school divided into class buildings; a house divided into different rooms);</li>
-  <li>Dividing the setting into parts and having different scenes occur in different parts (e.g. a school divided into class buildings; a house divided into different rooms);</li>
-  <li>The same setting when in use or not (e.g. a packed theatre compared to an empty theatre; a street in Christmastime versus ordinary time)</li>
-</ul>
+                <h5>6.7.4 	Bad Endings</h5>
+                <p>Mittelmark and Newman provide examples of bad endings:</p>
+                <p className='purple-bold'>(1) Deus Ex Machina</p>
+                <p>Ensure the ultimate pay-off of your ending is properly set up in advance, otherwise you’ll have an unsatisfying ‘Deus Ex Machina’ ending. This is where a device comes out of nowhere to resolve the plot for your protagonist.</p>
+                <p className='purple-bold'>(2) Homo sit Deus </p>
+                <p>In observing the above rule, ensure you don’t make things too easy for the protagonist, or telegraph your pay-off too obviously. This is the opposite of a Deus Ex Machina; where you explain your away your pay-off so early (or in so much detail), assuring your protagonist’s victory (and how that victory will eventuate), that your reader feels no anxiety by the climax. In other words, your protagonist never breaks a sweat. If your protagonist is not in suspense, then the reader won’t be either.</p>
+                <p>For instance, as set-up, your protagonist may learn the necessary skill, but not the exact method they will rely on to defeat the antagonist, i.e. what they need to do, but not how they will need to do it. </p>
+                <p className='purple-bold'>(3) Step Aside </p>
+                <p>Ensure its your protagonist who ultimately saves the day; don’t give the limelight to another character, otherwise the reader will wonder why you didn’t make that character the protagonist.</p>
+                <p className='purple-bold'>(4) Backstories should be kept back </p>
+                <p>Don’t make the ultimate explanation/reveal for the plot ending longer and/or more complicated than the actual plot.</p>
+                <p>If the explanation involves backstories of characters doing exciting things, the reader will wonder why those stories weren’t the plot itself. I.e. if the explanation is more interesting than the story, the explanation should be the story.</p>
+                <p className='purple-bold'>(5) Epilogue Echo </p>
+                <p>Don’t use the ending to reiterate everything that’s just happened over the course of the plot, or ‘remind’ the reader of important events. Maybe there’s an argument for it in film, where it’s inconvenient to rewind, but in novels, trust a reader to be able to flip back and reread anything they’ve forgotten. You also spite the readers with a working memory.</p>
 
-<li>Ensure you aren’t breaching this rule accidentally. No matter how it’s conveyed to the reader, if the scene is conveying the same information, then it’s the same scene, even if there’s a setting change. For instance, if characters are having a discussion about what they just did the previous scene, then it’s a duplicate.</li>
+                <h2 id="post-6-8" className="blog-post-title">6.8 All The Other Scenes</h2>
+                <p>Some general rules applying to all scenes (including the first and last).</p>
 
-<h5>6.8.2 	Best and Worst Scenarios</h5>
-<p>A quick thought experiment is to think of the best possible thing that could happen to your protagonist. Also consider the worst possible thing that could happen to your protagonist. What these things are depends on your protagonist’s personality; neurotic personalities might fear getting sick or injured. Extroverts might fear being alone. Introverts might fear public humiliation, etc. </p>
+                <h5>6.8.1 	To Not Be Continued…</h5>
+                <p>All of your scenes must do their own work. Never use two different scenes to do the same thing.  </p><a href="#f7"><sup>7</sup></a>
+                <u>How NOT to Write a Novel, Howard Mittelmark and Sandra Newman.</u>
+                <p>This is so even if you want to show your character stuck doing the same thing, i.e. you want to suggest circumstances haven’t changed. </p>
+                <p>There are at least two kinds of breaches of this rule:</p>
 
-<h5>6.8.3 	The Crucible</h5>
-<p>This is a concept suggested by Sol Stein for the purpose of plotting a story. He defines a crucible existing where “the motivation of the characters to continue opposing each other is greater than their motivation to run away.”</p>
-<p>A crucible can be emotional or physical. It could exist because they’re in a physical space which prevents them from escaping, e.g. a prison, or it could be because escape would be stigmatizing, e.g. a marriage, or it could be because both characters want something which only one can have, e.g. a hunter wants to kill a lion and the lion wants to kill the hunter.</p>
+                <p className='purple-bold'>A.	Different Place, Same Thing: </p>
+                <p>Let's say your character goes on a string of failed dates. You would give one of these dates (the most interesting) its own scene, and then, either:</p>
+                <ol>
+                  <li>subsequently summarise the other dates as being no better; or</li>
+                  <li>summarise the dates, ending with the date scene, as if to see whether it'll be any different.</li>
+                </ol>
+                <p>Only describe the scene if it introduces a new character or plot element.</p>
 
-<h5>6.8.4 	The Dilemma </h5>
-<p>A concept suggested by Robert McKee for structuring character action. Shallow characters tend to have the choice between good/evil or right/wrong. This is repetitive and predictable; if a character makes a good choice, they are rewarded for it, whereas if they make an ‘evil’ choice, they are punished for it.</p>
-<p>A more complex, nuanced way of addressing this issue is to create a ‘dilemma.’ There are two kinds: (1) A choice between multiple irreconcilable good choices. In this case, the choice is desirable, the problem is committing to it forecloses the equally desirable alternative. Usually the protagonist stands to gain something, whichever choice is made, it’s just bittersweet because of the non-severable loss of opportunity which accompanies it. (2) A choice between the lesser of two evils. Here, the choice is undesirable and the protagonist does not wish to have to make it. It may be that everything was fine before the choice reared its head, and the protagonist may not actually gain, only lose, the question is which loss is more tolerable?</p>
-<p>Consider what is fundamentally at stake when you create a dilemma – love, power, money, knowledge, life, security, etc – and ensure the choice is genuine and not ‘obvious.’ Whichever you decide, note McKee’s advice; a price must be paid. The protagonist must risk or lose the alternative choice to gain the other. Otherwise the reader won’t feel the dilemma was true. </p>
+                <p className='purple-bold'>B.	Different Thing, Same Place: </p>
+                <p>This may occur anytime your character must go to the same location multiple times. Normally you would describe the location the first time, and then dispense with description subsequent times – the reader doesn’t need to be told twice where it is and what it looks like.</p>
+                <p>The problem is where the setting is difficult or time-consuming to reach or traverse through, because skipping description implies the setting is straightforward and unremarkable to get through.</p>
+                <p>One method of handling this is ‘The French Scene’ (see 6.10); that is, the setting doesn’t change, but the character’s relationship to it (or to others) does. This means a setting which was warm and comforting may turn hostile and foreboding, or a setting which is mildly foreboding becomes outright terrifying. This enables you to describe the same setting multiple times, but each time the description will be different; you will create different metaphors, or draw attention to different things.</p>
+                <p>Here are some other solutions:</p>
+                <ul>
+                  <li>Seeing the same setting from a different perspective (e.g. on the ground versus from a hilltop, from the sea, or inside a plane);</li>
+                  <li>Dividing the setting into parts and having different scenes occur in different parts (e.g. a school divided into class buildings; a house divided into different rooms);</li>
+                  <li>Dividing the setting into parts and having different scenes occur in different parts (e.g. a school divided into class buildings; a house divided into different rooms);</li>
+                  <li>The same setting when in use or not (e.g. a packed theatre compared to an empty theatre; a street in Christmastime versus ordinary time)</li>
+                </ul>
 
-<h5>6.8.5 	Set the Scene </h5>
-<p>Scene-setting is essential; the selection of details must be meaningful.</p>
-<p>Hart<a href="#f8"><sup>8</sup></a> analyses this paragraph by Wayne Curtis, describing a riverboat trip up the Mississippi for the Atlantic:</p>
-<p className="code-left"><code><i>“The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.” </i></code></p>
-<u>Storycraft: Complete Guide to Writing Narrative Nonfiction, Jack Hart.</u>
-<p>Hart says, “Notice how Curtis uses the searchlight to create a sense of space. Lots of perspective- rich images can do the same thing—a road winding into the snowy woods, a long stairway ascending in front of you, railroad tracks. Seize on such devices to help flesh out the stages you create. And phenomena such as parallax—in this case the moon appearing to move behind the porch columns— add both perspective and motion.”</p>
+                <li>Ensure you aren’t breaching this rule accidentally. No matter how it’s conveyed to the reader, if the scene is conveying the same information, then it’s the same scene, even if there’s a setting change. For instance, if characters are having a discussion about what they just did the previous scene, then it’s a duplicate.</li>
 
-<h5>6.8.6 	‘Quiet Scenes’ </h5>
-<p>Although simplistic, there are two kinds of scenes: action scenes and quiet scenes. Action in one, dialogue, description and introspection in the other. You've got to have a balance of both scenes; too much action is exhausting, too much thinking or talking is boring. </p>
-<p>All of your scenes need to be interesting or propulsive. The common wisdom is that after every action scene, the reader needs a quiet scene to 'wind down.' I disagree. You can 'wind down' any time if you stop reading. All your scenes need to be action scenes. But quiet scenes contain a different kind of action.</p>
-<p>To steal terms from physics, action scenes do 'work,' but quiet scenes have potential to do work. This potential crackles with anticipation of the work to come, and creates interest in quiet moments. This can be effected through use of setting, props, placement of various elements, or the characters themselves;</p>
-<p>Examples:</p>
-<ul>
-  <li>Putting characters in a dark space: why is it dark? What is in the space the characters cannot (yet) see?</li>
-  <li>Putting lots of characters in a small space: self-explanatory; claustrophobic; will the characters need to leave in a hurry? Is one of these characters an antagonist in disguise? Etc</li>
-  <li>Restricting characters to one entry, particularly if much effort to get through; will the character need to leave in a hurry? Will they get trapped by an entering antagonist?</li>
-  <li>Characters waiting for another character to come; this can create a sense of (if admittedly cheap) anticipation;</li>
-</ul>
+                <h5>6.8.2 	Best and Worst Scenarios</h5>
+                <p>A quick thought experiment is to think of the best possible thing that could happen to your protagonist. Also consider the worst possible thing that could happen to your protagonist. What these things are depends on your protagonist’s personality; neurotic personalities might fear getting sick or injured. Extroverts might fear being alone. Introverts might fear public humiliation, etc. </p>
 
-<h5>6.8.7 	Make Action Present </h5>
-<p>This is the same rule as under 11.19 Description in Action, but refers to scenes, rather than detail.</p>
-<p>Always pull past action into the present as much as possible. For instance, if your story begins with a protagonist who has been a vampire for 2 years, change it so the story begins with a human turning into a vampire. If your protagonist was in a car crash in the past, begin your story with the car crash happening right now, and make the plot follow on from that. If anything interesting happened to your characters, change it so it’s happening right now. Don’t conceal the best scenes in backstory.</p>
-<p>Authors try to compromise this rule by showing the past action in a flashback. This is not an acceptable remedy unless the story would literally not work if the action was in the present. Do everything you can to move action into the present.</p>
+                <h5>6.8.3 	The Crucible</h5>
+                <p>This is a concept suggested by Sol Stein for the purpose of plotting a story. He defines a crucible existing where “the motivation of the characters to continue opposing each other is greater than their motivation to run away.”</p>
+                <p>A crucible can be emotional or physical. It could exist because they’re in a physical space which prevents them from escaping, e.g. a prison, or it could be because escape would be stigmatizing, e.g. a marriage, or it could be because both characters want something which only one can have, e.g. a hunter wants to kill a lion and the lion wants to kill the hunter.</p>
 
-<h2 id="post-6-9" className="blog-post-title">6.9: Chronology</h2>
-               <p>This is the order of your scenes. You can have: </p>
-               <ul>
-                <li>Linear chronology (events told in temporal order; when they happened in time, from the earliest to the most recent); or</li>
-                <li>Non-Linear chronology (events told out of temporal order)</li>
-               </ul>
-               
-               <p>You might flashback, flashforward or repeat a scene to reveal something new, or shuffle the scenes around as if by random.</p>
-               <p>Some caveats about using ‘time jumps’:</p>
-               <ol>
-                <li>As Tom French said: <i>“Stay as close to the action as possible.”</i></li><a href="#f9"><sup>9</sup></a>
-                <li>Do not write in a time jump before you have ensured the reader’s interest and hunger with live issue/s. A time jump is a fantastic opportunity for a reader to hedge their bets and close the book, because it requires regenerating the reader’s interest all over again – kind of like dying and regenerating in a video game; if the game hasn’t been promising so far, why not take the death as an opportunity to switch off?</li>
-                <li>Only bring in flashbacks and flashforwards after generating curiosity in your reader as to what the flashback/flashforward is conveying. Don’t bring in a flashback/forward to answer a question your reader didn’t realise they wanted to know. Don’t make your reader ask ‘why are we flashing back?’</li>
-               </ol>
+                <h5>6.8.4 	The Dilemma </h5>
+                <p>A concept suggested by Robert McKee for structuring character action. Shallow characters tend to have the choice between good/evil or right/wrong. This is repetitive and predictable; if a character makes a good choice, they are rewarded for it, whereas if they make an ‘evil’ choice, they are punished for it.</p>
+                <p>A more complex, nuanced way of addressing this issue is to create a ‘dilemma.’ There are two kinds: (1) A choice between multiple irreconcilable good choices. In this case, the choice is desirable, the problem is committing to it forecloses the equally desirable alternative. Usually the protagonist stands to gain something, whichever choice is made, it’s just bittersweet because of the non-severable loss of opportunity which accompanies it. (2) A choice between the lesser of two evils. Here, the choice is undesirable and the protagonist does not wish to have to make it. It may be that everything was fine before the choice reared its head, and the protagonist may not actually gain, only lose, the question is which loss is more tolerable?</p>
+                <p>Consider what is fundamentally at stake when you create a dilemma – love, power, money, knowledge, life, security, etc – and ensure the choice is genuine and not ‘obvious.’ Whichever you decide, note McKee’s advice; a price must be paid. The protagonist must risk or lose the alternative choice to gain the other. Otherwise the reader won’t feel the dilemma was true. </p>
 
-<p>For instance, you might start ‘in media res’ and have main characters alluding to some critical past event. Only after generating enough interest about the alluded to event can you then flashback and show it, because your reader knows what it’s for and is interested in seeing it.   </p>
+                <h5>6.8.5 	Set the Scene </h5>
+                <p>Scene-setting is essential; the selection of details must be meaningful.</p>
+                <p>Hart<a href="#f8"><sup>8</sup></a> analyses this paragraph by Wayne Curtis, describing a riverboat trip up the Mississippi for the Atlantic:</p>
+                <p className="code-left"><code><i>“The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.” </i></code></p>
+                <u>Storycraft: Complete Guide to Writing Narrative Nonfiction, Jack Hart.</u>
+                <p>Hart says, “Notice how Curtis uses the searchlight to create a sense of space. Lots of perspective- rich images can do the same thing—a road winding into the snowy woods, a long stairway ascending in front of you, railroad tracks. Seize on such devices to help flesh out the stages you create. And phenomena such as parallax—in this case the moon appearing to move behind the porch columns— add both perspective and motion.”</p>
 
-<h5>6.9.1 	Reordering Chronology creates two timelines </h5>
-<p>When scenes are in order, they suggest chain-linked linear causation; that actions in the past affect and cause the present, and the present, future, etc. When you pull scenes out of order, you are putting it on yourself to actively explore possible causation apart from temporality, or perhaps subvert classical causation entirely. I.e. the time-based ordering of events did not cause the situation, something else did. This may entertain determinism or predestination, 'character as destiny,' 'genes/biology' as destiny, coincidence, supernatural intervention, etc. </p>
-<p>Caution: This shouldn't be done merely for style. It's not an excuse for 'listen to this funny character anecdote from ten years ago' or 'want to see if the main characters got married and had kids?' When you When the past or future manifests in a story, it literally becomes part of the present, like a reordered domino sequence. You create a causative sequence distinct from your temporal sequence, and now have to manage both.  </p>
-<p>Examples:</p>
-<ul>
-  <li>You keep flashing back to an incident in the character's childhood, suggesting it is immediately determinative of the character's present/future; </li>
-  <li>You flashforward to a distant future, suggesting the present moment determines everything that comes later; </li>
-  <li>Events are experienced in seemingly random order, suggesting the character's inability to identify causation in his/her life, or a lack of causation. </li>
-</ul>
+                <h5>6.8.6 	‘Quiet Scenes’ </h5>
+                <p>Although simplistic, there are two kinds of scenes: action scenes and quiet scenes. Action in one, dialogue, description and introspection in the other. You've got to have a balance of both scenes; too much action is exhausting, too much thinking or talking is boring. </p>
+                <p>All of your scenes need to be interesting or propulsive. The common wisdom is that after every action scene, the reader needs a quiet scene to 'wind down.' I disagree. You can 'wind down' any time if you stop reading. All your scenes need to be action scenes. But quiet scenes contain a different kind of action.</p>
+                <p>To steal terms from physics, action scenes do 'work,' but quiet scenes have potential to do work. This potential crackles with anticipation of the work to come, and creates interest in quiet moments. This can be effected through use of setting, props, placement of various elements, or the characters themselves;</p>
+                <p>Examples:</p>
+                <ul>
+                  <li>Putting characters in a dark space: why is it dark? What is in the space the characters cannot (yet) see?</li>
+                  <li>Putting lots of characters in a small space: self-explanatory; claustrophobic; will the characters need to leave in a hurry? Is one of these characters an antagonist in disguise? Etc</li>
+                  <li>Restricting characters to one entry, particularly if much effort to get through; will the character need to leave in a hurry? Will they get trapped by an entering antagonist?</li>
+                  <li>Characters waiting for another character to come; this can create a sense of (if admittedly cheap) anticipation;</li>
+                </ul>
 
-<p>Don't get non-linear chronology confused with time-travel. You can have a linearly chronological story where the character jumps back and forward in their own timeline, as long as you stay inside the character's relative present, i.e. their head. If you jump out of their head, then it's non-linear.</p>
+                <h5>6.8.7 	Make Action Present </h5>
+                <p>This is the same rule as under 11.19 Description in Action, but refers to scenes, rather than detail.</p>
+                <p>Always pull past action into the present as much as possible. For instance, if your story begins with a protagonist who has been a vampire for 2 years, change it so the story begins with a human turning into a vampire. If your protagonist was in a car crash in the past, begin your story with the car crash happening right now, and make the plot follow on from that. If anything interesting happened to your characters, change it so it’s happening right now. Don’t conceal the best scenes in backstory.</p>
+                <p>Authors try to compromise this rule by showing the past action in a flashback. This is not an acceptable remedy unless the story would literally not work if the action was in the present. Do everything you can to move action into the present.</p>
 
-<h2 id="post-6-10" className="blog-post-title">6.10: The 'French Scene'</h2>
-              <p>This is a screenwriting concept, but may be transferable to novel-writing. Normally you think of scenes being contained within separate settings; the end of one scene and the start of another is signaled by a change in setting. Sometimes the same scene may span multiple different settings, for instance if characters are travelling (e.g. in the The Great Railway Bazaar, this is somewhat unavoidable). </p>
-              <p>Conversely, you can also have multiple scenes take place in the same setting (unavoidable if your story takes place in one setting). This is called ‘the French Scene’, and is an artifice of French neoclassical theatre. Between scenes, what changes is not the setting, but the entrance/exit of characters or the introduction of knowledge/revelation which critically changes the scene to the extent it would be artificial to treat the post-revelation scene as a continuation of the previous scene. Relationships and characters may be so altered that that the former virtually extinguish and new ones come into creation. A character who was a lover in the previous scene, may become an enemy in the next.</p>
-              <p>You may emphasise the scene change by creating ‘sub-locations’ within your setting. For instance, if characters are confined to a room, they may switch positions, or activities (characters sitting facing one another creates a different feel from one character sitting facing a computer and another hiding in the cupboard, or sleeping in the bed).</p>
-              <p>Again, characters may be cleaning and restocking the panic room, joking around and playing. The next moment they hear intruders have broken in, and close and lock themselves in the panic room. There is no setting change, but there has been a clear scene change.</p>
-              
-              <h2 id="post-6-11" className="blog-post-title">6.11: Progression</h2>
+                <h2 id="post-6-9" className="blog-post-title">6.9: Chronology</h2>
+                <p>This is the order of your scenes. You can have: </p>
+                <ul>
+                  <li>Linear chronology (events told in temporal order; when they happened in time, from the earliest to the most recent); or</li>
+                  <li>Non-Linear chronology (events told out of temporal order)</li>
+                </ul>
+
+                <p>You might flashback, flashforward or repeat a scene to reveal something new, or shuffle the scenes around as if by random.</p>
+                <p>Some caveats about using ‘time jumps’:</p>
+                <ol>
+                  <li>As Tom French said: <i>“Stay as close to the action as possible.”</i></li><a href="#f9"><sup>9</sup></a>
+                  <li>Do not write in a time jump before you have ensured the reader’s interest and hunger with live issue/s. A time jump is a fantastic opportunity for a reader to hedge their bets and close the book, because it requires regenerating the reader’s interest all over again – kind of like dying and regenerating in a video game; if the game hasn’t been promising so far, why not take the death as an opportunity to switch off?</li>
+                  <li>Only bring in flashbacks and flashforwards after generating curiosity in your reader as to what the flashback/flashforward is conveying. Don’t bring in a flashback/forward to answer a question your reader didn’t realise they wanted to know. Don’t make your reader ask ‘why are we flashing back?’</li>
+                </ol>
+
+                <p>For instance, you might start ‘in media res’ and have main characters alluding to some critical past event. Only after generating enough interest about the alluded to event can you then flashback and show it, because your reader knows what it’s for and is interested in seeing it.   </p>
+
+                <h5>6.9.1 	Reordering Chronology creates two timelines </h5>
+                <p>When scenes are in order, they suggest chain-linked linear causation; that actions in the past affect and cause the present, and the present, future, etc. When you pull scenes out of order, you are putting it on yourself to actively explore possible causation apart from temporality, or perhaps subvert classical causation entirely. I.e. the time-based ordering of events did not cause the situation, something else did. This may entertain determinism or predestination, 'character as destiny,' 'genes/biology' as destiny, coincidence, supernatural intervention, etc. </p>
+                <p>Caution: This shouldn't be done merely for style. It's not an excuse for 'listen to this funny character anecdote from ten years ago' or 'want to see if the main characters got married and had kids?' When you When the past or future manifests in a story, it literally becomes part of the present, like a reordered domino sequence. You create a causative sequence distinct from your temporal sequence, and now have to manage both.  </p>
+                <p>Examples:</p>
+                <ul>
+                  <li>You keep flashing back to an incident in the character's childhood, suggesting it is immediately determinative of the character's present/future; </li>
+                  <li>You flashforward to a distant future, suggesting the present moment determines everything that comes later; </li>
+                  <li>Events are experienced in seemingly random order, suggesting the character's inability to identify causation in his/her life, or a lack of causation. </li>
+                </ul>
+
+                <p>Don't get non-linear chronology confused with time-travel. You can have a linearly chronological story where the character jumps back and forward in their own timeline, as long as you stay inside the character's relative present, i.e. their head. If you jump out of their head, then it's non-linear.</p>
+
+                <h2 id="post-6-10" className="blog-post-title">6.10: The 'French Scene'</h2>
+                <p>This is a screenwriting concept, but may be transferable to novel-writing. Normally you think of scenes being contained within separate settings; the end of one scene and the start of another is signaled by a change in setting. Sometimes the same scene may span multiple different settings, for instance if characters are travelling (e.g. in the The Great Railway Bazaar, this is somewhat unavoidable). </p>
+                <p>Conversely, you can also have multiple scenes take place in the same setting (unavoidable if your story takes place in one setting). This is called ‘the French Scene’, and is an artifice of French neoclassical theatre. Between scenes, what changes is not the setting, but the entrance/exit of characters or the introduction of knowledge/revelation which critically changes the scene to the extent it would be artificial to treat the post-revelation scene as a continuation of the previous scene. Relationships and characters may be so altered that that the former virtually extinguish and new ones come into creation. A character who was a lover in the previous scene, may become an enemy in the next.</p>
+                <p>You may emphasise the scene change by creating ‘sub-locations’ within your setting. For instance, if characters are confined to a room, they may switch positions, or activities (characters sitting facing one another creates a different feel from one character sitting facing a computer and another hiding in the cupboard, or sleeping in the bed).</p>
+                <p>Again, characters may be cleaning and restocking the panic room, joking around and playing. The next moment they hear intruders have broken in, and close and lock themselves in the panic room. There is no setting change, but there has been a clear scene change.</p>
+
+                <h2 id="post-6-11" className="blog-post-title">6.11: Progression</h2>
                 <p>Jack Bickham says, “All good fiction moves forward.”</p>
                 <p>A story must progress naturally; actions have reactions, risks have consequences, and changes have greater and greater effect throughout the characters’ lives.</p>
                 <p>McKee lists 4 primary techniques for depicting progression:</p>
-                
+
                 <h5>6.11.1 	Social Progression (‘widening’)</h5>
-<p>You can widen the impact of character actions onto society. Throughout a story, the actions of a small number of characters may radiate out to affect more and more people. Ideally, this will happen gradually, not all at once. </p>
-<p>It may also be that the character’s actions have always affected many, however, they only gradually learn of the wider effects as the story goes on.</p>
-<p>If you go for this type of progression, make sure your character has a role or job which would potentially affect many in a critical way: this is why you tend to see certain professions in novels opposed to others (doctors, lawyers, politicians, police and detectives, scientists, as opposed to plumbers, wildlife rangers, dentists, garbage collectors, lab technicians, secretaries, and salespeople).</p>
+                <p>You can widen the impact of character actions onto society. Throughout a story, the actions of a small number of characters may radiate out to affect more and more people. Ideally, this will happen gradually, not all at once. </p>
+                <p>It may also be that the character’s actions have always affected many, however, they only gradually learn of the wider effects as the story goes on.</p>
+                <p>If you go for this type of progression, make sure your character has a role or job which would potentially affect many in a critical way: this is why you tend to see certain professions in novels opposed to others (doctors, lawyers, politicians, police and detectives, scientists, as opposed to plumbers, wildlife rangers, dentists, garbage collectors, lab technicians, secretaries, and salespeople).</p>
 
-<h5>6.11.2 	Personal Progression (‘deepening’)</h5>
-<p>It goes without saying your characters’ actions should have personal effects upon those closest to them; family, lovers, friends, colleagues, etc.</p>
-<p>However, not only will personal progression affect those closest to your protagonist, but it will affect them in a critical way; in the deepest darkest, most sensitive parts of them – emotionally, psychologically, morally, physically. It’s going to exhume and expose their worst hidden weaknesses, or attack and undermine their greatest strengths.</p>
+                <h5>6.11.2 	Personal Progression (‘deepening’)</h5>
+                <p>It goes without saying your characters’ actions should have personal effects upon those closest to them; family, lovers, friends, colleagues, etc.</p>
+                <p>However, not only will personal progression affect those closest to your protagonist, but it will affect them in a critical way; in the deepest darkest, most sensitive parts of them – emotionally, psychologically, morally, physically. It’s going to exhume and expose their worst hidden weaknesses, or attack and undermine their greatest strengths.</p>
 
-<h5>6.11.3 	Scene Transition </h5>
-<p>You might not consider this in the writing process, especially if you write scenes in isolation to each other, but a lack of natural transition will rear its head in the rereading process, necessitating its management in the editing and re/structuring process. </p>
-<p>Transition is another element of story progression; one thing leading to the next. Scenes should also have this feel, which is the utility of transitions. </p>
-<p>McKee suggests the vehicle for scene transition is a thing held in common by two scenes or counterpointed between them. This ‘thing’ may be:</p>
+                <h5>6.11.3 	Scene Transition </h5>
+                <p>You might not consider this in the writing process, especially if you write scenes in isolation to each other, but a lack of natural transition will rear its head in the rereading process, necessitating its management in the editing and re/structuring process. </p>
+                <p>Transition is another element of story progression; one thing leading to the next. Scenes should also have this feel, which is the utility of transitions. </p>
+                <p>McKee suggests the vehicle for scene transition is a thing held in common by two scenes or counterpointed between them. This ‘thing’ may be:</p>
 
-<ul>
-  <li><u>A trait:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 depicts the childish child, scene 2 depicts the childish adult; </li>
-    <li>Counterpoint: scene 1 depicts the awkward child; scene 2 depicts the elegant adult</li>
-  </ul>
-  <li><u>An action:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 shows the foreplay, scene 2 shows the sex;</li>
-    <li>Counterpoint: scene 1 shows consensual sex, scene 2 becomes a rape;</li>
-  </ul>
-  <li><u>An object:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 in an archeology museum, scene 2 in the excavation dig-site; </li>
-    <li>Counterpoint: Scene 1 in a jungle, scene 1 in a city;</li>
-  </ul>
-  <li><u>A word:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 starts with a thematic quote, scene 2 repeats this quote (or adds to it, or finishes it) </li>
-    <li>Counterpoint: Scene 1 shows someone being complimented, scene 2 shows them being cursed;</li>
-  </ul>
-  <li><u>Lighting or visual atmosphere/mood:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 describes shadows at dawn, scene 2 describes darkening twilight;</li>
-    <li>Counterpoint: Scene 1 set under a blue sky, scene 2 a red sky.</li>
-  </ul>
-  <li><u>Sound:</u></li>
-  <ul>
-    <li>Commonality: Scene 1 describes drumming, scene 2 describes thunder;</li>
-    <li>Counterpoint: Scene 1 describes the harmonious music created by an orchestra, scene 2 describes the mindless noise created by the workers at a big factory.</li>
-  </ul>
-  <li><u>An idea:</u></li>
-  <ul>
-    <li>Commonality: scene 1 shows a portrait being painted, scene 2 shows a baby being born;</li>
-    <li>Counterpoint: scene 1 shows a baby being born and nursed, scene 2 shows an animal being slaughtered.</li>
-  </ul>
-</ul>
+                <ul>
+                  <li><u>A trait:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 depicts the childish child, scene 2 depicts the childish adult; </li>
+                    <li>Counterpoint: scene 1 depicts the awkward child; scene 2 depicts the elegant adult</li>
+                  </ul>
+                  <li><u>An action:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 shows the foreplay, scene 2 shows the sex;</li>
+                    <li>Counterpoint: scene 1 shows consensual sex, scene 2 becomes a rape;</li>
+                  </ul>
+                  <li><u>An object:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 in an archeology museum, scene 2 in the excavation dig-site; </li>
+                    <li>Counterpoint: Scene 1 in a jungle, scene 1 in a city;</li>
+                  </ul>
+                  <li><u>A word:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 starts with a thematic quote, scene 2 repeats this quote (or adds to it, or finishes it) </li>
+                    <li>Counterpoint: Scene 1 shows someone being complimented, scene 2 shows them being cursed;</li>
+                  </ul>
+                  <li><u>Lighting or visual atmosphere/mood:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 describes shadows at dawn, scene 2 describes darkening twilight;</li>
+                    <li>Counterpoint: Scene 1 set under a blue sky, scene 2 a red sky.</li>
+                  </ul>
+                  <li><u>Sound:</u></li>
+                  <ul>
+                    <li>Commonality: Scene 1 describes drumming, scene 2 describes thunder;</li>
+                    <li>Counterpoint: Scene 1 describes the harmonious music created by an orchestra, scene 2 describes the mindless noise created by the workers at a big factory.</li>
+                  </ul>
+                  <li><u>An idea:</u></li>
+                  <ul>
+                    <li>Commonality: scene 1 shows a portrait being painted, scene 2 shows a baby being born;</li>
+                    <li>Counterpoint: scene 1 shows a baby being born and nursed, scene 2 shows an animal being slaughtered.</li>
+                  </ul>
+                </ul>
 
-<p>You could apply this tip to almost anything in this entire document, but don’t go for the obvious. Try to create an imaginative link to transition scenes. Like symbolism and irony, it should have subconscious appeal, and not slap the reader in the face.</p>
+                <p>You could apply this tip to almost anything in this entire document, but don’t go for the obvious. Try to create an imaginative link to transition scenes. Like symbolism and irony, it should have subconscious appeal, and not slap the reader in the face.</p>
 
-<h2 id="post-6-12" className="blog-post-title">6.12: Bait-and-Switch Scene</h2>
+                <h2 id="post-6-12" className="blog-post-title">6.12: Bait-and-Switch Scene</h2>
 
-<p>If you set your scene one place, populate it with certain characters, and have certain events occur, don’t wistfully carry the reader to an imagined scene of another place, with other characters, and there events. Otherwise you might as well just write that scene.</p>
-<p>Mittelmark and Newman provide some examples:</p>
-<p className='indent-text-1'>She imagined the ballroom as it must once have been.</p>
-<p className='indent-text-1'>I gazed out the window and remembered the purity of the Arctic snows.</p>
-<p className='indent-text-1'>She imagined how it could have been if only Reynaldo were here.</p>
+                <p>If you set your scene one place, populate it with certain characters, and have certain events occur, don’t wistfully carry the reader to an imagined scene of another place, with other characters, and there events. Otherwise you might as well just write that scene.</p>
+                <p>Mittelmark and Newman provide some examples:</p>
+                <p className='indent-text-1'>She imagined the ballroom as it must once have been.</p>
+                <p className='indent-text-1'>I gazed out the window and remembered the purity of the Arctic snows.</p>
+                <p className='indent-text-1'>She imagined how it could have been if only Reynaldo were here.</p>
 
-<p>This is even worse when the present scene gets disregarded for the imaginary scene, e.g.</p>
-<p className='indent-text-1'>She walked into the upper-class Manhattan party, a secret wonderland of plutocratic excess. But she couldn’t relate to any of these people; their old money and fortune 500 fathers. Right then, she wanted nothing more than to be back home on the farm, with her Irish Draught stallion, Icarus, riding over the broad, green hills. She wouldn’t even mind the frequent rain showers; the smell of wet hay was infinitely preferable to the smog of tobacco and perfume in here. Thirty minutes later, having talked to no one, she left the hotel lobby. </p>
+                <p>This is even worse when the present scene gets disregarded for the imaginary scene, e.g.</p>
+                <p className='indent-text-1'>She walked into the upper-class Manhattan party, a secret wonderland of plutocratic excess. But she couldn’t relate to any of these people; their old money and fortune 500 fathers. Right then, she wanted nothing more than to be back home on the farm, with her Irish Draught stallion, Icarus, riding over the broad, green hills. She wouldn’t even mind the frequent rain showers; the smell of wet hay was infinitely preferable to the smog of tobacco and perfume in here. Thirty minutes later, having talked to no one, she left the hotel lobby. </p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-<ThoughtForm />
+                <ThoughtForm />
 
-<ThoughtList />
+                <ThoughtList />
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
-<div className="footnotes">
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Jack Hart, <i>Storycraft: Complete Guide to Writing Narrative Nonfiction.</i></li>
@@ -609,7 +609,7 @@ export default function Scenes() {
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>
