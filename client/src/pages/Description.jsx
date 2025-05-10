@@ -1,15 +1,9 @@
-import { useState } from 'react';
 import '../App.css'
 //import descBanner from '../assets/descbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 
 export default function Description() {
-  const [showFootnotes, setShowFootnotes] = useState(false);
-
-  const toggleFootnotes = () => {
-    setShowFootnotes(!showFootnotes);
-  };
 
   return (
     <div>
@@ -302,17 +296,27 @@ export default function Description() {
                 <p>– it’s about the cacophonic conflict going on inside the protagonist/narrator. </p>
 
                 <p>Here are some more examples of linking paragraphs from Ramsey Campbell’s short story ‘The Companion.’ The examples are numbered; the red sentence is the end of one paragraph, the blue sentence is the start of the next. See if you can identify the ‘nexus’ between paragraphs – or see my footnotes for elaboration:</p>
-
+                <hr />
                 <div className="p-3 mb-3 rounded pixar-box">
                   <p><strong><u>1:</u></strong></p>
                   <p>...scraps of paper whirled.</p>
-                  <p><span className='blue-text-span'>Stone almost walked away.</span><a href="#pf1"><sup>1</sup></a></p>
-                  <u>Here, the nexus is motion; the ‘whirling’ paper shifts to the protagonist’s walking.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>Stone almost walked away.
+                      <span className='tooltip-box'>
+                        Here, the nexus is motion; the ‘whirling’ paper shifts to the protagonist’s walking.
+                      </span>
+                    </span>
+                    <a href="#pf1"><sup>1</sup></a>
+                  </p>
 
                   <p><strong><u>2:</u></strong></p>
                   <p>...he might have the fairground almost to himself.</p>
-                  <p>As he reached an entrance...<a href="#pf2"><sup>2</sup></a></p>
-                  <u>The nexus is vague here, but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>As he reached an entrance...
+                      <span className='tooltip-box'>The nexus is vague but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start.
+                      </span>
+                    </span>
+                    <a href="#pf2"><sup>2</sup></a></p>
 
                   <p><strong><u>3:</u></strong></p>
                   <p><span className='red-text-span'>...and hurried through the entrance, into colour and noise.</span></p>
@@ -320,67 +324,69 @@ export default function Description() {
 
                   <p><strong><u>4:</u></strong></p>
                   <p>...he had to remind himself he could see, even if he couldn’t hear.</p>
-                  <p><span className='blue-text-span'>But there wasn’t much to see.</span><a href="#pf4"><sup>4</sup></a></p>
-                  <u>What the protagonist can see provides a direct nexus. Here, the second paragraph follows up with an almost direct response.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>But there wasn’t much to see.
+                      <span className='tooltip-box'>What the protagonist can see provides a direct nexus. Here, the second paragraph follows up with an almost direct response.
+                      </span>
+                    </span>
+                    <a href="#pf3"><sup>4</sup></a></p>
 
                   <p><strong><u>5:</u></strong></p>
                   <p>Stone had the impression of being shut in a dusty room where the toys, as in childhood tales, had come to life.</p>
-                  <p><span className='blue-text-span'>He shrugged vaguely and turned to leave.</span><a href="#pf5"><sup>5</sup></a></p>
-                  <u>In the first paragraph, the protagonist has a mental impression. The second paragraph suggests his reaction to this impression; dismissal.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>He shrugged vaguely and turned to leave.
+                      <span className='tooltip-box'>In the first paragraph, the protagonist has a mental impression. The second paragraph suggests his reaction to this impression; dismissal.
+                      </span>
+                    </span>
+                    <a href="#pf4"><sup>5</sup></a></p>
 
                   <p><strong><u>6:</u></strong></p>
                   <p>He wondered how they were managing at the tax office in his absence. Slower than usual, no doubt.</p>
-                  <p><span className='blue-text-span'>Then he saw the merry-go-round.</span><a href="#pf6"><sup>6</sup></a></p>
-                  <u>A witty nexus here, because the second paragraph’s ‘merry-go-round’ provides the visual metaphor that the tax office from the first paragraph is not only managing more slowly than usual, but is going around and around in circles. </u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>Then he saw the merry-go-round.
+                      <span className='tooltip-box'>A humourous nexus here, because the second paragraph’s ‘merry-go-round’ provides the visual metaphor that the tax office from the first paragraph is not only managing more slowly than usual, but is going around in circles.
+                      </span>
+                    </span>
+                    <a href="#pf5"><sup>6</sup></a></p>
 
                   <p><strong><u>7:</u></strong></p>
-                  <p><span className='red-text-span'>“I’ll get on,” he said.</span></p>
-                  <p>He patted the unyielding shoulders of the horse...<a href="#pf7"><sup>7</sup></a></p>
-                  <u>Protagonist’s dialogue in the first paragraph (“I’ll get on,”) crystallises into action in the second (touching the horse). </u>
+                  <p>“I’ll get on,” he said.</p>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>He patted the unyielding shoulders of the horse...
+                      <span className='tooltip-box'>The Protagonist’s dialogue in the first paragraph (“I’ll get on,”) crystallises into action in the second (touching the horse).
+                      </span>
+                    </span>
+                    <a href="#pf6"><sup>7</sup></a></p>
 
                   <p><strong><u>8:</u></strong></p>
                   <p>Because I haven’t been on a merry-go-round for years, I suppose.</p>
-                  <p><span className='blue-text-span'>The merry-go-round stirred</span><a href="#pf8"><sup>8</sup></a></p>
-                  <u>A straightforward nexus here, from the past (the last time protagonist rode a merry-go-round) to the present (actually riding one again).</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>The merry-go-round stirred
+                      <span className='tooltip-box'>A straightforward nexus here, from the past (the last time protagonist rode a merry-go-round) to the present (actually riding one again).
+                      </span>
+                    </span>
+                    <a href="#pf7"><sup>8</sup></a></p>
 
                   <p><strong><u>9:</u></strong></p>
                   <p>...a crowd surging through one of the entrances and spreading through the funfair. He grimaced: it had been his fairground for a little while, they needn’t have arrived just as he was enjoying his merry-go-round.</p>
-                  <p><span className='blue-text-span'>The crowd swung away.</span><a href="#pf9"><sup>9</sup></a></p>
-                  <u>The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist’s motion on the merry-go-round, by implication.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>The crowd swung away.
+                      <span className='tooltip-box'>The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist’s motion on the merry-go-round, by implication.
+                      </span>
+                    </span>
+                    <a href="#pf8"><sup>9</sup></a></p>
 
                   <p><strong><u>10:</u></strong></p>
                   <p>He shook his head to try to control his pouring thoughts.</p>
-                  <p><span className='blue-text-span'>But the fair was spinning faster.</span><a href="#pf10"><sup>10</sup></a></p>
-                  <u>The nexus here is motion; the motion of the protagonist’s rushing thoughts is reinforced by the fair ‘spinning’ around him.</u>
+                  <p>
+                    <span className='blue-text-span tooltip-container'>But the fair was spinning faster.
+                      <span className='tooltip-box'>The nexus here is motion; the motion of the protagonist’s rushing thoughts is reinforced by the fair ‘spinning’ around him.
+                      </span>
+                    </span>
+                    <a href="#pf9"><sup>10</sup></a></p>
+
                 </div>
-
-                <button onClick={toggleFootnotes} className="btn btn-primary mb-3">
-                  {showFootnotes ? 'Hide Footnotes' : 'Open Footnotes'}
-                </button>
-
-                {/* ---------------------------------- on-click conditional div for paragraphing footnotes --------------------------------------------- */}
-
-                {showFootnotes && (
-                  <div className="p-3 mb-3 rounded pixar-box">
-                    <h4>Paragraph Footnotes</h4>
-                    <ol>
-                      <li id="pf1">Here, the nexus is motion; the ‘whirling’ paper shifts to the protagonist’s walking.</li>
-                      <li id="pf2">The nexus is vague here, but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start.</li>
-                      <li id="pf3">The generalized description of ‘noise’ in the first paragraph carries on to being specified as ‘noisier’ than a railway station in the second.</li>
-                      <li id="pf4">What the protagonist can see provides a direct nexus. Here, the second paragraph follows up with an almost direct response.</li>
-                      <li id="pf5">In the first paragraph, the protagonist has a mental impression. The second paragraph suggests his reaction to this impression; dismissal.</li>
-                      <li id="pf6">A witty nexus here, because the second paragraph’s ‘merry-go-round’ provides the visual metaphor that the tax office from the first paragraph is not only managing more slowly than usual, but is going around and around in circles.</li>
-                      <li id="pf7">Protagonist’s dialogue in the first paragraph (“I’ll get on,”) crystallises into action in the second (touching the horse).</li>
-                      <li id="pf8">A straightforward nexus here, from the past (the last time protagonist rode a merry-go-round) to the present (actually riding one again).</li>
-                      <li id="pf9">The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist’s motion on the merry-go-round, by implication.</li>
-                      <li id="pf10">The nexus here is motion; the motion of the protagonist’s rushing thoughts is reinforced by the fair ‘spinning’ around him.</li>
-                    </ol>
-
-                  </div>
-                )}
                 <hr />
-
-                {/* ---------------------------------------------------------------------------------------------- */}
 
                 <h5>11.12.1 	When should you interlink paragraphs?</h5>
                 <p>Some notes on the Companion (above): not every paragraph in this short story was interlinked. Some were entirely separate. Don’t strive to link every paragraph in your story. Like anything in your story, interlinking creates a specific effect, and you don’t want to overdo it. Reasons why you might interlink paragraphs:</p>
@@ -521,6 +527,7 @@ export default function Description() {
                 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
                 <div className="footnotes">
+                  <div className="p-3 mb-3 rounded pixar-box">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Jack Hart, <i>Storycraft: Complete Guide to Writing Narrative Nonfiction.</i></li>
@@ -530,7 +537,7 @@ export default function Description() {
                     <li id="f5">Claudia Osborne, <i>Over My Head, </i>(note: this is non-fiction).</li>
                     <li id="f6">William Elliott Hazelgrove, <i>Shots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic,</i> (note: this is non-fiction)</li>
                     <li id="f7">Tom Jolkinen, <i>Curtains, </i>(note: this is non-fiction).</li>
-                    <li id="f8">Lucy Grealy, <i>Autobiography of a Face, </i> (note: this is non-fiction).</li>
+                    <li id="f8">Lucy Grealy, <i>Autobiography of a Face, </i> (non-fiction).</li>
                     <li id="f9">Alexandra Adornetto, <i>Ghost House.</i></li>
                     <li id="f10">Alexandra Adornetto, <i>Ghost House.</i></li>
                     <li id="f11">Robert Sabbag, <i>Down Around Midnight.</i></li>
@@ -541,6 +548,7 @@ export default function Description() {
                     <li id="f16">John Howard Griffen, <i>Black Like Me.</i></li>
                     <li id="f17">Jack Hart, <i>Storycraft: Complete Guide to Writing Narrative Nonfiction.</i></li>
                   </ol>
+                </div>
                 </div>
 
                 {/* ---------------------------------------------------------------------------------------------- */}

@@ -9,12 +9,12 @@ export default function TheNextWords() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">The Next Words</h1>
 
         <div id="wrapper" className="text-left">
-          <p className="lead my-3">Style is […] a matter of knowing when one has said enough.</p>
-          <i>— Hallie & Whit Burnett, Fiction Writer's Handbook</i>
+          <p className="lead my-3">We are what we repeatedly do. Excellence, then, is not an act, but a habit.</p>
+          <i>— Aristotle</i>
           <p className="lead my-3">If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.</p>
           <i>— Somerset Maugham</i>
           <p className="lead my-3">Poor Faulkner. Does he really think big emotions come from big words?</p>

@@ -34,7 +34,7 @@ export default function Dialogue() {
                 <p>You do not get dialogue from a verbatim transcription of human speech. Real speech is disordered, fractured and meandering. A large percentage is junk, noise, filler. Dialogue can never be passive background noise; it must be active, tight, abridged and filled with meaning and subtext. It can also reveal more by what is not said, than by what is.</p>
 
                 <div className="p-3 mb-3 rounded custom-light-box">
-                  <p className="mb-0">"[Every bit of] dialogue has the obligation to advance the story..."</p>
+                  <p className="mb-0">[Every bit of] dialogue has the obligation to advance the story[.]</p>
                   <p><i>— Hallie & Whit Burnett.</i><a href="#f1"><sup>1</sup></a></p>
                 </div>
 

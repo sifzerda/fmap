@@ -7,12 +7,14 @@ export default function Setting() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Setting</h1>
 
         <div id="wrapper" className="text-left">
           <p className="lead my-3">Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?... </p>
           <i>— Eudora Welty</i>
+                    <p className="lead my-3">One can find so many pains when the rain is falling. </p>
+          <i>— John Steinbeck</i>
         </div>
       </div>
 

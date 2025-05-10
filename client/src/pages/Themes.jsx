@@ -7,7 +7,7 @@ export default function Themes() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Themes</h1>
 
         <div id="wrapper" className="text-left">
@@ -15,6 +15,9 @@ export default function Themes() {
         <i>— David Bowie</i>
         <p className="lead my-3">Thematic significance in a novel arises from an exaggerated impression of life.</p>
         <i>— Mark Twain</i>
+        <p className="lead my-3">To produce a mighty book, you must choose a mighty theme.</p>
+        <i>— Ernest Hemingway</i>
+
         </div>
       </div>
 

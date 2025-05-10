@@ -10,7 +10,7 @@ export default function Plot() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Plot</h1>
 
         <div id="wrapper" className="text-left">
@@ -30,7 +30,7 @@ export default function Plot() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-3-1" className="blog-post-title">3.1: Plotting in a Vacuum</h2>
-            
+
               <div id="content">
                 <p>You might have more stories than the Burj Khalifa. But stories aren’t enough; you’ve got to know what to do with them.</p>
                 <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
@@ -149,59 +149,60 @@ export default function Plot() {
                 <p>To illustrate the concept in its entirety I’ll use the examples of two very different stories: Beauty and the Beast (1991), and The Shawshank Redemption (Stephen King, 1982) (the first is a movie, but originated from written story).</p>
 
                 <p><strong>#1 Beauty and the Beast: </strong></p>
-                <p><u>Act 1: </u></p>
-                <ul>
-                  <li>[Protagonist’s starting position] Country village </li>
-                  <li>[Protagonist’s direction] dreams of fairytale romance in some distant location with prince.</li>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p><u>Act 1: </u></p>
                   <ul>
-                    <li><u>Act 1 right angle:</u> [New position] Scary castle with monster.</li>
+                    <li>[Protagonist’s starting position] Country village </li>
+                    <li>[Protagonist’s direction] dreams of fairytale romance in some distant location with prince.</li>
+                    <ul>
+                      <li><u>Act 1 right angle:</u> [New position] Scary castle with monster.</li>
+                    </ul>
                   </ul>
-                </ul>
 
-                <p><u>Act 2: </u></p>
-                <ul>
-                  <li>[Position] Captive of monster in scary castle </li>
+                  <p><u>Act 2: </u></p>
                   <ul>
-                    <li><u>Act 2 right angle:</u> [New position] Falling in love with monster.</li>
+                    <li>[Position] Captive of monster in scary castle </li>
+                    <ul>
+                      <li><u>Act 2 right angle:</u> [New position] Falling in love with monster.</li>
+                    </ul>
                   </ul>
-                </ul>
 
-                <p><u>Act 3: </u></p>
-                <ul>
-                  <li>[Position] Falling in love with monster. </li>
+                  <p><u>Act 3: </u></p>
                   <ul>
-                    <li><u>Act 3 right angle: </u> [New position] Monster is not a monster but prince.</li>
+                    <li>[Position] Falling in love with monster. </li>
+                    <ul>
+                      <li><u>Act 3 right angle:</u> [New position] Monster is not a monster but prince.</li>
+                    </ul>
                   </ul>
-                </ul>
+                </div>
 
-                <p><u>Conclusion: </u>Protagonist ends up where they dreamed of in the first place.</p>
+                <p><u>Conclusion:</u> Protagonist ends up where they dreamed of in the first place.</p>
 
                 <p><strong>#2 The Shawshank Redemption: </strong></p>
-                <p><u>Act 1: </u></p>
-                <ul>
-                  <li>[Protagonist’s starting position] Protagonist’s wife cheating on him </li>
-                  <li>[Protagonist’s direction] possibly leave her, try to get her back, or get revenge</li>
-                </ul>
-
-                <p><u>Act 2: </u></p>
-                <ul>
-                  <li>[Position] protagonist in prison, lowest standing on the prison’s social hierarchy, not coping </li>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p><u>Act 1: </u></p>
                   <ul>
-                    <li><u>Act 2 right angle:</u> [New position] protagonist makes friends and gets a better standing</li>
+                    <li>[Protagonist’s starting position] Protagonist’s wife cheating on him </li>
+                    <li>[Protagonist’s direction] possibly leave her, try to get her back, or get revenge</li>
                   </ul>
-                </ul>
 
-                <p><u>Act 3: </u></p>
-                <ul>
-                  <li>[Position] Protagonist coping in prison </li>
+                  <p><u>Act 2: </u></p>
                   <ul>
-                    <li><u>Act 3 right angle: </u> [New position] Protagonist escapes prison</li>
+                    <li>[Position] protagonist in prison, lowest standing on the prison’s social hierarchy, not coping </li>
+                    <ul>
+                      <li><u>Act 2 right angle:</u> [New position] protagonist makes friends and gets a better standing</li>
+                    </ul>
                   </ul>
-                </ul>
 
+                  <p><u>Act 3: </u></p>
+                  <ul>
+                    <li>[Position] Protagonist coping in prison </li>
+                    <ul>
+                      <li><u>Act 3 right angle: </u> [New position] Protagonist escapes prison</li>
+                    </ul>
+                  </ul>
+                </div>
                 <p><u>Conclusion: </u>Protagonist ends up where they should have been in the first place.</p>
-
-                <p>This is a very basic structuring tool; you don’t need to have seen/read these media to understand how the concept is applied.</p>
 
                 <h5>3.5.3 	Sub- Three Right Angle Turns</h5>
 
@@ -234,308 +235,326 @@ export default function Plot() {
                   <img src={crossArrow} alt="Chiastic Structure" width="500" height="500"></img>
                 </div>
 
-<p>Chiastic structure can effect a sense of ‘circularity,’ or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
-<p>Here is an example of the Chiastic structure of the Genesis Flood Narrative: </p>
+                <p>Chiastic structure can effect a sense of ‘circularity,’ or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
+                <p>Here is an example of the Chiastic structure of the Genesis Flood Narrative: </p>
 
-<div className="chiastic">
-  <div className="a">A: Noah and his sons (Gen 6:10)
-    <div className="b">B: All life on earth (6:13:a)
-      <div className="c">C: Curse on earth (6:13:b)
-        <div className="d">D: Flood announced (6:7)
-          <div className="e">E: Ark (6:14-16)
-            <div className="f">F: All living creatures (6:17–20 )
-              <div className="g">G: Food (6:21)
-                <div className="h">H: Animals in man’s hands (7:2–3)
-                  <div className="i">I: Entering the Ark (7:13–16)
-                    <div className="j">J: Waters increase (7:17–20)
-                      <div className="x">X: God remembers Noah (8:1)</div>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <div className="chiastic">
+                    <div className="a">A: Noah and his sons (Gen 6:10)
+                      <div className="b">B: All life on earth (6:13:a)
+                        <div className="c">C: Curse on earth (6:13:b)
+                          <div className="d">D: Flood announced (6:7)
+                            <div className="e">E: Ark (6:14-16)
+                              <div className="f">F: All living creatures (6:17–20 )
+                                <div className="g">G: Food (6:21)
+                                  <div className="h">H: Animals in man’s hands (7:2–3)
+                                    <div className="i">I: Entering the Ark (7:13–16)
+                                      <div className="j">J: Waters increase (7:17–20)
+                                        <div className="x">X: God remembers Noah (8:1)</div>
+                                      </div>
+                                      <div className="j">J: Waters decrease (8:13–14)</div>
+                                    </div>
+                                    <div className="i">I': Exiting the Ark (8:15–19)</div>
+                                  </div>
+                                  <div className="h">H': Animals (9:2,3)</div>
+                                </div>
+                                <div className="g">G': Food (9:3,4)</div>
+                              </div>
+                              <div className="f">F': All living creatures (9:10a)</div>
+                            </div>
+                            <div className="e">E': Ark (9:10b)</div>
+                          </div>
+                          <div className="d">D’: No flood in future (9:11)</div>
+                        </div>
+                        <div className="c">C': Blessing on earth (9:12–17)</div>
+                      </div>
+                      <div className="b">B': All life on earth (9:16)</div>
                     </div>
-                    <div className="j">J: Waters decrease (8:13–14)</div>
+                    <div className="a">A: Noah and his sons (9:18,19a)</div>
                   </div>
-                  <div className="i">I': Exiting the Ark (8:15–19)</div>
                 </div>
-                <div className="h">H': Animals (9:2,3)</div>
-              </div>
-              <div className="g">G': Food (9:3,4)</div>
-            </div>
-            <div className="f">F': All living creatures (9:10a)</div>
-          </div>
-          <div className="e">E': Ark (9:10b)</div>
-        </div>
-        <div className="d">D’: No flood in future (9:11)</div>
-      </div>
-      <div className="c">C': Blessing on earth (9:12–17)</div>
-    </div>
-    <div className="b">B': All life on earth (9:16)</div>
-  </div>
-  <div className="a">A: Noah and his sons (9:18,19a)</div>
-</div>
 
-<h5>3.6.1 	Sub-Chiastic Structure</h5>
-<p>As plots may contain sub-plots, chiastic structures may contain sub-chiastic structures. To do this, take one of the items on your list of elements, e.g. from above: ‘G: Flood announced.’ Then insert a minor chiastic structure after, before progressing to the next item, e.g.</p>
+                <h5>3.6.1 	Sub-Chiastic Structure</h5>
+                <p>As plots may contain sub-plots, chiastic structures may contain sub-chiastic structures. To do this, take one of the items on your list of elements, e.g. from above: ‘G: Flood announced.’ Then insert a minor chiastic structure after, before progressing to the next item, e.g.</p>
 
-<div className="chiastic">
-  <div className="level-1">A: Noah and his sons</div>
-  <div className="level-1">B: All life on earth</div>
-  <div className="level-1">C: Curse on earth</div>
-  <div className="level-1">D: Flood announced</div>
-  <div className="level-2">G: Flood announced
-    <div className="level-3">G1: 7 days until flood
-      <div className="level-4">G2: Noah is skeptical
-        <div className="level-5">G3: Noah becomes convinced</div>
-      </div>
-      <div className="level-4">G2: The townspeople are skeptical</div>
-    </div>
-    <div className="level-3">G1: 7 days to build the ark</div>
-  </div>
-</div>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <div className="chiastic">
+                    <div className="level-1">A: Noah and his sons</div>
+                    <div className="level-1">B: All life on earth</div>
+                    <div className="level-1">C: Curse on earth</div>
+                    <div className="level-1">D: Flood announced</div>
+                    <div className="level-2">G: Flood announced
+                      <div className="level-3">G1: 7 days until flood
+                        <div className="level-4">G2: Noah is skeptical
+                          <div className="level-5">G3: Noah becomes convinced</div>
+                        </div>
+                        <div className="level-4">G2: The townspeople are skeptical</div>
+                      </div>
+                      <div className="level-3">G1: 7 days to build the ark</div>
+                    </div>
+                  </div>
+                </div>
 
-<h2 id="post-3-7" className="blog-post-title">3.7: Plots with Problems</h2>
-<h5>3.7.1 	P.R.O.B.L.E.M</h5>
-<p>Bork<a href="#f2"><sup>2</sup></a> says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
-<u>The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction, Erik Bork.</u>
+                <h2 id="post-3-7" className="blog-post-title">3.7: Plots with Problems</h2>
+                <h5>3.7.1 	P.R.O.B.L.E.M</h5>
+                <p>Bork<a href="#f2"><sup>2</sup></a> says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
+                <u>The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction, Erik Bork.</u>
 
-<p className='purple-bold'>Punishing</p>
-<p>It's long (lasts the whole story), every scene is spent trying to solve the problem. It may be complicated or get more complicated as the story goes on.</p>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p className='purple-bold'>Punishing</p>
+                  <p>It's long (lasts the whole story), every scene is spent trying to solve the problem. It may be complicated or get more complicated as the story goes on.</p>
 
-<p className='purple-bold'>Relatable</p>
-<p>Easy to identify with the problem on a human level. We care about the character's struggle, we stay invested.</p>
+                  <p className='purple-bold'>Relatable</p>
+                  <p>Easy to identify with the problem on a human level. We care about the character's struggle, we stay invested.</p>
 
-<p className='purple-bold'>Original</p>
-<p>Something about the story is fresh and new, even if fits in conventional storytelling or genre. There is a spark of uniqueness to the idea or the way it's told.</p>
+                  <p className='purple-bold'>Original</p>
+                  <p>Something about the story is fresh and new, even if fits in conventional storytelling or genre. There is a spark of uniqueness to the idea or the way it's told.</p>
 
-<p className='purple-bold'>Believable</p>
-<p>It easy to accept or understand the problem, and feels real, seems driven by identifiable wants, needs and behaviour.</p>
+                  <p className='purple-bold'>Believable</p>
+                  <p>It easy to accept or understand the problem, and feels real, seems driven by identifiable wants, needs and behaviour.</p>
 
-<p className='purple-bold'>Life-Altering</p>
-<p>The mission to resolve the problem is of huge importance to the charaters. If the problem isn't solved, life will be unthinkably worse for them. Something critical or primal is at stake. If the problem is solved, things will be much better.</p>
+                  <p className='purple-bold'>Life-Altering</p>
+                  <p>The mission to resolve the problem is of huge importance to the charaters. If the problem isn't solved, life will be unthinkably worse for them. Something critical or primal is at stake. If the problem is solved, things will be much better.</p>
 
-<p className='purple-bold'>Entertaining</p>
-<p>The problem-solving process is fun to read and creates the desired emotional responses in the reader.</p>
+                  <p className='purple-bold'>Entertaining</p>
+                  <p>The problem-solving process is fun to read and creates the desired emotional responses in the reader.</p>
 
-<p className='purple-bold'>Meaningful</p>
-<p>The reader comes away feeling that value has been added to their life, the story was worthwhile and resonates with them beyond the time spent reading it.</p>
-<p>Knowing the story's central problem gives you a head-start to writing the logline, which, as Bork says, is a big part of the logline.</p>
+                  <p className='purple-bold'>Meaningful</p>
+                  <p>The reader comes away feeling that value has been added to their life, the story was worthwhile and resonates with them beyond the time spent reading it.</p>
+                  <p>Knowing the story's central problem gives you a head-start to writing the logline, which, as Bork says, is a big part of the logline.</p>
+                </div>
 
-<h5>3.7.2 	Bork’s Story Problems</h5>
-<p>Bork lists eight main types of story problems:</p>
-<ol>
-<li>Someone or something is trying to kill me (or us). </li>
-  <li>Someone or something is trying to destroy my life as I know it. </li>
-  <li>I have a once-in-a-lifetime but incredibly difficult opportunity to rise up and be somebody, in a big way, that could forever change my sense of self. </li>
-  <li>I have to rescue someone from a potentially terrible fate. </li>
-  <li>I have to reach a distant and life-changing “prize,” which seems nearly impossible to do. </li>
-  <li>I have to defeat powerful “bad guys” who have hurt and/or are threatening innocents. </li>
-  <li>I have to escape a terrible situation, which prevents me from living freely and happily. </li>
-  <li>I have to win over and/or hang on to a desired life partner, with whom I have a chance at my best life. But something is hugely in the way of that.</li>
-</ol>
-
-<h5>3.7.3 	Snyder’s Story Problems</h5>
-<u>Save The Cat!, Blake Snyder.</u>
-<p>Blake Snyder says all stories centre around one of these 10 problems:</p><a href="#f3"><sup>3</sup></a>
-<ol>
-  <li><p className='purple-bold'>Monster in the House</p> Characters are trapped in a confined space with a ‘monster’ or dangerous entity out to get them.</li> 
-  <li><p className='purple-bold'>Golden Fleece</p> The ‘quest’ myth: a hero goes on a journey in search of something, encountering interesting things or people along the way. Normally, by the end, the hero has undergone a personal transformation. </li>
-  <li><p className='purple-bold'>Out of the Bottle</p> A wish comes true for the protagonist or they get something akin to magic – for better or worse. Doesn’t have to be supernatural (e.g. someone accidentally comes into a fortune). The flipside is the wish ends up being a curse.</li>
-  <li><p className='purple-bold'>Dude with a Problem</p> An ordinary guy (or girl) finds himself in extraordinary circumstances. </li>
-  <li><p className='purple-bold'>Rites of Passage</p> Involve characters going through traditional milestone events (school, first relationship, wedding, mid-life crisis, etc)</li>
-  <li><p className='purple-bold'>Buddy Love</p> Two characters navigating plot problems together. Usually the buddies are opposites or in conflict, but learn to cooperate and appreciate each other.</li>
-  <li><p className='purple-bold'>Whydunnit</p> Normally detective stories, an exploration of human nature and the dark side of humanity.</li>
-  <li><p className='purple-bold'>The Fool Triumphant</p> Involve an underdog, a ‘little, silly, and overlooked man’ as protagonist, set against a ‘big establishment,’ who in the end is the one made the fool of.</li>
-  <li><p className='purple-bold'>Institutionalized</p> Involves a group as the protagonist (or the protagonist’s being indivisibly part of a larger group). The group may be a family, or have no relation other than all being in the same circumstances, e.g. colleagues, or soldiers, or mental patients. The group dynamic is often crazy and self-destructive, the themes relate to identity and the danger of herd mentality.</li>
-  <li><p className='purple-bold'>Superhero</p> The opposite of ‘Dude With A Problem’ – here, an extraordinary guy in an ordinary world. The person might be good or bad or just different. They don’t have to be supernatural.</li>
-</ol>
-
-<h5>3.7.4 	Problems with Plots</h5>
-
-<p>Howard Mittelmark and Sandra Newman list common problems with plots: </p><a href="#f4"><sup>4</sup></a>
-<p className='purple-bold'> I. The Lost Sock</p>
-<p>The plot is too slight or trivial. </p>
-<p>The plot of a story “should be important enough to change someone’s life forever.”<a href="#f5"><sup>5</sup></a> It should also have broad interest – just because you find something fascinating, doesn’t mean the broader public does.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Ensure your plot revolves around a dilemma involving a ‘sex word’ (see 6.2 Sex Words);</li>
-<li>Ensure your story is not a thinly veiled excuse for venting or proselytizing;</li>
-<li>Make sure character or plot trivia is brief and in the background, not the foreground.</li>
-</ul>
-
-<p className='purple-bold'> II The Waiting Room</p>
-<p>The substance of the plot is too long delayed. </p>
-<p>Readers don’t want to ‘settle into’ a story; they want to start from the first sentence.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Start the story as late as possible – i.e. as close as possible to the first important scene;</li>
-<li>Smuggle description into active scenes;</li>
-<li>Remove introspection; suggest thoughts and feelings through behaviour and dialogue;</li>
-</ul>
-
-<p className='purple-bold'> III. The Long Runway</p>
-<p>A protagonist’s childhood is recounted for no purpose. </p>
-<p>Readers don’t need to know everything about your protagonist; only as much necessary for the plot to make sense.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Get rid of childhood memories if the plot makes sense without them;</li>
-<li>Smuggle description into active scenes;</li>
-<li>Explicate your protagonist’s character through present action and conflict</li>
-</ul>
-
-<p className='purple-bold'> IV. The Vacation Slide Show</p>
-<p>Author substitutes location for story. </p>
-<p>Author substitutes location for story.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Settings should be described only to enrichen or add dimension to the plot;</li>
-<li>Settings should be described in a way which says something about the characters who find themselves there (rather than your favourite bits, or the bits remembered best by you)</li>
-<li>Alter or make up parts of settings which serve your plot better.</li>
-<li>Ensure description of the setting is not being ‘contaminated’ by your personal opinion; e.g. words like ‘unbelievable’ and ‘amazing’ are suspect.</li>
-</ul>
-
-<p className='purple-bold'> V. The Smoking Gun</p>
-<p>The reader is unintentionally mislead by details irrelevant to the plot. </p>
-<p>Readers will assume that significant or interesting elements introduced throughout a story will have a payoff later, otherwise the reader may feel cheated.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Ensure everything in your story furthers the plot.</li>
-</ul>
-
-<p className='purple-bold'> VI. Don't Mind Him</p>
-<p>A character’s problems remain unexplored. </p>
-<p>If characters have their own issues, these need to be resolved.</p>
-<u>Solutions: </u>
-<ul>
-  <li>Address problems with their own plot arcs </li>
-<li>Make sure subplots don’t overshadow the main plot; otherwise minimize or remove them. </li>
-</ul>
-
-<p className='purple-bold'> VII. The Deafening Hug</p>
-<p>The unintended love interest. </p>
-<p>If a protagonist gives the slightest suggestion of flattering another character, the reader will run with it, inferring the protagonist is in love with the character (no matter how absurd or taboo).</p>
-<u>Solutions: </u>
-<ul>
-  <li>Tone down flattering descriptions of characters (particularly physical attributes);</li>
-<li>Draw more focus to characters’ flaws (or give them flaws in the first place);</li>
-</ul>
-
-<h2 id="post-3-8" className="blog-post-title">3.8: Story Planning</h2>
-
-                <h5>3.8.1 	Bottom-Up and Top-Down</h5>
-<p>Bottom-up (BU) writing means creating the tiny details first, and organising structure and story later. Top-down (TD) writing the opposite. </p> 
-<p>Think of it like building a house: BU means laying the bricks first, working out how big each room will be later. TD means sketching your measurements first, so you know how many bricks you'll need, and exactly where they'll go, before you start laying them.</p>
-<p>A writer who says 'I make it up as I go along' is a BU writer.</p>
-<p>BU writing has its advantages. The problem is the writing community is almost exclusively reliant on it, and for the wrong reasons.</p>
-<p>Word count Olympics such as 'NaNoWriMo' and Stephen King's method of setting word count quotas fosters bottom up writing, causing top-down writing skill to atrophy. Pretty soon BU and writing are interchangeable and TD is entirely disregarded.</p>
-
-<p className='purple-bold'> Example of BU planning:</p>
-<p className='indent-text-1'>There'll be a character called Dave Driver. He has a moustache. He wears a suit. He's a detective. He is cynical, but always first into office. A lawyer he used to hate became a barrister and then a judge. The judge slips implied insults in at the detective during court hearings. There are two prisons, one called ‘The Small Wolf,’ and one called ‘The Big Wolf,’ – ironically, the former is even worse than the latter. Someone smuggles a pet into the prison but it gets killed in a feud which kicks off a revenge sub-plot. Inmates write secret messages on playing cards and pass them to each other. An accused killer hates the sight of blood, but the prosecutor thinks this is faked. When he was a kid, the prosecutor saw someone drown, but didn’t alert anyone to help…etc.</p>
-
-<p className='purple-bold'> Example of TD Planning:</p>
-<p className='indent-text-1'>It'll be a supernatural crime story. In the first Act there'll be a really strange murder. In the second Act the perpetrator is suspected innocent by the unpopular detective, but the body goes missing. In the third Act the detective has to fight the system to prevent the innocent getting executed, and get him out of prison. At the conclusion the victim turns out to be a shapeshifter (or intelligent zombie). The detective fails to prevent execution of the innocent, but he was infected by the zombie anyway, so it's a bittersweet ending as the innocent accepts the execution, but the detective doesn’t. In the epilogue, it’s implied the execution failed, because the innocent is now a zombie/shapeshifter as well – maybe his body has gone missing from the morgue.</p>
-
-<p>See how in BU planning it takes a long time – if at all – to get an entire plot? But in TD planning you end up with a plot outline really quickly. You might be wondering: how did you come up with that plot outline so quickly (less than ten minutes) – see the sections on E Chain and Right-Angled Plot. </p>
-
-<h5>3.8.2 	Word Generation is not Storytelling</h5>
-<p>Don’t get word generation confused with story writing. When you write, making it up as you go along (or start off with BU writing), you’re experimenting with idea generation, but you have no story. Remember, from ‘1.2.3 More than a Series of Events,’ a story is not merely a series of events or details. It has gestalt meaningfulness. The example of BU planning above, is not a story. It’s a series of events or details – any one of them can be added or removed without substantive loss or gain. The example of TD planning, above, is a story. You cannot remove any single element without changing the overall meaning.</p>
-
-<h5>3.8.3 	Plot Pressures</h5>
-<p>In a game of chess you can never play a completely free game where you can make any move you want. You're always under pressure to some extent by your opponent's moves (as your opponent is constrained by your moves).</p>
-<p>In a story, every character's actions are under narrative pressures, being setting, other characters' actions, general events, etc.</p>
-<p>You want the reader to be convinced your protagonist acted naturally the way they did. In a game of chess, if the opponent's queen is available to you, you take it, unless there is a good reason you don't want to win. This is the same in a story; if certain actions are open to the protagonist, and they don't take them -- and there is no previously established reason why -- your character will not be convincing. They will be seen as a puppet.</p>
-
-<p><strong>External pressures </strong>tend to be more persuasive than <strong>internal pressures</strong>. For instance, saying 'the protagonist didn't do X because he's dumb' is an internal pressure; it's easy but bad writing. Bad weather is an external pressure, but it's also easy and unpersuasive. Good pressures tend to be a mix of internal and external pressure foreshadowed in earlier scenes; i.e. protagonist is X type of person, therefore, in a type Y scenario, they're likely to fail. Finding a way to get this info across tacitly within the plot (as opposed to merely being expository) is part of good writing technique. Really good writers get this info across inobtrusively inside exciting plot-moving scenes, without you even realising it; it's only later when the 'Y scenario' eventuates, you flip back and realise it was always heading that way.</p>
-<p>A good story will early on introduce the protagonist as a X type of person (internal pressure) and that a Y type of scenario (external pressure) looms on the horizon. But, also show protagonist averting this – and failing. Then attempting to avert again – and failing. The situation grows more desperate as type Y scenario looms. Finally protagonist must confront type Y scenario.</p>
-
-<h2 id="post-3-9" className="blog-post-title">3.9: Romance: Three Kinds</h2>
-<p>This tip relates not only to romance genre stories but any plot with two love interests (LI) who get together by the end of the story. There are generally three kinds of romances: Pursuit; Revelation, and Conspiracy. </p>
-
-<p className='purple-bold'> (1) Pursuit</p>
-<p>The protagonist is in love and spends the story actively pursuing their LI. Usually, the LI either doesn’t know the protagonist exists, or doesn’t know the ‘true’ protagonist.</p>
-<p>Plot points should work to keep the LIs as apart as possible, motivating the protagonist to re-double his/her efforts to pursuit. This means putting up obstacles in protagonist’s way, and making him/her overcome them. </p>
-<p>The LIs need not be kept physically apart. The protagonist may already be very close to the LI, but have some secret true self they have not revealed to the LI (e.g. a superhero alter ego, or something more subtle). For instance, in tragicomic romance Cyrano de Bergerac, love interests Cyrano and Roxane are frequently together and interacting, but never in a relationship, because both characters hide their true desires from each other.</p>
-
-<p><u>Types of Pursuit</u></p>
-
-<p className='blue-bold'> (A) Direct Pursuit</p>
-<p>If the plot trajectory is a strict pursuit of the LI, the pursuit is ‘direct’. The ‘rescue’ is the most classic form: the LI (e.g. a princess) is kidnapped, and the protagonist (e.g. a knight) goes to save her. The obstacle may be the physical distance separating the LIs, or a dangerous situation or threat. Once the obstacle has been overcome, mutual union is virtually guaranteed.</p>
-
-<p className='blue-bold'> (B) Pursuit by Proxy</p>
-<p>The protagonist engages in a pursuit whose reward is not the LI themselves, but a resource which will help the protagonist win the LI. This means there are actually two pursuits: the plot obstacle, and winning the LI. Failing the first does not eliminate the second, but conversely, winning the first does not guarantee the second.</p>
-<p>You have latitude to go for a ‘Pixar’ ending here; regardless of the obstacle outcome (won or lost) it does not represent the story’s ultimate resolution. Instead, the protagonist successfully utilizes the lessons learned in the process to win the love interest in an oblique way. It may be creative, but should seem to be simpler or make more intuitive sense; avoid an oblique victory which completely invents a never before referenced method for winning the LI. The victory should not introduce new story material; it’s got to conclude everything that’s come before.</p>
-
-<p><u>Potential Pitfalls of Pursuit</u></p>
-<p className='blue-bold'> (A) The Love Interest is the obstacle</p>
-<p>The obstacle should not be the protagonist’s refusal to accept ‘no’. Thus, the obstacle should not be the LI his/herself (i.e. his/her dismissal of the protagonist). The LI should never say ‘no.’ If a protagonist pursues a LI who has dismissed them, they have become deluded. The obstacles should hinder protagonist’s attempts to so much as get close to the LI, or enable him to ask her out or charm her. This is probably why the cliché ‘rescue’ is so popular; it’s a useful obstacle to keep the LIs apart without any unfortunate intimation the ‘damsel’ is deliberately separating herself from the protagonist.</p>
-<p>LIs may have disagreements with the protagonist (it’s more interesting than a ‘yes man’ character), but it should be mutual rather than a ‘I’m right, you’re wrong’ scenario. In a good resolution, both characters learn, grow and change, and admit they were wrong before reconciling.</p>
-
-<p className='blue-bold'> (B) The Love Interest's will is overcome</p>
-<p>Avoid the unfortunate implication that the LI has been overcome by sheer brute force. This is particular problem with the rescue pursuit, where the protagonist has done something so massively favourable to the LI (such as saving their life), the LI is put in an uncomfortable situation where they practically must accept the protagonist as an eligible suitor, compatibility be damned! </p>
-<p>A story may be susceptible to this where the pursuit involves intense or lengthy effort. It militates away from the LI’s agency/latitude to select what they want, and characters who lack separate goals from the protagonist are generally weak and un-engaging characters.</p>
-<p>It is more meaningful if the LI has the latitude to choose, but ultimately does select the protagonist freely. You may even emphasize their free choice by putting the LI in a position where selecting the protagonist would entail risks or stakes, and the LI chooses them anyway. This may create a ‘reverse pursuit’ where the LI bears hardship to pursue the protagonist – much more satisfying than if it was one-sided.</p>
-
-<p className='purple-bold'> (2) Revelation</p>
-<p>The protagonist isn’t in love initially, but later in the story, comes to a revelation that they have fallen in love with someone who was there all along.</p>
-<p>In contrast to ‘pursuit’ the plot should work to keep the LIs as together as possible, even against their personal preferences. There may be some exterior device to justify this: the LIs are members of a team tasked with some objective, and fall in love incidentally, or even at the risk of the objective (to create conflict and suspense). Such a device is especially necessary if LIs despise or deride each other initially. </p>
-<p>An example of the Revelation is The Silver Linings Playbook. Interestingly, the romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
-
-<p><u>Potential Pitfalls of Revelation</u></p>
-<p className='blue-bold'> (A) Unlikeable Love Interests</p>
-<p>Conflict in a revelation romance can be heightened the more LIs oppose each other. But oppositional LIs does not mean annoying, confrontational, disagreeing LIs. Sexual tension does not mean characters have to snap at each other over minor disagreements. </p>
-<p>Bad revelations read like stories where LIs sit around all day stewing on how annoying it would be to have sex with the other – incredibly uncompelling. The protagonist should want to have sex with the LI, but it’s not open to them in the circumstances – this is what creates the sexual tension; the characters want, but cannot have each other, yet must stick together anyway to complete some plot task. Do not try to hide this fact from the audience, they know better. </p>
-<p>Protagonists who hide behind a resentful fantasy that the LI is annoying and obnoxious shoot themselves in the foot. Either the LI is truly obnoxious, or the protagonist is the obnoxious one for falsely claiming the LI is. Either way, one or both of your characters is obnoxious and risks audience disengagement and sympathy.</p>
-<p>The same rule for obstacles under pursuit romances apply to the obstacles for revelation: characters should be blindsided by the developing romance due to external pressures, not internal pressures. Internal pressures occur inside the characters themselves, e.g. lack of insight that one has a crush, refusal to admit they could ever fall for that type of person, not wanting to be in a relationship, etc. External pressures are forced upon the character from outside: e.g. having to choose between LI and an important assignment/task, spending time with LI ingratiates protagonist into LIs ‘world’ which has bad points, spending time with LI is necessary but costly, etc.</p>
-
-<p className='purple-bold'> (3) Conspiracy</p>
-<p>It’s evident the LIs love each other deeply, but the externalized obstacle is broad and sweeping, possibly global, cultural – the story’s entire milieu is the antagonist. It’s usually some outside force (e.g. their small-minded community) set upon keeping them apart. There is an understanding the union breaks the accepted rules and customs or infringes some social code, or risks some great harm to society. Alternatively, it may bring about a bad event. Or, maybe nothing bad would happen, rather a good thing would be foreclosed. It doesn’t matter if the risk would not happen, only that the antagonist is convinced it would happen – often the conclusion involves realizing the antagonist’s dire projections were proven categorically wrong.</p>
-<p>Examples of the conspiracy romance include Romeo and Juliet, 1984, and Twilight. </p>
-<p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship’s toll or even dies, it almost definitely is a Conspiracy. </p>
-          
-<h5>3.9.1 Main Differences Between the Three Types</h5>
-          <p>These romances may overlap, the main distinction where the LIs begin the story, in terms of how they feel towards each other. </p>
-          <ul>
-            <li>In a <strong>Pursuit</strong>, the affection is initially unilateral, which is what drives the pursuit. The end goal is the pursuit becoming mutual (the LI reciprocating the affection);</li>
-            <li>In a <strong>Revelation</strong>, the affection is non-existent initially, although not necessarily mutually so – the LI may like the protagonist, but cannot be the converse. The main plot goal drives the story, and the inevitable emergence  of affection creates a kind of obstacle (more accurately, the plot goal is the obstacle of the affection);</li>
-            <li>In a <strong>Conspiracy</strong>, the affection is present initially. The goal is not for the relationship to begin or develop, but to endure. If anything, the relationship may slowly risk eroding or destructing as the story progresses. </li><a href="#f7"><sup>7</sup></a>
-          </ul>
-          
-          <p>Know which type best suits which genre: pursuits work well for almost anything, particularly adventure and action, but not horror. Revelation works better in horror. Conspiracy works well for time-period altered stories (set in the future or past) or anything with background lore, but not so well for action or adventure. </p>
-          
-          <h5>3.9.2 Other Types</h5>
-<p>There might conceivably be other types of romances, such as romantic tragedies such as ‘unrequited romances’ or the traditional ‘comic’ romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker would probably argue these are merely ‘dark’ versions of the established types, e.g: <a href="#f8"><sup>8</sup></a></p>
-<p>The unrequited romance is merely a ‘dark’ pursuit; the protagonist never actually gets the LI. </p>
-
-          <h5>3.9.3 Final Note: Mixing It Up: </h5>
-<p>Making these delineations is not to say a romance must follow them on rails. You might have a romance which fuses different elements of all three.</p>
-          <p>For instance, a protagonist starts with a pursuit in the first act. By the end of the first act protagonist has successfully ‘won’ the LI, but now realizes he/she is different than first appeared (e.g. by deceit or misunderstanding). In the second act, the protagonist is stuck with the LI to the completion of a task, and in the meantime, gives them a second chance, getting to know them better (and accurately). In the third act, the protagonist has a revelation he/she has fallen in love with the accurate LI, but some larger force now conspires to keep them apart (bonus points if it was something the protagonist earlier set off after being insulted by the LIs deceit).</p>
-<p>Beauty and the Beast is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
-
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
-
-<ThoughtForm />
-
-<ThoughtList />
-
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
-
-<div className="footnotes">
-<h4>Footnotes</h4>
+                <h5>3.7.2 	Bork’s Story Problems</h5>
+                <p>Bork lists eight main types of story problems:</p>
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <ol>
-                  <li id="f1">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
-                  <li id="f2">Erik Bork, <i>The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction.</i></li>
-                  <li id="f3">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
-                  <li id="f4">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
-                  <li id="f5">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
-                  <li id="f6">Interestingly, if the protagonist was the female, it would be a pursuit (she is immediately attracted to the protagonist and literally pursues him), whereas he takes longer to heal from past trauma and be ready for a new relationship. But because it’s from the protagonist’s POV, it’s revelation.</li>
-                  <li id="f7">See Romeo and Juliet.</li>
-                  <li id="f8">Chris Booker, <i>The Seven Basic Plots.</i></li>
+                    <li>Someone or something is trying to kill me (or us). </li>
+                    <li>Someone or something is trying to destroy my life as I know it. </li>
+                    <li>I have a once-in-a-lifetime but incredibly difficult opportunity to rise up and be somebody, in a big way, that could forever change my sense of self. </li>
+                    <li>I have to rescue someone from a potentially terrible fate. </li>
+                    <li>I have to reach a distant and life-changing “prize,” which seems nearly impossible to do. </li>
+                    <li>I have to defeat powerful “bad guys” who have hurt and/or are threatening innocents. </li>
+                    <li>I have to escape a terrible situation, which prevents me from living freely and happily. </li>
+                    <li>I have to win over and/or hang on to a desired life partner, with whom I have a chance at my best life. But something is hugely in the way of that.</li>
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                <h5>3.7.3 	Snyder’s Story Problems</h5>
+                <u>Save The Cat!, Blake Snyder.</u>
+                <p>Blake Snyder says all stories centre around one of these 10 problems:</p><a href="#f3"><sup>3</sup></a>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <ol>
+                    <li><p className='purple-bold'>Monster in the House</p> Characters are trapped in a confined space with a ‘monster’ or dangerous entity out to get them.</li>
+                    <li><p className='purple-bold'>Golden Fleece</p> The ‘quest’ myth: a hero goes on a journey in search of something, encountering interesting things or people along the way. Normally, by the end, the hero has undergone a personal transformation. </li>
+                    <li><p className='purple-bold'>Out of the Bottle</p> A wish comes true for the protagonist or they get something akin to magic – for better or worse. Doesn’t have to be supernatural (e.g. someone accidentally comes into a fortune). The flipside is the wish ends up being a curse.</li>
+                    <li><p className='purple-bold'>Dude with a Problem</p> An ordinary guy (or girl) finds himself in extraordinary circumstances. </li>
+                    <li><p className='purple-bold'>Rites of Passage</p> Involve characters going through traditional milestone events (school, first relationship, wedding, mid-life crisis, etc)</li>
+                    <li><p className='purple-bold'>Buddy Love</p> Two characters navigating plot problems together. Usually the buddies are opposites or in conflict, but learn to cooperate and appreciate each other.</li>
+                    <li><p className='purple-bold'>Whydunnit</p> Normally detective stories, an exploration of human nature and the dark side of humanity.</li>
+                    <li><p className='purple-bold'>The Fool Triumphant</p> Involve an underdog, a ‘little, silly, and overlooked man’ as protagonist, set against a ‘big establishment,’ who in the end is the one made the fool of.</li>
+                    <li><p className='purple-bold'>Institutionalized</p> Involves a group as the protagonist (or the protagonist’s being indivisibly part of a larger group). The group may be a family, or have no relation other than all being in the same circumstances, e.g. colleagues, or soldiers, or mental patients. The group dynamic is often crazy and self-destructive, the themes relate to identity and the danger of herd mentality.</li>
+                    <li><p className='purple-bold'>Superhero</p> The opposite of ‘Dude With A Problem’ – here, an extraordinary guy in an ordinary world. The person might be good or bad or just different. They don’t have to be supernatural.</li>
+                  </ol>
+                </div>
+
+                <h5>3.7.4 	Problems with Plots</h5>
+
+                <p>Howard Mittelmark and Sandra Newman list common problems with plots: </p><a href="#f4"><sup>4</sup></a>
+
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p className='purple-bold'> I. The Lost Sock</p>
+                  <p>The plot is too slight or trivial. </p>
+                  <p>The plot of a story “should be important enough to change someone’s life forever.”<a href="#f5"><sup>5</sup></a> It should also have broad interest – just because you find something fascinating, doesn’t mean the broader public does.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Ensure your plot revolves around a dilemma involving a ‘sex word’ (see 6.2 Sex Words);</li>
+                    <li>Ensure your story is not a thinly veiled excuse for venting or proselytizing;</li>
+                    <li>Make sure character or plot trivia is brief and in the background, not the foreground.</li>
+                  </ul>
+
+                  <p className='purple-bold'> II The Waiting Room</p>
+                  <p>The substance of the plot is too long delayed. </p>
+                  <p>Readers don’t want to ‘settle into’ a story; they want to start from the first sentence.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Start the story as late as possible – i.e. as close as possible to the first important scene;</li>
+                    <li>Smuggle description into active scenes;</li>
+                    <li>Remove introspection; suggest thoughts and feelings through behaviour and dialogue;</li>
+                  </ul>
+
+                  <p className='purple-bold'> III. The Long Runway</p>
+                  <p>A protagonist’s childhood is recounted for no purpose. </p>
+                  <p>Readers don’t need to know everything about your protagonist; only as much necessary for the plot to make sense.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Get rid of childhood memories if the plot makes sense without them;</li>
+                    <li>Smuggle description into active scenes;</li>
+                    <li>Explicate your protagonist’s character through present action and conflict</li>
+                  </ul>
+
+                  <p className='purple-bold'> IV. The Vacation Slide Show</p>
+                  <p>Author substitutes location for story. </p>
+                  <p>Author substitutes location for story.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Settings should be described only to enrichen or add dimension to the plot;</li>
+                    <li>Settings should be described in a way which says something about the characters who find themselves there (rather than your favourite bits, or the bits remembered best by you)</li>
+                    <li>Alter or make up parts of settings which serve your plot better.</li>
+                    <li>Ensure description of the setting is not being ‘contaminated’ by your personal opinion; e.g. words like ‘unbelievable’ and ‘amazing’ are suspect.</li>
+                  </ul>
+
+                  <p className='purple-bold'> V. The Smoking Gun</p>
+                  <p>The reader is unintentionally mislead by details irrelevant to the plot. </p>
+                  <p>Readers will assume that significant or interesting elements introduced throughout a story will have a payoff later, otherwise the reader may feel cheated.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Ensure everything in your story furthers the plot.</li>
+                  </ul>
+
+                  <p className='purple-bold'> VI. Don't Mind Him</p>
+                  <p>A character’s problems remain unexplored. </p>
+                  <p>If characters have their own issues, these need to be resolved.</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Address problems with their own plot arcs </li>
+                    <li>Make sure subplots don’t overshadow the main plot; otherwise minimize or remove them. </li>
+                  </ul>
+
+                  <p className='purple-bold'> VII. The Deafening Hug</p>
+                  <p>The unintended love interest. </p>
+                  <p>If a protagonist gives the slightest suggestion of flattering another character, the reader will run with it, inferring the protagonist is in love with the character (no matter how absurd or taboo).</p>
+                  <u>Solutions: </u>
+                  <ul>
+                    <li>Tone down flattering descriptions of characters (particularly physical attributes);</li>
+                    <li>Draw more focus to characters’ flaws (or give them flaws in the first place);</li>
+                  </ul>
+                </div>
+
+                <h2 id="post-3-8" className="blog-post-title">3.8: Story Planning</h2>
+
+                <h5>3.8.1 	Bottom-Up and Top-Down</h5>
+                <p>Bottom-up (BU) writing means creating the tiny details first, and organising structure and story later. Top-down (TD) writing the opposite. </p>
+                <p>Think of it like building a house: BU means laying the bricks first, working out how big each room will be later. TD means sketching your measurements first, so you know how many bricks you'll need, and exactly where they'll go, before you start laying them.</p>
+                <p>A writer who says 'I make it up as I go along' is a BU writer.</p>
+                <p>BU writing has its advantages. The problem is the writing community is almost exclusively reliant on it, and for the wrong reasons.</p>
+                <p>Word count Olympics such as 'NaNoWriMo' and Stephen King's method of setting word count quotas fosters bottom up writing, causing top-down writing skill to atrophy. Pretty soon BU and writing are interchangeable and TD is entirely disregarded.</p>
+
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p className='purple-bold'> Example of BU planning:</p>
+
+                  <p className='indent-text-1'>There'll be a character called Dave Driver. He has a moustache. He wears a suit. He's a detective. He is cynical, but always first into office. A lawyer he used to hate became a barrister and then a judge. The judge slips implied insults in at the detective during court hearings. There are two prisons, one called ‘The Small Wolf,’ and one called ‘The Big Wolf,’ – ironically, the former is even worse than the latter. Someone smuggles a pet into the prison but it gets killed in a feud which kicks off a revenge sub-plot. Inmates write secret messages on playing cards and pass them to each other. An accused killer hates the sight of blood, but the prosecutor thinks this is faked. When he was a kid, the prosecutor saw someone drown, but didn’t alert anyone to help…etc.</p>
+                </div>
+
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p className='purple-bold'> Example of TD Planning:</p>
+                  <p className='indent-text-1'>It'll be a supernatural crime story. In the first Act there'll be a really strange murder. In the second Act the perpetrator is suspected innocent by the unpopular detective, but the body goes missing. In the third Act the detective has to fight the system to prevent the innocent getting executed, and get him out of prison. At the conclusion the victim turns out to be a shapeshifter (or intelligent zombie). The detective fails to prevent execution of the innocent, but he was infected by the zombie anyway, so it's a bittersweet ending as the innocent accepts the execution, but the detective doesn’t. In the epilogue, it’s implied the execution failed, because the innocent is now a zombie/shapeshifter as well – maybe his body has gone missing from the morgue.</p>
+                </div>
+                <p>See how in BU planning it takes a long time – if at all – to get an entire plot? But in TD planning you end up with a plot outline really quickly. You might be wondering: how did you come up with that plot outline so quickly (less than ten minutes) – see the sections on E Chain and Right-Angled Plot. </p>
+
+                <h5>3.8.2 	Word Generation is not Storytelling</h5>
+                <p>Don’t get word generation confused with story writing. When you write, making it up as you go along (or start off with BU writing), you’re experimenting with idea generation, but you have no story. Remember, from ‘1.2.3 More than a Series of Events,’ a story is not merely a series of events or details. It has gestalt meaningfulness. The example of BU planning above, is not a story. It’s a series of events or details – any one of them can be added or removed without substantive loss or gain. The example of TD planning, above, is a story. You cannot remove any single element without changing the overall meaning.</p>
+
+                <h5>3.8.3 	Plot Pressures</h5>
+                <p>In a game of chess you can never play a completely free game where you can make any move you want. You're always under pressure to some extent by your opponent's moves (as your opponent is constrained by your moves).</p>
+                <p>In a story, every character's actions are under narrative pressures, being setting, other characters' actions, general events, etc.</p>
+                <p>You want the reader to be convinced your protagonist acted naturally the way they did. In a game of chess, if the opponent's queen is available to you, you take it, unless there is a good reason you don't want to win. This is the same in a story; if certain actions are open to the protagonist, and they don't take them -- and there is no previously established reason why -- your character will not be convincing. They will be seen as a puppet.</p>
+
+                <p><strong>External pressures </strong>tend to be more persuasive than <strong>internal pressures</strong>. For instance, saying 'the protagonist didn't do X because he's dumb' is an internal pressure; it's easy but bad writing. Bad weather is an external pressure, but it's also easy and unpersuasive. Good pressures tend to be a mix of internal and external pressure foreshadowed in earlier scenes; i.e. protagonist is X type of person, therefore, in a type Y scenario, they're likely to fail. Finding a way to get this info across tacitly within the plot (as opposed to merely being expository) is part of good writing technique. Really good writers get this info across inobtrusively inside exciting plot-moving scenes, without you even realising it; it's only later when the 'Y scenario' eventuates, you flip back and realise it was always heading that way.</p>
+                <p>A good story will early on introduce the protagonist as a X type of person (internal pressure) and that a Y type of scenario (external pressure) looms on the horizon. But, also show protagonist averting this – and failing. Then attempting to avert again – and failing. The situation grows more desperate as type Y scenario looms. Finally protagonist must confront type Y scenario.</p>
+
+                <h2 id="post-3-9" className="blog-post-title">3.9: Romance: Three Kinds</h2>
+                <p>This tip relates not only to romance genre stories but any plot with two love interests (LI) who get together by the end of the story. There are generally three kinds of romances: Pursuit; Revelation, and Conspiracy. </p>
+
+                <p className='purple-bold'> (1) Pursuit</p>
+                <p>The protagonist is in love and spends the story actively pursuing their LI. Usually, the LI either doesn’t know the protagonist exists, or doesn’t know the ‘true’ protagonist.</p>
+                <p>Plot points should work to keep the LIs as apart as possible, motivating the protagonist to re-double his/her efforts to pursuit. This means putting up obstacles in protagonist’s way, and making him/her overcome them. </p>
+                <p>The LIs need not be kept physically apart. The protagonist may already be very close to the LI, but have some secret true self they have not revealed to the LI (e.g. a superhero alter ego, or something more subtle). For instance, in tragicomic romance Cyrano de Bergerac, love interests Cyrano and Roxane are frequently together and interacting, but never in a relationship, because both characters hide their true desires from each other.</p>
+
+                <p><u>Types of Pursuit</u></p>
+
+                <p className='blue-bold'> (A) Direct Pursuit</p>
+                <p>If the plot trajectory is a strict pursuit of the LI, the pursuit is ‘direct’. The ‘rescue’ is the most classic form: the LI (e.g. a princess) is kidnapped, and the protagonist (e.g. a knight) goes to save her. The obstacle may be the physical distance separating the LIs, or a dangerous situation or threat. Once the obstacle has been overcome, mutual union is virtually guaranteed.</p>
+
+                <p className='blue-bold'> (B) Pursuit by Proxy</p>
+                <p>The protagonist engages in a pursuit whose reward is not the LI themselves, but a resource which will help the protagonist win the LI. This means there are actually two pursuits: the plot obstacle, and winning the LI. Failing the first does not eliminate the second, but conversely, winning the first does not guarantee the second.</p>
+                <p>You have latitude to go for a ‘Pixar’ ending here; regardless of the obstacle outcome (won or lost) it does not represent the story’s ultimate resolution. Instead, the protagonist successfully utilizes the lessons learned in the process to win the love interest in an oblique way. It may be creative, but should seem to be simpler or make more intuitive sense; avoid an oblique victory which completely invents a never before referenced method for winning the LI. The victory should not introduce new story material; it’s got to conclude everything that’s come before.</p>
+
+                <p><u>Potential Pitfalls of Pursuit</u></p>
+                <p className='blue-bold'> (A) The Love Interest is the obstacle</p>
+                <p>The obstacle should not be the protagonist’s refusal to accept ‘no’. Thus, the obstacle should not be the LI his/herself (i.e. his/her dismissal of the protagonist). The LI should never say ‘no.’ If a protagonist pursues a LI who has dismissed them, they have become deluded. The obstacles should hinder protagonist’s attempts to so much as get close to the LI, or enable him to ask her out or charm her. This is probably why the cliché ‘rescue’ is so popular; it’s a useful obstacle to keep the LIs apart without any unfortunate intimation the ‘damsel’ is deliberately separating herself from the protagonist.</p>
+                <p>LIs may have disagreements with the protagonist (it’s more interesting than a ‘yes man’ character), but it should be mutual rather than a ‘I’m right, you’re wrong’ scenario. In a good resolution, both characters learn, grow and change, and admit they were wrong before reconciling.</p>
+
+                <p className='blue-bold'> (B) The Love Interest's will is overcome</p>
+                <p>Avoid the unfortunate implication that the LI has been overcome by sheer brute force. This is particular problem with the rescue pursuit, where the protagonist has done something so massively favourable to the LI (such as saving their life), the LI is put in an uncomfortable situation where they practically must accept the protagonist as an eligible suitor, compatibility be damned! </p>
+                <p>A story may be susceptible to this where the pursuit involves intense or lengthy effort. It militates away from the LI’s agency/latitude to select what they want, and characters who lack separate goals from the protagonist are generally weak and un-engaging characters.</p>
+                <p>It is more meaningful if the LI has the latitude to choose, but ultimately does select the protagonist freely. You may even emphasize their free choice by putting the LI in a position where selecting the protagonist would entail risks or stakes, and the LI chooses them anyway. This may create a ‘reverse pursuit’ where the LI bears hardship to pursue the protagonist – much more satisfying than if it was one-sided.</p>
+
+                <p className='purple-bold'> (2) Revelation</p>
+                <p>The protagonist isn’t in love initially, but later in the story, comes to a revelation that they have fallen in love with someone who was there all along.</p>
+                <p>In contrast to ‘pursuit’ the plot should work to keep the LIs as together as possible, even against their personal preferences. There may be some exterior device to justify this: the LIs are members of a team tasked with some objective, and fall in love incidentally, or even at the risk of the objective (to create conflict and suspense). Such a device is especially necessary if LIs despise or deride each other initially. </p>
+                <p>An example of the Revelation is The Silver Linings Playbook. Interestingly, the romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
+
+                <p><u>Potential Pitfalls of Revelation</u></p>
+                <p className='blue-bold'> (A) Unlikeable Love Interests</p>
+                <p>Conflict in a revelation romance can be heightened the more LIs oppose each other. But oppositional LIs does not mean annoying, confrontational, disagreeing LIs. Sexual tension does not mean characters have to snap at each other over minor disagreements. </p>
+                <p>Bad revelations read like stories where LIs sit around all day stewing on how annoying it would be to have sex with the other – incredibly uncompelling. The protagonist should want to have sex with the LI, but it’s not open to them in the circumstances – this is what creates the sexual tension; the characters want, but cannot have each other, yet must stick together anyway to complete some plot task. Do not try to hide this fact from the audience, they know better. </p>
+                <p>Protagonists who hide behind a resentful fantasy that the LI is annoying and obnoxious shoot themselves in the foot. Either the LI is truly obnoxious, or the protagonist is the obnoxious one for falsely claiming the LI is. Either way, one or both of your characters is obnoxious and risks audience disengagement and sympathy.</p>
+                <p>The same rule for obstacles under pursuit romances apply to the obstacles for revelation: characters should be blindsided by the developing romance due to external pressures, not internal pressures. Internal pressures occur inside the characters themselves, e.g. lack of insight that one has a crush, refusal to admit they could ever fall for that type of person, not wanting to be in a relationship, etc. External pressures are forced upon the character from outside: e.g. having to choose between LI and an important assignment/task, spending time with LI ingratiates protagonist into LIs ‘world’ which has bad points, spending time with LI is necessary but costly, etc.</p>
+
+                <p className='purple-bold'> (3) Conspiracy</p>
+                <p>It’s evident the LIs love each other deeply, but the externalized obstacle is broad and sweeping, possibly global, cultural – the story’s entire milieu is the antagonist. It’s usually some outside force (e.g. their small-minded community) set upon keeping them apart. There is an understanding the union breaks the accepted rules and customs or infringes some social code, or risks some great harm to society. Alternatively, it may bring about a bad event. Or, maybe nothing bad would happen, rather a good thing would be foreclosed. It doesn’t matter if the risk would not happen, only that the antagonist is convinced it would happen – often the conclusion involves realizing the antagonist’s dire projections were proven categorically wrong.</p>
+                <p>Examples of the conspiracy romance include Romeo and Juliet, 1984, and Twilight. </p>
+                <p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship’s toll or even dies, it almost definitely is a Conspiracy. </p>
+
+                <h5>3.9.1 Main Differences Between the Three Types</h5>
+                <p>These romances may overlap, the main distinction where the LIs begin the story, in terms of how they feel towards each other. </p>
+                <ul>
+                  <li>In a <strong>Pursuit</strong>, the affection is initially unilateral, which is what drives the pursuit. The end goal is the pursuit becoming mutual (the LI reciprocating the affection);</li>
+                  <li>In a <strong>Revelation</strong>, the affection is non-existent initially, although not necessarily mutually so – the LI may like the protagonist, but cannot be the converse. The main plot goal drives the story, and the inevitable emergence  of affection creates a kind of obstacle (more accurately, the plot goal is the obstacle of the affection);</li>
+                  <li>In a <strong>Conspiracy</strong>, the affection is present initially. The goal is not for the relationship to begin or develop, but to endure. If anything, the relationship may slowly risk eroding or destructing as the story progresses. </li><a href="#f7"><sup>7</sup></a>
+                </ul>
+
+                <p>Know which type best suits which genre: pursuits work well for almost anything, particularly adventure and action, but not horror. Revelation works better in horror. Conspiracy works well for time-period altered stories (set in the future or past) or anything with background lore, but not so well for action or adventure. </p>
+
+                <h5>3.9.2 Other Types</h5>
+                <p>There might conceivably be other types of romances, such as romantic tragedies such as ‘unrequited romances’ or the traditional ‘comic’ romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker would probably argue these are merely ‘dark’ versions of the established types, e.g: <a href="#f8"><sup>8</sup></a></p>
+                <p>The unrequited romance is merely a ‘dark’ pursuit; the protagonist never actually gets the LI. </p>
+
+                <h5>3.9.3 Final Note: Mixing It Up: </h5>
+                <p>Making these delineations is not to say a romance must follow them on rails. You might have a romance which fuses different elements of all three.</p>
+                <p>For instance, a protagonist starts with a pursuit in the first act. By the end of the first act protagonist has successfully ‘won’ the LI, but now realizes he/she is different than first appeared (e.g. by deceit or misunderstanding). In the second act, the protagonist is stuck with the LI to the completion of a task, and in the meantime, gives them a second chance, getting to know them better (and accurately). In the third act, the protagonist has a revelation he/she has fallen in love with the accurate LI, but some larger force now conspires to keep them apart (bonus points if it was something the protagonist earlier set off after being insulted by the LIs deceit).</p>
+                <p>Beauty and the Beast is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
+
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+
+                <ThoughtForm />
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
+
+                <div className="footnotes">
+                  <div className="p-3 mb-3 rounded pixar-box">
+                    <h4>Footnotes</h4>
+                    <ol>
+                      <li id="f1">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
+                      <li id="f2">Erik Bork, <i>The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction.</i></li>
+                      <li id="f3">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
+                      <li id="f4">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
+                      <li id="f5">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
+                      <li id="f6">Interestingly, if the protagonist was the female, it would be a pursuit (she is immediately attracted to the protagonist and literally pursues him), whereas he takes longer to heal from past trauma and be ready for a new relationship. But because it’s from the protagonist’s POV, it’s revelation.</li>
+                      <li id="f7">See Romeo and Juliet.</li>
+                      <li id="f8">Chris Booker, <i>The Seven Basic Plots.</i></li>
+                    </ol>
+                  </div>
+                </div>
+
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>
 
             <nav className="blog-pagination">
-              <a className="btn btn-outline-primary" href="#">Back to Top</a>  
+              <a className="btn btn-outline-primary" href="#">Back to Top</a>
             </nav>
 
           </div>

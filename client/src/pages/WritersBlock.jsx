@@ -7,14 +7,14 @@ export default function WritersBlock() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Writer's Block</h1>
 
         <div id="wrapper" className="text-left">
-          <p className="lead my-3">Style is […] a matter of knowing when one has said enough.</p>
-          <i>— Hallie & Whit Burnett, Fiction Writer&apos;s Handbook</i>
-          <p className="lead my-3">If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.</p>
-          <i>— Somerset Maugham</i>
+          <p className="lead my-3">If there's a book that you want to read, but it hasn't been written yet, then you must write it.</p>
+          <i>— Toni Morrison</i>
+          <p className="lead my-3">You can always edit a bad page. You can't edit a blank page.</p>
+          <i>— Jodi Picoult</i>
           <p className="lead my-3">Poor Faulkner. Does he really think big emotions come from big words?</p>
           <i>— Ernest Hemingway</i>
           <p className="lead my-3">Good writing is like a window pane.</p>

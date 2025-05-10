@@ -7,7 +7,7 @@ export default function MainCharacters() {
   return (
     <div>
 
-      <div className="jumbotron p-3 p-md-5 text-white text-center rounded bg-dark">
+      <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
         <h1 className="display-4">Main Characters</h1>
 
         <div id="wrapper" className="text-left">

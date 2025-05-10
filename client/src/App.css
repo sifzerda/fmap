@@ -367,6 +367,20 @@ h1.jumbo-bg-dark-text {
   z-index: 1;
   text-align: left;
   color: var(--yellow);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease-out;
+  padding: 0 16px;
+}
+
+.list-wrapper {
+  overflow: hidden;
+  transition: height 0.9s ease-out;
+}
+
+.list-content.visible {
+  max-height: 720px;
+  padding: 16px;
 }
 
 /* Links inside the dropdown */
@@ -788,26 +802,6 @@ p.code-left-black {
 
 /*-------- end chiastic*/
 
-/* ------ hrefs list animation ----------- */
-
-.list-wrapper {
-  overflow: hidden;
-  transition: height 0.9s ease-out;
-}
-
-.list-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.9s ease-out;
-  padding: 0 16px;
-}
-
-.list-content.visible {
-  max-height: 720px;
-  /* how much of the list shows when opened */
-  padding: 16px;
-}
-
 /* ------ -------------------- ----------- */
 
 p.indent-text-1 {
@@ -1104,18 +1098,18 @@ a.icon:hover {
 }
 
 .custom-light-box {
-  background-color: #fdfcce !important;  
-  color: #000;    
-  border: 1px black solid;    
+  background-color: #fdfcce !important;
+  color: #000;
+  border: 1px black solid;
 }
 
 li.remove-bullets {
-  list-style-type: none!important;
+  list-style-type: none !important;
   padding: 0;
 }
 
 h4.font {
-  color: var(--light-red);
+  color: var(--yellow);
 }
 
 p.mb-0-1 {
@@ -1397,38 +1391,40 @@ div.blue-separator {
   margin: 0 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.tooltip-box {
+  visibility: hidden;
+  opacity: 0;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 105%;
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
 }
+
+.tooltip-container:hover .tooltip-box {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 /* ========================= media queries ======================== */
 
