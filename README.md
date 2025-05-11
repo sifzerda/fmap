@@ -1,4 +1,4 @@
-# The Fiction Map
+# Fiction Map
 
 ## Table of Contents
 
@@ -193,7 +193,9 @@ This project is substantially complete, with minor formalization and addition of
     - [x] title 
     - [ ] logline
     - [ ] synopsis
-    
+
+- [ ] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
+
 Changes:
 
 - removed padding-top: 40px for div justify center (footer) /
