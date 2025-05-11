@@ -274,20 +274,19 @@ body,
   margin-bottom: 5px;
 }
 
-.input-z {
+.input-z,
+.input-t {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
+  background-color: white;
 }
 
-.input-z:focus {
-  border: 2px var(--cyan) solid;
-}
-
-.input-z.focused {
-  border-color: var(--cyan);
+.input-z:focus,
+.input-t:focus {
+  border: 2px var(--blue) solid;
 }
 
 .error-text {
@@ -1191,16 +1190,24 @@ code {
   position: relative;
 }
 
+
+label {
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.2em;
+  margin-top: 10px;
+  color: var(--cyan);
+  font-family: 'Source Code Pro';
+}
+
 .label {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
-  color: var(--cyan);
   border: rgb(255, 255, 255) solid 2px;
   padding: 10px;
-  display: none;
   background-color: var(--bootstrap-dark);
 }
 
@@ -1250,18 +1257,6 @@ form {
 .form-container button:hover {
   background-color: white;
   color: var(--blue);
-}
-
-label {
-  display: block;
-  text-decoration-line: underline;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 0.2em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  color: var(--cyan);
-  font-family: 'Source Code Pro';
-
 }
 
 div.contact-icons {

@@ -57,7 +57,7 @@ function ContactForm() {
                     placeholder="Enter your message here"
                     name="message"
                     value={input.message}
-                    className="input-z"
+                    className="input-t"
                     onChange={handleChange}
                     required
                 />
