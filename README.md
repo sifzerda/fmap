@@ -111,10 +111,60 @@ This project is substantially complete, with minor formalization and addition of
 - [ ] ~~A web3form contact page (pull from react challenge)~~
 - [ ] ~~Go through source word .doc, find all review comments, insert these as cross-hyperlinks to page paragraphs~~
 - [ ] Fix up reference page, grab all footnotes
-- [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
+- [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff:
+    - [x] story
+    - [x] premise
+    - [x] plot
+    - [x] themes
+    - [x] conflict
+    - [ ] scenes
+    - [x] main characters
+    - [x] secondary characters
+    - [x] setting
+    - [ ] subtext 
+    - [ ] description
+    - [ ] dialogue
+    - [ ] suspense
+    - [ ] pov
+    - [ ] voice
+    - [x] antagonists
+    - [ ] the first words
+    - [ ] the next words
+    - [ ] the last words
+    - [ ] writing devices
+    - [ ] writing block
+    - [ ] editing
+    - [ ] title 
+    - [ ] logline
+    - [ ] synopsis
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
 - [ ] fill in About summary cards for each chapter
-- [ ] change bs-light gold boxes to 'custom light box' (pale yellow)
+    - [x] story
+    - [x] premise
+    - [x] plot
+    - [ ] themes
+    - [ ] conflict
+    - [ ] scenes
+    - [ ] main characters
+    - [ ] secondary characters
+    - [x] setting
+    - [ ] subtext 
+    - [ ] description
+    - [ ] dialogue
+    - [ ] suspense
+    - [ ] pov
+    - [ ] voice
+    - [ ] antagonists
+    - [ ] the first words
+    - [ ] the next words
+    - [ ] the last words
+    - [ ] writing devices
+    - [x] writing block
+    - [x] editing
+    - [x] title 
+    - [x] logline
+    - [x] synopsis
+- [x] change bs-light gold boxes to 'custom light box' (pale yellow)
 - [ ] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
 

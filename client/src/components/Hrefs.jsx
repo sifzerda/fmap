@@ -39,7 +39,7 @@ function Hrefs() {
                     <li><Link to="/POV" onMouseDown={handleLinkClick}>POV</Link></li>
                     <li><Link to="/Voice" onMouseDown={handleLinkClick}>Voice</Link></li>
                     <li><Link to="/Antagonists" onMouseDown={handleLinkClick}>Antagonists</Link></li>
-                    <li><a href="/TheFirstWords" onMouseDown={handleLinkClick}>The First Words</a></li>
+                    <li><Link to="/TheFirstWords" onMouseDown={handleLinkClick}>The First Words</Link></li>
                     <li><Link to="/TheNextWords" onMouseDown={handleLinkClick}>The Next Words</Link></li>
                     <li><Link to="/TheLastWords" onMouseDown={handleLinkClick}>The Last Words</Link></li>
                     <li><Link to="/WritingDevices" onMouseDown={handleLinkClick}>Writing Devices</Link></li>
