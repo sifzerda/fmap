@@ -36,7 +36,7 @@ body {
 
 /* fiction-writer css selectors*/
 
-h1.display-4 {
+.display-4 {
   font-size: 6rem;
   margin: 27px 0;
   justify-content: center;
@@ -76,10 +76,6 @@ p.lead.my-3 {
   color: white;
 }
 
-#wrapper i {
-  font-size: 1rem;
-}
-
 *:focus,
 *:active {
   outline: none !important;
@@ -91,95 +87,8 @@ p.lead.my-3 {
   list-style: none;
 }
 
-.wrapper .icon {
-  position: relative;
-  background: #ffffff;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #ffffff;
-  color: #ffffff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #ffffff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
-  color: #ffffff;
-}
-
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
-  color: #ffffff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
-  color: #ffffff;
-}
-
-.wrapper .github:hover,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip::before {
-  background: #333333;
-  color: #ffffff;
-}
-
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background: #CD201F;
-  color: #ffffff;
+#wrapper i {
+  font-size: 1rem;
 }
 
 /* -----------------------*/
@@ -293,14 +202,14 @@ body,
   color: #dc3545;
 }
 
-h2.login-title {
+.login-title {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
   color: var(--yellow);
 }
 
-div.container.my-1-9 {
+.container.my-1-9 {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -321,7 +230,7 @@ div.container.my-1-9 {
   border-radius: 10px;
 }
 
-h1.jumbo-bg-dark-text {
+.jumbo-bg-dark-text {
   margin: 32px 0;
   color: var(--blue);
   font-size: 35px;
@@ -444,7 +353,7 @@ h1.jumbo-bg-dark-text {
   padding: 20px;
 }
 
-header.header {
+.header {
   background: var(--bootstrap-dark);
 }
 
@@ -593,7 +502,7 @@ h1:after {
   animation: shad-anim 15s linear infinite;
 }
 
-h1.m-0.p-0 {
+.m-0.p-0 {
   font-size: 2em;
   text-shadow: .05em .05em 0 rgb(0, 255, 221);
 }
@@ -616,33 +525,33 @@ footer {
   width: 100%;
 }
 
-span.bold-text-span {
+.bold-text-span {
   font-weight: bold;
 }
 
 /* span highlights ------------*/
 
-span.green-text-span {
+.green-text-span {
   background-color: rgb(132, 253, 62);
 }
 
-span.red-text-span {
+.red-text-span {
   background-color: rgba(253, 119, 119, 0.938);
 }
 
-span.blue-text-span {
+.blue-text-span {
   background-color: rgba(121, 164, 255, 0.938);
 }
 
-span.cyan-text-span {
+.cyan-text-span {
   background-color: rgba(142, 251, 255, 0.938);
 }
 
-span.highlight {
+.highlight {
   background: rgb(238, 255, 0);
 }
 
-p.purple-bold {
+.purple-bold {
   color: rgb(52, 50, 177);
   font-weight: bold;
   font-size: 1.0em;
@@ -650,7 +559,7 @@ p.purple-bold {
   font-style: italic;
 }
 
-p.blue-bold {
+.blue-bold {
   color: rgb(0, 79, 248);
   font-size: 1.0em;
   margin-left: 20px;
@@ -690,14 +599,12 @@ p.blue-bold {
   background-color: #f2f2f2;
 }
 
-p.code-left-black {
+.code-left-black {
   margin-left: 20px;
   margin-right: 20px;
   text-indent: 20px;
   color: black !important;
 }
-
-/* end span highlights ------------*/
 
 /* footnotes ------------*/
 
@@ -719,62 +626,20 @@ p.code-left-black {
 
 /* chiastic structure divs */
 
-.chiastic {
-  margin-left: 20px;
-}
-
-.chiastic>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
-.chiastic>div>div>div>div>div>div>div>div>div>div>div>div>div {
-  margin-left: 20px;
-}
-
+.chiastic,
+.chiastic>div,
+.chiastic>div>div,
+.chiastic>div>div>div,
+.chiastic>div>div>div>div,
+.chiastic>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div>div>div>div>div,
+.chiastic>div>div>div>div>div>div>div>div>div>div>div>div>div,
 .chiastic>div>div>div>div>div>div>div>div>div>div>div>div>div>div {
   margin-left: 20px;
 }
@@ -799,19 +664,17 @@ p.code-left-black {
   margin-left: 80px;
 }
 
-/*-------- end chiastic*/
-
 /* ------ -------------------- ----------- */
 
-p.indent-text-1 {
+.indent-text-1 {
   margin: 25px;
 }
 
-div.bucket-app {
+.bucket-app {
   border-top: var(--yellow) ridge 8px;
 }
 
-aside.sidebar {
+.sidebar {
   border-right: var(--yellow) ridge 8px;
 }
 
@@ -847,7 +710,7 @@ aside.sidebar {
   font-style: italic;
 }
 
-li.nav-item {
+.nav-item {
   min-width: 130px;
 }
 
@@ -919,7 +782,7 @@ h3 {
 
 /* About ================================================================== */
 
-img.profile-picture {
+.profile-picture {
   margin: 0 auto;
   display: block;
   max-width: 400px;
@@ -928,132 +791,47 @@ img.profile-picture {
   border: 1px solid black;
 }
 
-div.pixar-box {
+.pixar-box {
   background-color: rgb(228, 255, 255) !important;
 }
 
-div.p-3.mb-3.bg-light.rounded-pixar-2 {
+.p-3.mb-3.bg-light.rounded-pixar-2 {
   background-color: rgb(206, 243, 243) !important;
 }
 
-span.red-text-x {
+.red-text-x {
   color: var(--light-red);
 }
 
-span.blue-text-x {
+.blue-text-x {
   color: var(--blue);
 }
 
-span.blue-text-xx {
+.blue-text-xx {
   color: blue;
 }
 
-span.blue-text-xy {
+.blue-text-xy {
   color: blue;
   background: rgb(238, 255, 0);
 }
 
-span.red-text-xy {
+.red-text-xy {
   color: var(--light-red);
   background: rgb(238, 255, 0);
 }
 
-span.green-text-x {
+.green-text-x {
   color: rgb(38, 207, 38);
 }
 
-/* projects ---------------------------------------------------------*/
-
-p,
-p.project-description {
+p {
   color: #000000;
-}
-
-div.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 20px;
-}
-
-div.project-card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 400px;
-  border: 3px solid var(--bootstrap-lighter);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-div.project-card:hover {
-  opacity: 0.8;
-  border: var(--cyan) solid 3px;
-}
-
-.project-image {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-
-a.a-title {
-  margin: 20px;
-}
-
-/* opacity hover */
-.project-card {
-  background: var(--bootstrap-dark);
-  padding: 0px;
-  border: rgb(255, 255, 255) solid 2px;
-  border-radius: 3%;
-}
-
-.project-card img {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  border: var(--bootstrap-lighter) solid 3px;
-  border-radius: 3%;
-}
-
-.project-card:hover img {
-  opacity: .5;
-  border: var(--cyan) solid 3px;
-}
-
-p.portfolio-bio {
-  max-width: 700px;
-  margin: 20px auto;
-}
-
-/* Resume -----------------------------------------------------*/
-
-p.resume {
-  color: white;
-  font-family: 'Source Code Pro';
-  margin: 20px;
-}
-
-ul.resume {
-  color: var(--blue);
-  font-family: 'Source Code Pro';
-  margin: 20px auto;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-ul.resume li {
-  margin-left: 120px;
 }
 
 /* Footer -------------------------------------------------------------- */
 
-p.footer-text {
+.footer-text {
   color: white;
 }
 
@@ -1102,16 +880,16 @@ a.icon:hover {
   border: 1px black solid;
 }
 
-li.remove-bullets {
+.remove-bullets {
   list-style-type: none !important;
   padding: 0;
 }
 
-h4.font {
+.font {
   color: var(--yellow);
 }
 
-p.mb-0-1 {
+.mb-0-1 {
   color: white;
 }
 
@@ -1122,7 +900,7 @@ p.mb-0-1 {
   margin: 0 auto;
 }
 
-p.code-left {
+.code-left {
   margin-left: 20px;
   margin-right: 20px;
   text-indent: 20px;
@@ -1137,34 +915,6 @@ code {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.project-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.project-info {
-  padding: 20px;
-}
-
-.project-title {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.project-description {
-  font-size: 1rem;
-  color: #666;
 }
 
 .icons {
@@ -1182,14 +932,9 @@ code {
 
 /* =============================== Label on project img hover*/
 
-.project-card {
-  position: relative;
-}
-
 .image-container {
   position: relative;
 }
-
 
 label {
   text-decoration-line: underline;
@@ -1221,10 +966,6 @@ label {
 }
 
 /* ================== Contact Form ======================== */
-
-p.contact-text {
-  margin-right: 12px;
-}
 
 .form-container input,
 .form-container textarea {
@@ -1259,28 +1000,19 @@ form {
   color: var(--blue);
 }
 
-div.contact-icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
-}
-
 .icon-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 10px;
   margin-bottom: 10px;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
 }
 
 .icon-container p {
   margin-left: 15px;
-  /* Adds space between icon and text */
 }
 
-div.confirmation-message {
+.confirmation-message {
   background-color: var(--blue);
   border: 3px solid #ffffff;
   border-radius: 4px;
@@ -1290,108 +1022,21 @@ div.confirmation-message {
   padding: 10px;
 }
 
-a.icon {
+.icon {
   color: var(--blue);
   font-size: 1.3em;
   margin-right: 10px;
-
 }
 
-/* ================  Dropdown menu for subjects ========================== */
-
-/* Dropdown Button */
-.dropbtn {
-  border-radius: 4px;
-  color: white;
-  background-color: var(--bootstrap-dark);
-  border: 2px solid black;
-  font-family: 'Source Code Pro';
-  font-size: 16px;
-  margin: 0 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 8px;
-  min-width: 130px;
-}
-
-/* dropdown container  */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  color: rgb(0, 0, 0);
-}
-
-/* Dropdown Content  */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--bootstrap-dark);
-  min-width: 215px;
-  border: var(--yellow) solid 2px;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  text-align: left;
-  color: var(--yellow);
-}
-
-ol.nav.nav-tabs {
+.nav.nav-tabs {
   list-style: decimal-leading-zero;
 }
-
-/* Links inside the dropdown */
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content p:hover {
-  background-color: #ddd;
-}
-
-/* Show dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: var(--bootstrap-dark) !important;
-  color: var(--yellow) !important;
-  border: 2px solid var(--yellow) !important;
-}
-
-
-/* ================ Blue squares divider (fixed: green/volt) ========================== */
-
-div.blue-separator {
-  display: flex;
-  justify-content: center;
-  /* Align squares with space between */
-  align-items: center;
-  padding: 35px 0;
-}
-
-.blue-square {
-  width: 8px;
-  height: 8px;
-  background-color: var(--volt);
-  margin: 0 5px;
-}
-
-
 
 .card {
   padding: 2em;
 }
 
+/* ================ tooltip ========================== */
 
 .tooltip-container {
   position: relative;
@@ -1420,8 +1065,7 @@ div.blue-separator {
   opacity: 1;
 }
 
-
-/* ========================= media queries ======================== */
+/* ========================= MEDIA QUERIES ======================== */
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -1429,17 +1073,16 @@ div.blue-separator {
   }
 }
 
-/* media query for contact flex-box icons*/
 @media screen and (max-width: 600px) {
-  div.icon-container {
+  .icon-container {
     flex-basis: 50%;
   }
 
-  h1.jumbo-bg-dark-text {
+  .jumbo-bg-dark-text {
     font-size: 20px;
   }
 
-  h2.profile-text {
+  .profile-text {
     font-size: 1.2rem;
   }
 }
@@ -1451,23 +1094,11 @@ div.blue-separator {
     font-size: 32px;
   }
 
-  div.project-card {
-    max-width: 300px;
-  }
-
-  div.project-list {
-    padding: 10px;
-  }
-
   .nav-links li {
     margin: 0 10px;
   }
 
   .nav-link {
-    font-size: 14px;
-  }
-
-  .dropbtn {
     font-size: 14px;
   }
 
@@ -1480,50 +1111,21 @@ div.blue-separator {
     font-size: 16px;
   }
 
-  p.separator {
+  .separator {
     margin-bottom: 20px;
   }
 
-  img.profile-picture {
+  .profile-picture {
     width: 150px;
     height: 150px;
   }
 
-  p,
-  p.project-description {
+  p {
     font-size: 14px;
   }
 
-  div.project-list {
-    gap: 20px;
-    padding: 10px;
-  }
-
-  div.project-card {
-    max-width: 300px;
-    border: 2px solid var(--bootstrap-lighter);
-  }
-
-  div.project-card:hover {
-    border: var(--cyan) solid 2px;
-  }
-
-  a.a-title {
+  .a-title {
     margin: 10px;
-  }
-
-  .project-info {
-    padding: 10px;
-  }
-
-  .project-title {
-    font-size: 1rem;
-    margin-bottom: 5px;
-  }
-
-  .project-description {
-    font-size: 0.9rem;
-    color: #666;
   }
 
   .icons {
@@ -1558,19 +1160,8 @@ div.blue-separator {
 /* Medium screens (tablets) */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
 
-  main.mx-3 {
+  .mx-3 {
     margin: 0 10px;
-  }
-
-  div.project-list {
-    gap: 20px;
-    padding: 10px;
-  }
-
-  div.project-card {
-    max-width: 300px;
-    border-width: 2px;
-    margin-bottom: 10px;
   }
 
   form {
@@ -1581,19 +1172,12 @@ div.blue-separator {
     padding: 8px 16px;
     font-size: 14px;
   }
-
-  div.blue-separator {
-    padding: 25px 50px;
-  }
 }
 
 /* Large screens (desktops and laptops) */
 @media screen and (min-width: 1024px) {
 
-  /* Add your styles for large screens here */
-  /* For example: */
-
-  div.icon-container {
+  .icon-container {
     justify-content: center;
     margin-right: 20px;
   }
