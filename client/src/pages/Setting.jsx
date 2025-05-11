@@ -13,7 +13,7 @@ export default function Setting() {
         <div id="wrapper" className="text-left">
           <p className="lead my-3">Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?... </p>
           <i>— Eudora Welty</i>
-                    <p className="lead my-3">One can find so many pains when the rain is falling. </p>
+          <p className="lead my-3">One can find so many pains when the rain is falling. </p>
           <i>— John Steinbeck</i>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function Setting() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-9-1" className="blog-post-title">9.1: What is a Setting?</h2>
-            
+
               <div id="content">
                 <p>DEFINE SETTING.</p>
 
@@ -66,14 +66,19 @@ export default function Setting() {
 
                 <h2 id="post-9-3" className="blog-post-title">9.3: Describing Setting </h2>
 
-                <p>Physical objects should be given physical descriptions. Robert Meredith and John Fitzgerald say, <i>"When we introduce a thing in a novel, the reader must be given a clear picture of it."</i></p>
-                <p>This extends to settings, as they say: <i>"[w]hen a place is introduced in a [story], the reader must see it with sufficient clarity to be able to form a mental image of it."</i></p>
-                <p>Descriptions of settings should be concrete, not emotional (i.e. how the place makes the character feel). Objective observations based on the senses are fine, however (e.g. 'hot' or 'silent'). In other words, characters should be able to agree on the observation.</p>
-                <p>As a basic rule,<i>"[T]he amount of wordage a novelist devotes to describing a character, a setting, a place, or a thing depends on their importance to the plot or story line."</i></p><a href="#f1"><sup>1</sup></a>
+                <p>Physical objects should be given physical descriptions. Robert Meredith and John Fitzgerald say, <i></i></p>
 
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  When we introduce a thing in a novel, the reader must be given a clear picture of it [...] When a place is introduced in a [story], the reader must see it with sufficient clarity to be able to form a mental image of it."
+                </div>
+                <p>Descriptions of settings should be concrete, not emotional (i.e. how the place makes the character feel). Objective observations based on the senses are fine, however (e.g. 'hot' or 'silent'). In other words, characters should be able to agree on the observation.</p>
+
+                <div className="p-3 mb-3 rounded custom-light-box">
+                  <p>As a basic rule,<i>"[T]he amount of wordage a novelist devotes to describing a character, a setting, a place, or a thing depends on their importance to the plot or story line."</i></p><a href="#f1"><sup>1</sup></a>
+                </div>
                 <h2 id="post-9-4" className="blog-post-title">9.4: Setting as Character </h2>
 
-                <p>Your setting isn’t just a landscape or backdrop; it can also be a character. Use your environment to suggest things which cannot be said in dialogue or description. Some examples I’ve come across: </p>
+                <p>Your setting isn’t just a landscape or backdrop; it can also be a character. Use your environment to suggest things which cannot be said in dialogue or description. Examples: </p>
 
                 <ul>
                   <li>
@@ -99,28 +104,33 @@ export default function Setting() {
                 </p>
 
                 <p>
-                  The mist here is characterised as ‘dreamy.’ There are two inferences: One, making it seem the protagonist is in a dream. The second is to attribute a mental state to the misty forest. As if the mist itself is aware, but blissfully ignorant to what is happening. This is unsettling; making the protagonist seem more alone.
+                  Jumping from Louis's reaction (his blood froze) to the setting (the mist) creates an unspoken dialogue between protagonist and setting. The protagonist asks a question "what made that sound?" and the setting answers "I'll tell you nothing". See this example, rewritten to explicitly provide the same information:</p>
+
+                <p className="code-left">
+                  <code><i>[...S]ilence for a moment and then the laugh came again, this time rising to a maniacal shriek that froze Louis’s blood. <u>Unable to move, Louis could only stare about into the forest for what had made that surreal sound. But he saw nothing.</u> The mist drifted dreamily around him. </i></code>
                 </p>
 
-                <p>
-                The last thing you want is for people to act ‘dreamy’ or out of it when in a danger scenario. However, there is no second character here to impute a dreamy state to; it is then necessary to give that characterisation to the environment itself. This is effective because, rather than having the protagonist talking to himself or feeling trapped inside his head, the environment acts as a ‘response’ or ‘second person.’
-                </p>
+                <p>The underlined text shows what is already contained in the source by the immediate cut to the setting (the mist), and keeps us in the scene in real time, without removing us from the scene and putting us inside the protagonist's head.</p>
 
                 <h2 id="post-9-5" className="blog-post-title">9.5: Sub-Setting </h2>
 
-<p>You don't have to change the location to get a different setting. Change the time of day (or night) or weather conditions, and a place can transform into a completely different setting.</p>
-<p>Make sure there is some significance in using the same setting: for instance, a setting that performs the same function as it ever did, despite looking different, can be reassuring for a character who was there a long time ago. Conversely, a formerly familiar setting that now appears foreign and different could be unsettling for a character who thought they knew the place well. </p>
-<p>Otherwise, if the setting hasn't changed, it may provide a foil to emphasise how much the character has changed/hasn't changed.</p>
+                <p>You don't have to change the location to get a different setting. Just change some details. Change the time of day (or night) or weather, or move in time to action a setting change.</p>
+                <p>Note that changing a setting can have a different effect than switching to a new setting. A setting that performs the exact same function despite looking different, can be reassuring and provide a sense of stability and routine, or a return to order. Conversely, a formerly familiar setting that now appears different  or foreign can represent uncertainty and be unsettling. </p>
+                <p>Otherwise, if the setting hasn't changed, it may provide a foil to emphasise how much the character has changed by contrast.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <h2 id="post-9-5" className="blog-post-title">9.6: Setting is Relative </h2>
 
-<ThoughtForm />
+                <p>Setting can be transformed as the character is. If a character is very small (e.g. Stuart Little) a single setting might be a creek or part of a room. If a character is very large, (e.g. Gulliver's Travels) a setting might be an entire city. Setting can also be an entire time period, e.g. the Late Cretaceous period Age in A Sound of Thunder by Ray Bradbury.</p>
 
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                <ThoughtForm />
 
-<div className="footnotes">
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
+
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Robert Meredith and John Fitzgerald, <i>Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).</i></li>
@@ -141,10 +151,12 @@ export default function Setting() {
                     <li id="f16">Sol Stein, <i>How To Grow A Novel.</i></li>
                     <li id="f17">William Peter Blatty, <i>The Exorcist.</i></li>
                     <li id="f18">John Yorke, <i>How Stories Work and Why We Tell Them.</i></li>
+                    <li id="f19">Jonathan Swift, <i>Gulliver's Travels</i></li>
+                    <li id="f20">Ray Bradbury, <i>A Sound of Thunder.</i></li>
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>
@@ -158,7 +170,7 @@ export default function Setting() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">A setting is a construction of place or the relevant details of place which accentuates the story or gives characters' props to play out story drama.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

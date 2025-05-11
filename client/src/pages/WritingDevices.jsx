@@ -35,8 +35,7 @@ export default function WritingDevices() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-20-1" className="blog-post-title">20.1: GENERAL</h2>
-             
-
+            
               <div id="content">
 
                 <p>general info here,</p>
