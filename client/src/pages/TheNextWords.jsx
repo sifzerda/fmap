@@ -191,7 +191,7 @@ export default function TheNextWords() {
                 <p>Many of the above rules (such as preferring ‘said’) should only be broken in exceptional circumstances, i.e. you need a really compelling reason. And maybe not even then.</p>
 
                 <h5>18.1.6 	Starve the Ego, Feed the Soul</h5>
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0"><i>“Did I feel a twinge in my little toe, or didn’t I?” </i> asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . . Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads, till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
                   <br></br><p><i>It’s awful. And it’s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p><i>— D. H. Lawrence</i>
                 </div>
@@ -293,7 +293,7 @@ export default function TheNextWords() {
 
                 <p className='purple-bold'>II.	Place the Reader</p>
                 <p>Another method to combat interior writing is to imagine the reader is a character in the story. Sometimes you hear this referred to as giving the reader/viewer an ‘access point.’ </p>
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0"> "Experiencing a work of fiction through one of its characters is the all-absorbing, self-obliterating joy of reading. It is the core of the child's experience. Who has never been Alice in Wonderland, or Winnie the Pooh, or Jim Hawkins in the apple barrel on his way to Treasure Island?"<a href="#f7"><sup>7</sup></a></p>
                   <p></p><i>— William Sloane, The Craft of Writing.</i>
                 </div>
@@ -375,7 +375,7 @@ export default function TheNextWords() {
 
                 <h5>18.1.8 	There are no Coincidences</h5>
                 <p>Coincidence is a hallmark of bad fiction. Think of the car that breaks down in front of the haunted house, necessitating a night’s stay. Compare to the protagonist in Stephen King’s ‘1408,’ who voluntarily (insistently) stays in the haunted hotel for personal, character-driven gain. There is no coincidence in the latter story, and better for it.</p>
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“…[S]earch for a way by which your character can set out seeking the desired event, person or information. If your character wants something, and works hard to get it, it isn&apos;t coincidence anymore. Having provided your characters with sufficient background and motivation for their actions, and then by making sure coincidence doesn&apos;t rule the day, you&apos;ll be well along on the way to better story logic.”<a href="#f13"><sup>13</sup></a></p>
                   <p></p><i>— The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them) [Jack Bickham]</i>
                 </div>
@@ -568,7 +568,7 @@ export default function TheNextWords() {
 
                 <h5>18.2.2 	Punctuation: </h5>
                 <p>What's the point of punctuation?</p>
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you’ve carefully selected, punctuation is your best means of conveying to the reader how you mean your writing to be read, how you mean for it to sound. A comma sounds different than a semicolon; parentheses make a different noise than dashes.” <a href="#f18"><sup>18</sup></a></p>
                   <p></p><i>— Dreyer’s English, Benjamin Dreyer.</i>
                 </div>
@@ -720,7 +720,7 @@ export default function TheNextWords() {
                 <p className='purple-bold'>i. Jump in Time </p>
                 <p>The characters in this example (Phineas – “Finny” – and main character, Gene) are school kids at a party “in a kind of sun porch” with teacher ‘Mr Patch-Withers’: <a href="#f22"><sup>22</sup></a></p>
 
-                <div className='p-3 mb-3 bg-light rounded-pixar-2'>
+                <div className="p-3 mb-3 rounded pixar-box">
                   <p>Mr. Patch-Withers’ laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one. Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it! He broke into the charmed, thoughtless grin of a man fulfilled.</p>
                   <p>He had gotten away with everything. I felt a sudden stab of disappointment. That was because I just wanted to see some more excitement; that must have been it.</p>
                   <p>We left the party, both of us feeling fine. I laughed along with Finny, my best friend, and also unique, able to get away with anything at all. And not because he was a conniver either; I was sure of that. He got away with everything because of the extraordinary kind of person he was. It was quite a compliment to me, as a matter of fact, to have such a person choose me for his best friend.</p>
@@ -730,7 +730,7 @@ export default function TheNextWords() {
                 <p>Now, without reading any more, answer this question: Do you get the feeling a short passage of time has passed between the first half of this example, and the second half? – a kind of ‘jump’ ahead, or quick fast-forward? </p>
                 <p>It occurs around the start of the fourth paragraph. I’ll colour code the above to make the explanation more apparent:</p>
 
-                <div className='p-3 mb-3 bg-light rounded-pixar-2'>
+                <div className="p-3 mb-3 rounded pixar-box">
                   <p><span className='red-text-x'>Mr. Patch-Withers’ laughter surprised us all, including himself.</span> <span className='blue-text-xx'>His face, whose shades we had often labeled, now achieved a new one. </span><span className='red-text-x'>Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it! </span><span className='blue-text-xx'>He broke into the charmed, thoughtless grin of a man fulfilled.</span></p>
                   <p><span className='blue-text-xx'>He had gotten away with everything. I felt a sudden stab of disappointment. That was because I just wanted to see some more excitement; that must have been it.</span></p>
                   <p><span className='blue-text-xy'><span className='highlight'></span>We left the party,</span><span className='red-text-xy'> both of us feeling fine.</span> <span className='blue-text-xx'>I laughed along with Finny, </span><span className='red-text-x'>my best friend, and also unique, able to get away with anything at all. And not because he was a conniver either; I was sure of that. He got away with everything because of the extraordinary kind of person he was. It was quite a compliment to me, as a matter of fact, to have such a person choose me for his best friend.</span></p>
@@ -746,7 +746,7 @@ export default function TheNextWords() {
                 <p>We can derive this principle: <strong>Information which is shown creates a sense of immediacy.</strong> It sounds like it’s happening right now before your eyes (this is why writers tend to prefer it, to create a sense of immersive presence). </p>
                 <p>Here’s the paragraph again, with much the red removed:</p>
 
-                <div className='p-3 mb-3 bg-light rounded-pixar-2'>
+                <div className="p-3 mb-3 rounded pixar-box">
 
                   <p><span className='red-text-x'>Mr. Patch-Withers’ laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one. Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it!</span></p>
                   <p><span className='blue-text-xx'>We left the party, <span className='red-text-x'>both of us feeling fine. </span>I laughed along with Finny.</span></p>

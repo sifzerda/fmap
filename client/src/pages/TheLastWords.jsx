@@ -44,7 +44,8 @@ export default function TheLastWords() {
 
                 <h2 id="post-19-2" className="blog-post-title">19.2: Ending a Scene</h2>
                 <p>Your story may not have just one ending. If you raise live issues throughout your story (as you should) each of these will have endings, giving your story several ‘mini’ endings. These are also good practice for writing your ultimate ending.</p>
-                <div className="p-3 mb-3 bg-light rounded">
+                
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
                   <p></p><i>— Roy Clark </i>
                 </div>

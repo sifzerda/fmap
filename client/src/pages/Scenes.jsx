@@ -359,7 +359,7 @@ export default function Scenes() {
 
                 <p>I think general consensus would find number (1) more unsatisfying than number (2). </p>
 
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“Keep one thing in mind when you’re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don’t push your luck. Wrap things up as quickly as possible and leave the stage Once you’ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”</p>
                   <p></p><i>— Jack Hart </i><a href="#f5"><sup>5</sup></a>
                 </div>

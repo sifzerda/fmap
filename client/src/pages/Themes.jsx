@@ -33,12 +33,12 @@ export default function Themes() {
             
               <div id="content">
 
-              <div className="p-3 mb-3 bg-light rounded">
+              <div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
                 <p></p><i>— Robert Meredith and John Fitzgerald</i>
               </div>
 
-              <div className="p-3 mb-3 bg-light rounded">
+              <div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values.</p>
                 <p></p><i>— Robert McKee</i>
               </div>
@@ -117,7 +117,7 @@ export default function Themes() {
           <p>Under ‘1.1. The Main Elements of a Story,’ THEME came last on the list. PLOT comes first because your reader wants to be entertained above all else. If they wanted to learn something they would read non-fiction. </p>
           <p>When you make THEME come first, you end up with a lecture – or worse, propaganda – not a story. Your plot bends to facilitate your opinion, rather than reflect the most interesting arrangement of events.</p>
           
-          <div className="p-3 mb-3 bg-light rounded">
+          <div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">[If there's] one fault that stands out above all others…by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme…[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth…as a result he begins to lecture the reader.</p>
                 <p></p><i>— Robert Meredith and John Fitzgerald </i><a href="#f2"><sup>2</sup></a>
               </div>

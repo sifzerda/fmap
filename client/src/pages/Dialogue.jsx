@@ -16,7 +16,7 @@ export default function Dialogue() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={dialogueBanner} alt="Thumbnail" />
       </div>
@@ -27,7 +27,7 @@ export default function Dialogue() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-12-1" className="blog-post-title">12.1: What is Dialogue?</h2>
-             
+
               <div id="content">
 
                 <p>First, what dialogue is <i>not: </i><strong>it is not real speech. </strong>Dialogue is the illusion, or semblance, of real speech.</p>
@@ -253,13 +253,13 @@ export default function Dialogue() {
                 <p className='indent-text-1'>Two friends, A and B, are talking on the phone about a third person, C. A knows B is infatuated with C, and tries to arrange a date between them by going out as a threesome, and then ducking out at the last minute (leaving B and C alone together). B knows he/she likes C (i.e. as a friend), but doesn’t know he/she loves C (or self-denial). B also doesn’t know that C is standing right next to A during the phone call, and the phone is on loudspeaker. C likes B but doesn’t know how B feels about them. </p>
                 <p>Sol Stein calls this ‘The Actors Studio technique’, and refers to ‘information’ as ‘scripts’: </p>
 
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“That’s what happens in life. Each of us enters into conversation with another person with a script that is different from the other person’s script. The frequent result is disagreement and conflict—disagreeable in life and invaluable in writing, for conflict is the ingredient that makes action dramatic.”</p>
                   <p></p><i>— Sol Stein </i>
                 </div>
 
                 <p>He also helpfully provides instructions for writing such a scene: </p>
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“You are imagining a scene with two characters. Before you write the scene, make a note as to the “script” or tack (keep it simple) of the first character and then of the second character. Make sure the scripts are different and at odds. Only you will be privy to the scripts of both characters. Let them play out the scene in front of you as you write. And if you have a third character in the scene, give that character a script different from the other two.” </p>
                   <p></p><i>— Sol Stein </i>
                 </div>
@@ -267,7 +267,7 @@ export default function Dialogue() {
 
                 <h2 id="post-12-8" className="blog-post-title">12.8: Dialogue Tags</h2>
 
-                <div className="p-3 mb-3 bg-light rounded">
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“Hello,” he lied. </p>
                   <p></p><i>— Don Carpenter (quoting a Hollywood agent) </i><a href="#f5"><sup>5</sup></a>
                 </div>
@@ -354,29 +354,29 @@ export default function Dialogue() {
                 <p>But a caveat: sometimes people do point out bad things and dramatise them. But usually they have some ulterior reason for doing so. For instance, consider why someone might say, “I lost my life savings on the slots,” as opposed to, “I didn’t lose that much,” Or “My uncle spent his last moments in agonizing pain,” as opposed to, “my uncle passed away”. If there is a genuine reason for your character to talk like this, it may add character depth and pathos.</p>
 
                 <h2 id="post-12-10" className="blog-post-title">12.10: Concrete/Abstract Statements</h2>
-<p>If you want dialogue to foster closeness between characters, have them use concrete statements (“I got robbed yesterday,” “I don’t like hail,” “He lied.”). Avoid abstract statements (“I believe in justice,” “I hate awful weather,” “He’s just like all the others,”).</p>
-<p>This not only fosters closeness and a sense of knowing characters better, but also fosters closeness between character and reader, and makes characters more interesting.</p>
-<p>Imagine a group of characters are asked, "What is the most important thing in the world?" Characters answer the obvious: love, family, friends, goals, etc – abstract answers. </p>
-<p>Some give more individualistic – but still abstract – answers:</p>
+                <p>If you want dialogue to foster closeness between characters, have them use concrete statements (“I got robbed yesterday,” “I don’t like hail,” “He lied.”). Avoid abstract statements (“I believe in justice,” “I hate awful weather,” “He’s just like all the others,”).</p>
+                <p>This not only fosters closeness and a sense of knowing characters better, but also fosters closeness between character and reader, and makes characters more interesting.</p>
+                <p>Imagine a group of characters are asked, "What is the most important thing in the world?" Characters answer the obvious: love, family, friends, goals, etc – abstract answers. </p>
+                <p>Some give more individualistic – but still abstract – answers:</p>
 
-<ul>
-  <li> Character 1: "Nature." </li>
-  <li> Character 2: "Identity." </li>
-  <li> Character 3: "Gainful employment." </li>
-    </ul>
+                <ul>
+                  <li> Character 1: "Nature." </li>
+                  <li> Character 2: "Identity." </li>
+                  <li> Character 3: "Gainful employment." </li>
+                </ul>
 
-<p>Contrast the same characters giving the same answers but in concrete form:</p>
+                <p>Contrast the same characters giving the same answers but in concrete form:</p>
 
-<ul>
-  <li> Character 1: "The apple tree in my front yard. I planted it last year and I need it to stay alive." </li>
-  <li> Character 2: "My sense of self. I feel like I was a completely different person last week." </li>
-  <li> Character 3: "My friend's job. I hope she finally keeps this one." </li>
-    </ul>
+                <ul>
+                  <li> Character 1: "The apple tree in my front yard. I planted it last year and I need it to stay alive." </li>
+                  <li> Character 2: "My sense of self. I feel like I was a completely different person last week." </li>
+                  <li> Character 3: "My friend's job. I hope she finally keeps this one." </li>
+                </ul>
 
 
-<p>You now have more of a sense of these characters. It also creates closeness because people only much such personal or vulnerable admissions if they like or feel close to the person they are talking to.</p>
-<p>Generating this closeness is helpful where you have to suggest that some time has passed and relative strangers have gotten to know each other better. </p>
-<h2 id="post-12-11" className="blog-post-title">12.11: Don't Take Sides</h2>
+                <p>You now have more of a sense of these characters. It also creates closeness because people only much such personal or vulnerable admissions if they like or feel close to the person they are talking to.</p>
+                <p>Generating this closeness is helpful where you have to suggest that some time has passed and relative strangers have gotten to know each other better. </p>
+                <h2 id="post-12-11" className="blog-post-title">12.11: Don't Take Sides</h2>
                 <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i></p>
 
                 <h2 id="post-12-12" className="blog-post-title">12.12: When To Avoid Dialogue</h2>
@@ -388,16 +388,16 @@ export default function Dialogue() {
 
                 <p>The dialogue is summarized to convey that her response is standard and expected (e.g. she doesn’t make up a name) and the author has wanted to get it out of the way without drawing attention to it. Also, you get ‘she’ is not interested in Lenny; her mind is elsewhere. By having the characters’ dialogue delivered differently than Lenny’s it places the characters’ exchanges on unequal terms. Lenny is attentive and speaking directly, as if to us – the reader – while ‘she’ is disinterested and her dialogue is not distinguished from her other concerns.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-<ThoughtForm />
+                <ThoughtForm />
 
-<ThoughtList />
+                <ThoughtList />
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
 
-<div className="footnotes">
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Hallie & Whit Burnett, <i>Fiction Writer's Handbook.</i></li>
@@ -408,7 +408,7 @@ export default function Dialogue() {
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>

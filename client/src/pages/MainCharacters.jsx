@@ -41,10 +41,12 @@ export default function MainCharacters() {
 <p>In Tom Stoppard’s absurdist play ‘Rosencrantz and Guildenstern are Dead,’ the titular bit parts from Shakespeare’s Hamlet are the main characters; the play makes fun of the fact that their entire existence and designation is to be side characters in Hamlet – outside of which, they don’t properly ‘exist.’ The play recognizes that it’s absurd to pretend that by ‘shifting the camera’ those characters become the protagonists in their own story. It’s as absurd as saying you would have won a race if only the winner had switched places with you.</p>
 
 <h2 id="post-7-2" className="blog-post-title">7.2: Ditch the Wimp</h2>
-<div className="p-3 mb-3 bg-light rounded">
+
+<div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">“...[I]nteresting characters are almost always characters who are active—risk-takers—highly motivated toward a goal.”</p>
                 <p></p><i>— Jack Bickham</i><a href="#f1"><sup>1</sup></a>
               </div>
+
 <p>Don’t make your main character unconfident, timid, indecisive, passive, despondent, indolent, etc. It comes down to this: characters who act (or react) are interesting; characters who fail to act/react are not. And your plot needs to be driven, so you need a driven character.</p>
 <p>There is a minor caveat; your protagonist may be deceptively weak (but deep down is actually hiding strength), or start weak but develop into a strong character. Think Tolkien’s Frodo, or Stephen King’s Carrie, Shirley Jackson’s Eleanor. It’s not that these characters are wimps or weaklings, but that they are mistaken as such, or become strong by the end of the story, which creates suspense and interest when their latent potential reveals itself.</p>
 <p>I also address this under ‘Cowardly or Courageous’ under the Horror Section.</p>
@@ -228,10 +230,12 @@ export default function MainCharacters() {
 <p><strong>(3) Avatar: </strong>Now your character has a role and a personality, you need to write them as if they were a real person. You can try your hand at that, but it'll be easier if you use a real person you actually know as a template, on which your character is overlaid. In particular, this will make your character's dialogue sound more unique and natural and befitting, and it will minimise the temptation of writing yourself into the character, in default of one.</p>
 
 <h2 id="post-7-10" className="blog-post-title">7.10: The Trivia Model</h2>
-<div className="p-3 mb-3 bg-light rounded">
+
+<div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">Ultimately, the purpose of character is to drive story. Any detail of appearance, any anecdote or personal possession, no matter how intrinsically interesting, is a distraction if it fails to move the story forward.</p>
                 <p></p><i>— Jack Hart</i><a href="#f7"><sup>7</sup></a>
               </div>
+
 <p>The advice on character creation is: know your characters intimately. The problem is where writers misinterpret this advice to mean: know your characters extensively. 100 trivial facts all across your character’s life is no substitute for knowing only your character’s darkest secret.</p>
 <p>Yet, I’ve come upon writing advice instructing to answer a list of about 50 trivial questions for your proposed character, e.g. what is their favourite food? What is their favourite memory? Etc. </p>
 <p>This is terrible advice. Are you writing a character or a game of trivial pursuit? Just a number of problems with this model:</p>
@@ -248,13 +252,13 @@ export default function MainCharacters() {
 <p>(8)	You (very likely) may alter your character somewhere down the track in the writing or editing process. This may necessitate rewriting the ‘trivia’ – or worse, not realising it contradicts your character. Save yourself the time and effort and ditch the model in the first instance; </p>
 <p>(9)	People change, thus the ‘trivia’ about them changes too. Their memories change. Their likes and dislikes change. Their views and beliefs develop and change. The man may be the stranger of the child, and all that. Yes, characters are not real people, but the art should reasonably try to imitate life. The trivia model paints a static, impotent design for character. </p>
 
-<div className="p-3 mb-3 bg-light rounded">
+<div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">If you were to write down everything that went on with you while you were, say, eating breakfast this morning, you could fill a fat volume—if you included all the millions of sensory impressions, thoughts, and images bouncing around in your head. When depicting the fife of a fictional character, a novelist must choose to include only those impressions, thoughts, reflections, sensations, feelings, desires, and so on, that bear  on the character's motivations, development, and decision-making faculties—those aspects of character that will affect the way in which the character copes with the dilemmas he will face in the story.</p>
                 <p></p><i>— James Frey </i>
               </div>
 
 <p>Some proponents of the trivia model (they must be out there, God willing) will rejoinder that, “If I don’t sketch out the trivia first, I won’t know who my character really is.” Here’s the kicker; you never really do. Because characters are end-facing instruments, they should be flexible and adaptable. The arc in one story might fortify a character, an arc in a sequel, break them. A good character always has stuff going on you don’t know – that’s how it should be – stuff you can add to.</p>
-<div className="p-3 mb-3 bg-light rounded">
+<div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">There is a novelist called Thomas Williams,  who's passed on now, and he said that the idea for a novel is like a little tiny fire in a dark night. And, one by one, the characters come and stand around it and warm their hands […] They stand around the fire. And little by little, the fire grows. And you see them more clearly. And that's the novel.</p>
                 <p></p><i>— Stephen King </i>
               </div>
@@ -478,6 +482,7 @@ export default function MainCharacters() {
 <p>As an unwritten rule, suicides make bad – ineffective – protagonists.  However, you can adapt these categories for a protagonist (or antagonist) who suffers a metaphorical ‘death’ – e.g. a social death, a psychological death, a financial death, a relational death – or loss of other thing which gives the protagonist’s life meaning (remember Blake Snyder’s ‘Stasis = Death’ concept). The above categories are great anchors for motivating protagonist or antagonist, creating a turning point or ‘rock bottom’ pushing your character into action, or change.</p>
 
 <h2 id="post-7-14" className="blog-post-title">7.14: Poignant Character-Building</h2>
+
 <h2 id="post-7-15" className="blog-post-title">7.15: Introducing Your Character</h2>
 <p>The first time one of your main characters is introduced is important not accidental. </p>
 <p>Once you have created your characters, you may be tempted to introduce them by having them sit around talking about themselves, their interests and aspirations, the way people get to know each other in real life. Avoid this; the way you introduce characters is to basically throw them into the story based on their reason for existence, possibly through a ‘Microcosmic’ scene.</p>
@@ -606,7 +611,7 @@ export default function MainCharacters() {
   <li>Ensure the name is a legitimate name;</li>
 </ul>
 
-<div className="p-3 mb-3 bg-light rounded">
+<div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">“It's […] a good idea to avoid giving two important characters names that start with the same letter. The reader speeding ahead will have to slow down to register the right character. It's best to avoid any confusion or distraction that will divert the reader from his experience.”</p>
                 <p></p><i>— Sol Stein</i>
               </div>

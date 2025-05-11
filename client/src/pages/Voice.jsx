@@ -118,7 +118,7 @@ export default function Voice() {
 
               <h2 id="post-15-3" className="blog-post-title">15.3: Be Quiet</h2>
 
-              <div className="p-3 mb-3 bg-light rounded">
+              <div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">One must be careful to distinguish between those who write beautiful things and those who write things beautifully</p>
                 <p></p><i>— Somerset Maugham</i><a href="#f4"><sup>4</sup></a>
               </div>

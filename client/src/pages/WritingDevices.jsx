@@ -44,7 +44,8 @@ export default function WritingDevices() {
                 <h2 id="post-20-2" className="blog-post-title">20.2: Offer/Promise</h2>
 
                 <p>This refers to story details making an implied promise to the audience that a particular idea will later unfold in a particular way. </p>
-                <div className="p-3 mb-3 bg-light rounded">
+                
+                <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”<a href="#f1"><sup>1</sup></a></p>
                   <p></p><i>— David Carroll</i>
                 </div>
