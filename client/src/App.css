@@ -793,6 +793,7 @@ h3 {
 
 .pixar-box {
   background-color: rgb(228, 255, 255) !important;
+    border: 2px rgb(155, 218, 218) solid;
 }
 
 .p-3.mb-3.bg-light.rounded-pixar-2 {
@@ -877,7 +878,7 @@ a.icon:hover {
 .custom-light-box {
   background-color: #fdfcce !important;
   color: #000;
-  border: 1px black solid;
+  border: 2px var(--yellow) solid;
 }
 
 .remove-bullets {
@@ -1080,10 +1081,6 @@ form {
 
   .jumbo-bg-dark-text {
     font-size: 20px;
-  }
-
-  .profile-text {
-    font-size: 1.2rem;
   }
 }
 

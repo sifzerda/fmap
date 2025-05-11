@@ -265,7 +265,7 @@ export default function Story() {
                 <h2 id="post-1-9" className="blog-post-title">1.9 Pixar Storytelling </h2>
                 <p>Animation company Pixar has a list of tips which it has used in its films:</p>
          
-                  <div className="p-3 mb-3 rounded custom-light-box">
+                  <div className="p-3 mb-3 rounded pixar-box">
                   <ol>
                     <li>You admire a character for trying more than for their successes.</li>
                     <li>You gotta keep in mind what’s interesting to you as an audience, not what’s fun to do as a writer. They can be v. different.</li>

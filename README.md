@@ -108,12 +108,16 @@ This project is substantially complete, with minor formalization and addition of
 - [x] Make Thought model, link to User model
 - [x] User Account page with list of all comments user made
 - [ ] ~~There may have to be models for each chapter/subject, to attach thoughts to that page (and not spawn every post)~~
-- [ ] A web3form contact page (pull from react challenge) 
+- [ ] ~~A web3form contact page (pull from react challenge)~~
 - [ ] ~~Go through source word .doc, find all review comments, insert these as cross-hyperlinks to page paragraphs~~
 - [ ] Fix up reference page, grab all footnotes
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
 - [ ] fill in About summary cards for each chapter
+- [ ] change bs-light gold boxes to 'custom light box' (pale yellow)
+- [ ] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
+- [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next site
+
 
 
 

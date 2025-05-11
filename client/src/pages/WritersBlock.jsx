@@ -15,12 +15,6 @@ export default function WritersBlock() {
           <i>— Toni Morrison</i>
           <p className="lead my-3">You can always edit a bad page. You can't edit a blank page.</p>
           <i>— Jodi Picoult</i>
-          <p className="lead my-3">Poor Faulkner. Does he really think big emotions come from big words?</p>
-          <i>— Ernest Hemingway</i>
-          <p className="lead my-3">Good writing is like a window pane.</p>
-          <i>— George Orwell</i>
-          <p className="lead my-3">We pay attention to externals when we do not know what else to do with a poem.</p>
-          <i>— I. A. Richards</i>
         </div>
       </div>
 
@@ -112,13 +106,8 @@ export default function WritersBlock() {
                 <h2 className="blog-post-title">21.8: Write What You Love</h2>
 <p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”  The answer needn’t always be ‘yes.’ But if it’s never ‘yes,’ then you have a problem. Go back to writing what you really enjoy.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-<ThoughtForm />
-
-<ThoughtList />
-
-{/* ------------------------------------------------- footnotes 
+{/* ------------------------------------------ footnotes --------------------------------- */}
 
 <div className="footnotes">
                   <h4>Footnotes</h4>
@@ -135,7 +124,12 @@ export default function WritersBlock() {
                   </ol>
                 </div>
 
------------------------------------------------------ */}
+{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+
+<ThoughtForm />
+<ThoughtList />
+
+{/* --------------------------------------------------------------------------------------- */}
 
               </div>
             </div>
@@ -149,7 +143,7 @@ export default function WritersBlock() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">This chapter sets out some writing exercises to help combat writer's block.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

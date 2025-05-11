@@ -273,7 +273,7 @@ export default function Synopsis() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">The synopsis is a marketing summary of your story. It's used to pitch your manuscript to prospective publishers.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

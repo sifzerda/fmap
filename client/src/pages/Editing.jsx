@@ -41,7 +41,7 @@ export default function Editing() {
                   <ul>
                     <li>Replace ‘He dried the towel out thoroughly’ with ‘He wrung out the towel’</li>
                     <li>Replace ‘That’s not my dog– it’s a duck’ she said laughingly, with ‘That’s a duck,’ she said. "A duck!"</li>
-                    <li>Replace ‘I’m not playing tennis with Casey – she’s horrible’ she said harshly, with ‘Casey and tennis? Useless!’  </li>
+                    <li>Replace ‘I’m not playing tennis with Casey – she’s horrible’ she said harshly, with ‘Casey? Tennis? Useless!’  </li>
                   </ul>
                 </ul>
 
@@ -209,7 +209,6 @@ export default function Editing() {
 
 {/* ---------------------------------------------------------------------------------------------- */}
 
-
               </div>
             </div>
 
@@ -222,7 +221,7 @@ export default function Editing() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">Editing is the practice of selectively changing or removing parts of your story to maximize effect.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

@@ -340,7 +340,7 @@ export default function Premise() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">The premise is a story's core concept, in 1-2 sentences.</p>
+              <p className="mb-0-1">The premise is a story's core idea, summed up in one or two sentences.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

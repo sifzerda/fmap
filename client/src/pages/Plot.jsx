@@ -541,7 +541,7 @@ export default function Plot() {
                       <li id="f3">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
                       <li id="f4">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
                       <li id="f5">Howard Mittelmark and Sandra Newman., <i>How NOT to Write a Novel.</i></li>
-                      <li id="f6">Interestingly, if the protagonist was the female, it would be a pursuit (she is immediately attracted to the protagonist and literally pursues him), whereas he takes longer to heal from past trauma and be ready for a new relationship. But because it’s from the protagonist’s POV, it’s revelation.</li>
+                      <li id="f6">If the protagonist was the female, it would be a pursuit (she literally pursues him), whereas he takes longer to heal from past trauma and be ready for a new relationship. But because it’s from the protagonist’s POV, it’s revelation.</li>
                       <li id="f7">See Romeo and Juliet.</li>
                       <li id="f8">Chris Booker, <i>The Seven Basic Plots.</i></li>
                     </ol>
@@ -562,7 +562,7 @@ export default function Plot() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">A plot maps out the whole core structure of a story, through each scene, from beginning to end.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">
