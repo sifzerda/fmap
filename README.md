@@ -167,12 +167,33 @@ This project is substantially complete, with minor formalization and addition of
 - [x] change bs-light gold boxes to 'custom light box' (pale yellow)
 - [ ] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
-
-
-
-
-
-
+- add quotes for each chapter:
+    - [x] story
+    - [x] premise
+    - [x] plot
+    - [x] themes
+    - [x] conflict
+    - [ ] scenes
+    - [x] main characters
+    - [x] secondary characters
+    - [x] setting
+    - [ ] subtext 
+    - [x] description
+    - [x] dialogue
+    - [x] suspense
+    - [x] pov
+    - [x] voice
+    - [x] antagonists
+    - [ ] the first words
+    - [x] the next words
+    - [x] the last words
+    - [ ] writing devices
+    - [x] writing block
+    - [x] editing
+    - [x] title 
+    - [ ] logline
+    - [ ] synopsis
+    
 Changes:
 
 - removed padding-top: 40px for div justify center (footer) /

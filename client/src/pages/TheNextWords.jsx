@@ -15,14 +15,6 @@ export default function TheNextWords() {
         <div id="wrapper" className="text-left">
           <p className="lead my-3">We are what we repeatedly do. Excellence, then, is not an act, but a habit.</p>
           <i>— Aristotle</i>
-          <p className="lead my-3">If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.</p>
-          <i>— Somerset Maugham</i>
-          <p className="lead my-3">Poor Faulkner. Does he really think big emotions come from big words?</p>
-          <i>— Ernest Hemingway</i>
-          <p className="lead my-3">Good writing is like a window pane.</p>
-          <i>— George Orwell</i>
-          <p className="lead my-3">We pay attention to externals when we do not know what else to do with a poem.</p>
-          <i>— I. A. Richards</i>
         </div>
       </div>
 
