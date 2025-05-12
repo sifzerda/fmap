@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Hrefs from './components/Hrefs';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink, } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import { FootnoteProvider } from './components/FootnoteContext';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -31,6 +32,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
+      <FootnoteProvider>
       <>
         <header className="header">
           <Header />
@@ -50,6 +52,7 @@ function App() {
 
         <Footer />
       </>
+      </FootnoteProvider>
     </ApolloProvider>
   );
 }

@@ -2,12 +2,10 @@ import '../App.css'
 import mainCharBanner from '../assets/maincharbanner.png'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function MainCharacters() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -734,6 +732,5 @@ export default function MainCharacters() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

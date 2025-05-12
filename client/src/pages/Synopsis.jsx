@@ -2,12 +2,10 @@ import '../App.css'
 //import synBanner from '../assets/synbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function Synopsis() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -302,6 +300,5 @@ export default function Synopsis() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

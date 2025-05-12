@@ -2,12 +2,10 @@ import '../App.css';
 //import scenesBanner from '../assets/scenesbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function Scenes() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -660,6 +658,5 @@ export default function Scenes() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

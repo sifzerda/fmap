@@ -1,5 +1,5 @@
 // FootnoteRef.jsx
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { useFootnoteCounter } from './FootnoteContext';
 
 function FootnoteRef({ text }) {

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import '../App.css'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 import plotBanner from '../assets/plotbanner.jpg';
 import threeRt from '../assets/3rt.jpg';
@@ -10,7 +9,6 @@ import crossArrow from '../assets/crossarrow.jpg';
 
 export default function Plot() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -597,6 +595,5 @@ export default function Plot() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

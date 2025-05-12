@@ -2,12 +2,10 @@ import '../App.css'
 import settingBanner from '../assets/settingbanner.jpg';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function Setting() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -201,6 +199,5 @@ export default function Setting() {
 
 
     </div>
-    </FootnoteProvider>
   );
 }

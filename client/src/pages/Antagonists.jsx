@@ -2,12 +2,10 @@ import '../App.css'
 import antagBanner from '../assets/antagbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function Antagonists() {
   return (
-    <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -64,7 +62,7 @@ export default function Antagonists() {
                 <p>Compare with a ‘contradictory’ antagonist. Their values and goals are interlinked in direct opposition, which creates a zero sum game where only one can triumph. Together the protag and antag create a potential ‘cancelling out.’ The ‘town’ is not big enough for both the protagonist and antagonist to co-exist. The closer they get, the more imperative it becomes that one defeats or subverts the other.</p>
                 <p>You may have both antagonistic forces in your story: the protagonist progresses past contrary sub-antagonists until finally facing off against the contradictory head antagonist.</p>
                 <p>Alternatively, your head antagonist starts off contrary, but transforms into a contradictory antagonist by the end.</p>
-                <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein<a href="#f1"><sup>1</sup></a>  suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
+                <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
 
                 <h2 id="post-16-5" className="blog-post-title">16.5: The Negation of a Negation</h2>
                 <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p> 
@@ -180,6 +178,5 @@ export default function Antagonists() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

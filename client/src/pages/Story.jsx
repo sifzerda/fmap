@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom';
 import storyBanner from '../assets/storybanner.png';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function Story() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -366,6 +364,5 @@ export default function Story() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

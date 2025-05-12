@@ -2,12 +2,10 @@ import '../App.css'
 import secoBanner from '../assets/secobanner.png';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function SecondaryCharacters() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -176,6 +174,5 @@ export default function SecondaryCharacters() {
 
 
     </div>
-    </FootnoteProvider>
   );
 }

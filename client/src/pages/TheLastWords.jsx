@@ -2,12 +2,10 @@ import '../App.css'
 //import lastWBanner from '../assets/lastwbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function TheLastWords() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -141,6 +139,5 @@ export default function TheLastWords() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }

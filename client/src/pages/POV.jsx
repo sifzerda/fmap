@@ -2,12 +2,10 @@ import '../App.css'
 //import povBanner from '../assets/povbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 
 export default function POV() {
   return (
-        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -206,6 +204,5 @@ export default function POV() {
       </main>
 
     </div>
-    </FootnoteProvider>
   );
 }
