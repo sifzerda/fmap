@@ -36,7 +36,7 @@ export default function Dialogue() {
 
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">[Every bit of] dialogue has the obligation to advance the story[.]</p>
-                  <p><i>— Hallie & Whit Burnett.</i><a href="#f1"><sup>1</sup></a></p>
+                  <p><i>— Hallie & Whit Burnett.</i></p>
                 </div>
 
                 <p>No word can be uttered in a vacuum; every word spoken must mean something to someone, i.e. create a reaction (even if silent). It must inform behaviour, now or later.</p>
@@ -49,8 +49,7 @@ export default function Dialogue() {
 
                 <h2 id="post-12-2" className="blog-post-title">12.2: Brevity</h2>
                 <p>Dialogue should be written with brevity – less is more. Writing can be dialogue-driven, however, my personal rule is to get away with writing the least amount without compromising meaning. That may even mean cutting dialogue altogether in favour of describing that character’s behaviour (description – of action; not in general – should be given priority over dialogue, i.e. show don’t tell). </p>
-                <p>Sol Stein explains, “For the reader, dialogue is meant to be experienced [absorbed immediately], not studied [laboured over and re-read]. Some of the dialogue I see in manuscript is involuted, complex, difficult to digest in a quick reading. Halting over a line of dialogue can interrupt the reader's experience.” Don’t put “thoughts within thoughts. That characteristic doesn’t work in dialogue because thoughts within thoughts put the reader into a deciphering rather than an experiencing mode. Dialogue that is short, snappy, punchy, engages other characters as well as the reader.”</p>
-                <u>Sol Stein, On Writing</u>
+                <p>Sol Stein explains, “For the reader, dialogue is meant to be experienced [absorbed immediately], not studied [laboured over and re-read]. Some of the dialogue I see in manuscript is involuted, complex, difficult to digest in a quick reading. Halting over a line of dialogue can interrupt the reader's experience.” Don’t put “thoughts within thoughts. That characteristic doesn’t work in dialogue because thoughts within thoughts put the reader into a deciphering rather than an experiencing mode. Dialogue that is short, snappy, punchy, engages other characters as well as the reader.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
                 <p>Here’s an example of word-cutting:</p>
 
                 <u>A. Verbose Example:</u>
@@ -79,12 +78,11 @@ export default function Dialogue() {
                 <p>Character A’s repetition isn’t redundant here because it conveys that A is distressed and in denial, not thinking clearly and is caught in a loop – the dialogue is not short, sharp, focused and forward-looking because A’s mental state is none of those things. </p>
 
                 <h2 id="post-12-3" className="blog-post-title">12.3: Make Dialogue Oblique</h2>
-                <p>You want dialogue to create conflicts but also protract tension. To achieve the first, dialogue should be confrontational. To achieve the second, it should be indirect – Sol Stein uses the term ‘oblique’. This means dialogue doesn’t directly reveal what the speaker is actually thinking. Dialogue is like a game of tennis. The oblique return, says Sol Stein,<a href="#f2"><sup>2</sup></a>  is the return of the ball somewhere else than where it is expected. Oblique dialogue is more interesting and dynamic. It turns ‘words’ into a ‘character’, fleshes out characters, makes them sound as if their hiding things, and therefore makes the reader want to learn more about them. </p>
+                <p>You want dialogue to create conflicts but also protract tension. To achieve the first, dialogue should be confrontational. To achieve the second, it should be indirect – Sol Stein uses the term ‘oblique’. This means dialogue doesn’t directly reveal what the speaker is actually thinking. Dialogue is like a game of tennis. The oblique return, says Sol Stein,<FootnoteRef text="Sol Stein, How To Grow A Novel." />  is the return of the ball somewhere else than where it is expected. Oblique dialogue is more interesting and dynamic. It turns ‘words’ into a ‘character’, fleshes out characters, makes them sound as if their hiding things, and therefore makes the reader want to learn more about them. </p>
 
                 <h5>12.3.1 	Dialectical Dialogue / ‘Dodgem’ Dialogue</h5>
                 <p>Dodgem dialogue is my technique for making dialogue 'jump' out at the reader. Normally, (bad) dialogue is written like a casual car ride, when it should be written like a dodgem car ride. This is related to combining conflict with dialogue (see 10.4 below). Sol Stein refers to a similar concept called 'oblique dialogue'.</p>
                 <p>Stein says good dialogue is “confrontational” and “thrives on surprise and indirection,” and “raises more questions than it answers.”</p>
-                <u>How To Grow A Novel, Sol Stein.</u>
                 <p>Dialogue that jumps out isn’t necessarily ‘oblique’ – oblique dialogue suggests more than is actually said and elicits further interest. Dialogue that skirts around moves outside the bounds of expectation or social convention or expected phrasing. By eschewing polite expectations, you make the dialogue immediate and get out of the ‘wallflower’ stages of new social interaction as quickly as possible; polite, bland, forgettable and everything a character is not. Characters may sound as if they’re presuming certain information possessed by the other character, and to the reader, it may have a sense that you’re being sucked into a conversation midway through – this is what gives it dynamism.</p>
 
                 <u>Bad Dialogue:</u>
@@ -96,7 +94,7 @@ export default function Dialogue() {
                 <u>More Bad Dialogue:</u>
                 <ul>
                   <li>One evening Ethel asked, "Katie, would you like to come to the barnyard?"</li>
-                  <li>"Yes, I would," I answered.</li><a href="#f3"><sup>3</sup></a>
+                  <li>"Yes, I would," I answered.<FootnoteRef text="Beverly Hopwood, Katie and Ozzie." /></li>
                 </ul>
 
                 <u>Good Dialogue (Dodgem dialogue) example #1</u>
@@ -117,7 +115,7 @@ export default function Dialogue() {
                   <li>Character B: “The horse fell down the well. Terrible.”</li>
                 </ul>
 
-                <p>Here are some examples from Sol Stein: </p><a href="#f4"><sup>4</sup></a>
+                <p>Here are some examples from Sol Stein: <FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
 
                 <u>Example of bad dialogue:</u>
                 <ul>
@@ -270,7 +268,7 @@ export default function Dialogue() {
 
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">“Hello,” he lied. </p>
-                  <p></p><i>— Don Carpenter (quoting a Hollywood agent) </i><a href="#f5"><sup>5</sup></a>
+                  <p></p><i>— Don Carpenter (quoting a Hollywood agent) </i><FootnoteRef text="Mark Edward, Psychic Blues." />
                 </div>
 
                 <p>Dialogue tags attribute speech to someone. They generally convey two bits of information:</p>
@@ -303,22 +301,24 @@ export default function Dialogue() {
                 <p>You should only use a NS when ‘said’ does not convey what you intend. This may be where a character is being ironic or humourous. But even that’s debatable, e.g. – </p>
                 <p className='indent-text-1'>“You should only use a NS when ‘said’ doesn’t convey what you intend,” I said. “Or your character is called ‘Said’.”</p>
 
-                <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:</p>
+                <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:<FootnoteRef text="Prey, Michael Crichton." /></p>
 
-                <p className='indent-text-1'><i>“I’m sorry. I handle this kind of thing all day, and I guess-”</i></p>
-                <p className='indent-text-1'><i>“This really is a problem, Jack.”</i></p>
-                <p className='indent-text-1'><i>“I said I’m sorry.”</i></p>
-                <p className='indent-text-1'><i>“I know that’s what you said, but I don’t think you are sorry, because I don’t see you doing anything to change your controlling behavior.”</i></p>
-                <p className='indent-text-1'><i>“Julia. You’re right. I’m sorry it happened.”</i></p>
-                <p className='indent-text-1'><i>“You’re just shutting me out and you are keeping me from my children-”</i></p>
-                <p className='indent-text-1'><i>“Julia, God damn it, you’re never here!”</i></p>
-                <p className='indent-text-1'><i>“I certainly am here. Don’t you dare say I am not.”</i></p>
-                <p className='indent-text-1'><i>“Wait a minute, wait a minute. When are you here? When was the last time you made it for dinner, Julia? Not last night, not the night before, not the night before that. Not all week, Julia. You are not here.”</i></p>
-                <p className='indent-text-1'><i>“I don’t know what you’re trying to do, Jack. I don’t know what kind of game you are playing.”</i></p>
-                <p className='indent-text-1'><i>“I’m not playing any game. I’m asking you a question.”</i></p>
-                <p className='indent-text-1'><i>“I’m a good mother, and I balance a very demanding job, a very demanding job, and the needs of my family. And I get absolutely no help from you.”</i></p>
-                <p className='indent-text-1'><i>“What are you talking about?”</i></p>
-                <p className='indent-text-1'><i>“You undercut me, you sabotage me, you turn the children against me. I see what you’re doing. Don’t think I don’t. You are not supportive of me at all. After all these years of marriage, I must say it’s a lousy thing to do to your wife.”</i></p>
+                <div className="p-3 mb-3 rounded custom-light-box">
+                <p><i>“I’m sorry. I handle this kind of thing all day, and I guess-”</i></p>
+                <p><i>“This really is a problem, Jack.”</i></p>
+                <p><i>“I said I’m sorry.”</i></p>
+                <p><i>“I know that’s what you said, but I don’t think you are sorry, because I don’t see you doing anything to change your controlling behavior.”</i></p>
+                <p><i>“Julia. You’re right. I’m sorry it happened.”</i></p>
+                <p><i>“You’re just shutting me out and you are keeping me from my children-”</i></p>
+                <p><i>“Julia, God damn it, you’re never here!”</i></p>
+                <p><i>“I certainly am here. Don’t you dare say I am not.”</i></p>
+                <p><i>“Wait a minute, wait a minute. When are you here? When was the last time you made it for dinner, Julia? Not last night, not the night before, not the night before that. Not all week, Julia. You are not here.”</i></p>
+                <p><i>“I don’t know what you’re trying to do, Jack. I don’t know what kind of game you are playing.”</i></p>
+                <p><i>“I’m not playing any game. I’m asking you a question.”</i></p>
+                <p><i>“I’m a good mother, and I balance a very demanding job, a very demanding job, and the needs of my family. And I get absolutely no help from you.”</i></p>
+                <p><i>“What are you talking about?”</i></p>
+                <p><i>“You undercut me, you sabotage me, you turn the children against me. I see what you’re doing. Don’t think I don’t. You are not supportive of me at all. After all these years of marriage, I must say it’s a lousy thing to do to your wife.”</i></p>
+                </div>
 
                 <h2 id="post-12-9" className="blog-post-title">12.9: People Avoid 'Jinxing'</h2>
                 <p>Here’s a mistake writers can tend to make: characters spelling out bad possibilities (mainly to escalate drama). </p>
@@ -332,9 +332,9 @@ export default function Dialogue() {
                   <li>In reality, people tend not to mention things they don't like or don't want to happen, for fear of associating the thing with themselves, or jinxing the thing to happen just by saying it, or simply refusing to acknowledge that the thing can or is happening right in front of them. </li>
                 </ol>
 
-                <p>To illustrate, this is an example of bad dialogue in ‘Alive’ (1993):</p>
+                <p>To illustrate, this is an example of bad dialogue from a film<FootnoteRef text="Alive, (1993)." /></p>
 
-                <p>A man is vigorously trying to free a trapped woman, who screams in pain. Another man says: </p>
+                <p>A man is vigorously trying to free a trapped woman, who screams in pain. Another man says:</p>
                 <p className="code-left">
                   <code><i>"Stop it! You'll kill her!" </i></code></p>
 
@@ -374,14 +374,14 @@ export default function Dialogue() {
                   <li> Character 3: "My friend's job. I hope she finally keeps this one." </li>
                 </ul>
 
-
                 <p>You now have more of a sense of these characters. It also creates closeness because people only much such personal or vulnerable admissions if they like or feel close to the person they are talking to.</p>
                 <p>Generating this closeness is helpful where you have to suggest that some time has passed and relative strangers have gotten to know each other better. </p>
                 <h2 id="post-12-11" className="blog-post-title">12.11: Don't Take Sides</h2>
                 <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i></p>
 
                 <h2 id="post-12-12" className="blog-post-title">12.12: When To Avoid Dialogue</h2>
-                <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King’s ‘The Shining’, where the bartender’s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist’s psychosis. That’s an extreme example. Here is another example, from Kate Braverman’s ‘Tall Tales from the Mekong Delta.’</p>
+                <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King’s ‘The Shining’, where the bartender’s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist’s psychosis. That’s an extreme example.</p> 
+                <p>Here is another example:<FootnoteRef text="Tall Tales from the Mekong Delta, Kate Braverman." /></p>
                 <p className="code-left">
                   <code><i>“I’m Lenny,” he said, extending his hand. “What’s your name?”
                     She told him. She was holding a bag with packages of cookies in it. After the meeting, she had an appointment with her psychiatrist, then a manicure. She kept walking.
@@ -396,7 +396,6 @@ export default function Dialogue() {
                 <ThoughtList />
 
                 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
-
 
                 <div className="footnotes">
                   <h4>Footnotes</h4>

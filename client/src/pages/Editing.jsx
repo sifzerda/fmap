@@ -17,12 +17,12 @@ export default function Editing() {
           <i>— Ernest Hemingway</i>
           <p className="lead my-3">In writing, you must kill all your darlings.</p>
           <i>— William Faulkner</i>
-                    <p className="lead my-3">If you catch an adjective, kill it!</p>
+          <p className="lead my-3">If you catch an adjective, kill it!</p>
           <i>— Mark Twain</i>
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={editBanner} alt="Thumbnail" />
       </div>
@@ -33,7 +33,7 @@ export default function Editing() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-22-1" className="blog-post-title">22.1: General Deadweights</h2>
-            
+
               <div id="content">
 
                 <p>Writing is the skill of putting words on the page; writing well is the skill of taking words off the page. This is a simple matter of knowing what kinds of words you take out. Here are some examples:</p>
@@ -56,9 +56,9 @@ export default function Editing() {
                       <li>Instead of saying ‘Grey, towering, gothic building’ say ‘Castle.’</li></ul> </li>
                   <li>If using more than one to describe a thing, get rid of all except the strongest. </li>
                 </ul>
-<p>This is a tip from Sol Stein. The ‘strongest’ adjective is the one which most immediately gets across the gist of what you want to show. Which adjective, alone, puts the most striking image in your reader’s mind? Anything implied needs to go; i.e. trees are assumed to be ‘big,’ ‘graceful,’ etc. ‘Tiny tree,’ rotting tree,’ ‘red tree,’ and ‘ugly tree’, however, are evocative in their own right.</p>
+                <p>This is a tip from Sol Stein. The ‘strongest’ adjective is the one which most immediately gets across the gist of what you want to show. Which adjective, alone, puts the most striking image in your reader’s mind? Anything implied needs to go; i.e. trees are assumed to be ‘big,’ ‘graceful,’ etc. ‘Tiny tree,’ rotting tree,’ ‘red tree,’ and ‘ugly tree’, however, are evocative in their own right.</p>
 
-                <p><strong>III. 'Had' as past tense:</strong> Sol Stein suggests removing all past tense ‘hads’.<a href="#f1"><sup>1</sup></a> Note there are three uses of ‘had’: </p>
+                <p><strong>III. 'Had' as past tense:</strong> Sol Stein suggests removing all past tense ‘hads’.<FootnoteRef text="Sol Stein, On Writing." /> Note there are three uses of ‘had’: </p>
                 <ul>
                   <li><i>past tense</i>; means ‘did’ (He had turned on the oven) </li>
                   <li><i>mandatory</i>; interchangeable with ‘needed’ (I had to go to the dentist) and </li>
@@ -107,7 +107,7 @@ export default function Editing() {
                 </ul>
 
                 <p><strong>XI. Bridges:</strong> Includes compound prepositions and conjunctions – these are sentences which transition from one idea to the next, e.g. ‘…and, for that matter,’ ‘More to the point…’ ‘In the nature of’ ‘For the most part.’ Either split into separate sentences, or replace:</p>
-                <p>Robert Flesch lists these along with their replacements:<a href="#f2"><sup>2</sup></a></p><u>Robert Flesch, The Art of Plain Talk.</u>
+                <p>Robert Flesch lists these along with their replacements:<FootnoteRef text="Robert Flesch, The Art of Plain Talk." /></p>
                 <ul>
                   <li>Along the lines of...................like;</li>
                   <li>As to.........................................about;</li>
@@ -172,8 +172,7 @@ export default function Editing() {
                 <p>In (2) because I removed pronouns, description moved off the protagonist, forcing me to add description to the setting, to fill up the paragraph. This reads better as reader is more interested in the place, in this scene, than the character.</p>
 
                 <h2 id="post-22-3" className="blog-post-title">22.3: Right-Branching Sentences</h2>
-                <p>Roy Peter Clark says <i>“The next time you struggle with a sentence, see if you can rewrite it by placing subject and verb at the beginning,”</i><a href="#f3"><sup>3</sup></a>  and letting subordinate elements ‘branch to the right.’ </p>
-                <u>Writing Tools: 50 Essential Strategies for Every Writer.</u>
+                <p>Roy Peter Clark<FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /> says <i>“The next time you struggle with a sentence, see if you can rewrite it by placing subject and verb at the beginning,”</i> and letting subordinate elements ‘branch to the right.’ </p>
 
                 <p>You normally see this kind of writing in journalism, e.g.</p>
                 <p className='indent-text-1'>A reporter writes a lead sentence with subject and verb at the beginning, followed by other subordinate elements, creating what scholars call a "right-branching sentence."</p>
@@ -192,25 +191,24 @@ export default function Editing() {
                 <p>Ask yourself, what information is the most important in this sentence?</p>
 
                 <h2 id="post-22-5" className="blog-post-title">22.5: Guarding Word Territory</h2>
-                <p>Roy Clark coined the useful concept ‘word territory’. It basically means giving important words their own space. Don’t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><a href="#f4"><sup>4</sup></a></p>
+                <p>Roy Clark coined the useful concept ‘word territory’. It basically means giving important words their own space. Don’t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-<ThoughtForm />
+                <ThoughtForm />
 
-<ThoughtList />
+                <ThoughtList />
 
                 <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Sol Stein, <i>On Writing.</i></li>
-                    <li id="f2">Robert Flesch, <i>The Art of Plain Talk.</i></li>
                     <li id="f3">Roy Peter Clark, <i>Writing Tools: 50 Essential Strategies for Every Writer.</i></li>
                     <li id="f4">Roy Peter Clark, <i>Writing Tools: 50 Essential Strategies for Every Writer.</i></li>
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>

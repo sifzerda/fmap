@@ -51,7 +51,7 @@ export default function Logline() {
                 <p>A bad logline may be a warning bell that your story sucks. When all it takes is writing one single sentence, wouldn’t you rather save time doing that litmus test, than discovering it after committing 150,000 long words?</p>
 
                 <h2 id="post-24-3" className="blog-post-title">24.3 Features of a Good Logline</h2>
-                <p>Blake Snyder lists features of good loglines, including:<a href="#f1"><sup>1</sup></a></p>
+                <p>Blake Snyder lists features of good loglines, including:<FootnoteRef text="Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." /></p>
 
                 <h5>24.3.1 	Irony</h5>
                 <p>A good logline uses irony to grab the reader’s interest – irony, not merely coincidence. I defined irony above; remember the difference between irony (opposite) and coincidence (similarity).</p>
@@ -63,8 +63,8 @@ export default function Logline() {
                 <p>It’s easy to see which logline is makes for a more interesting story.</p>
 
                 <p>Here are some more examples of ironic loglines:</p>
-                <p className='indent-text-1'>A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists (Die Hard). </p>
-                <p className='indent-text-1'>A businessman falls in love with a hooker he hires to be his date for the weekend (Pretty Woman). </p>
+                <p className='indent-text-1'>A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.<FootnoteRef text="Die Hard, (1988)." /> </p>
+                <p className='indent-text-1'>A businessman falls in love with a hooker he hires to be his date for the weekend.<FootnoteRef text="Pretty Woman, (1990)." /> </p>
 
                 <h5>24.3.2 	Entire Story</h5>
                 <p>A good logline will comprise a compelling mental picture. It will ignite the promise of your whole story, i.e. you know where it’s going to go. You may not know down to precise detail, but you’ll get the gist of the overall structure; the protagonist, their goal, their obstacle, and the possible outcome/s.</p>
@@ -95,10 +95,8 @@ export default function Logline() {
                 <p><u>"Catalyst"   </u> = the event that sets the story into motion.</p>
                 <p><u>"the flawed Antagonist"   </u> = the hero's nemesis or obstacle, and subject to his own flaw.</p>
 
-                <p className='indent-text-1'>On the verge of a divorce, a bullheaded street-smart cop is trapped in his wife's office building by terrorists and teams up with a 'desk cop' patrolman to thwart them; but when he taunts the terrorists, and risks exposing his hostage wife's identity, he must learn to adapt to change to outsmart the leader and stop what are really thieves from getting away with a billion-dollar heist. (Die Hard) </p>
-                <p className='indent-text-1'>On the verge of losing the girl he loves, a super-powered young man's abilities start to wane as a demented criminal he helped create begins to rain havoc on the city; but when he gives up his crime-fighting ways, he must learn what it means to make a promise, before more innocents die, to save his city from the criminal's super weapon. (Spider-Man 2) </p>
-
-                <u>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of, Blake Snyder.</u>
+                <p className='indent-text-1'>On the verge of a divorce, a bullheaded street-smart cop is trapped in his wife's office building by terrorists and teams up with a 'desk cop' patrolman to thwart them; but when he taunts the terrorists, and risks exposing his hostage wife's identity, he must learn to adapt to change to outsmart the leader and stop what are really thieves from getting away with a billion-dollar heist.<FootnoteRef text="Die Hard, (1988)." /> </p>
+                <p className='indent-text-1'>On the verge of losing the girl he loves, a super-powered young man's abilities start to wane as a demented criminal he helped create begins to rain havoc on the city; but when he gives up his crime-fighting ways, he must learn what it means to make a promise, before more innocents die, to save his city from the criminal's super weapon. <FootnoteRef text="Spider-Man 2, (2004)." /> </p>
 
                 <p>If you start with a logline you might want to reverse-engineer your story by structuring a plot around it, along with or in lieu of an E Chain or 3-turn structure. This means designing a couple of scenes to illustrate each element:</p>
 
@@ -164,7 +162,7 @@ export default function Logline() {
 <h2 id="post-24-4" className="blog-post-title">24.4 Loglines Need Causation</h2>
 <p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
  
-<p>Compare these summaries of 'The Virgin Suicides' by Jeffrey Eugenides: </p>
+<p>Compare these summaries:<FootnoteRef text="The Virgin Suicides, Jeffrey Eugenides." /></p>
  
  <p><u>Logline #1</u></p>
 <p>Some girls inexplicably commit suicide</p>
