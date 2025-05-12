@@ -80,9 +80,7 @@ export default function SecondaryCharacters() {
   <li>•	Children are not ‘normal’ characters, which means they have a selective role to play in a story, like any character with a special trait or characteristic. </li>
 </ol>
 
-<p>In order to deal with the above drawbacks, you must externalize a child character’s arc. No grappling with intense mental conflict. The more inside your character’s head the story is, the older they must be. This means anything but the archplot is forbidden, and you’ll find 90% of novels with children protagonists are archplots.</p><a href="#f1"><sup>10</sup></a>
-
-<u> But see Alice in Wonderland</u>
+<p>In order to deal with the above drawbacks, you must externalize a child character’s arc. No grappling with intense mental conflict. The more inside your character’s head the story is, the older they must be. This means anything but the archplot is forbidden, and you’ll find 90% of novels with children protagonists are archplots.<FootnoteRef text="But see 'Alice in Wonderland', Lewis Caroll." /></p>
 
 <p>Another way around is to infuse a ‘the child is the father of the man’ theme, showing how childhood incidents predisposed someone’s adult character. However, this does not make the child a protagonist, but a flashback, anecdote or memory which guides, develops and contextualizes the adult protagonist’s present action.</p>
 
