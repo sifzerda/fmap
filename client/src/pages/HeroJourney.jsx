@@ -1,5 +1,5 @@
 import '../App.css'
-import hjBanner from '../assets/hjbanner.jpg'
+import hjBanner from '../assets/hjbanner.jpg';
 
 export default function HeroJourney() {
     return (

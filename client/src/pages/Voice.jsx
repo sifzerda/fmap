@@ -1,7 +1,9 @@
-import '../App.css'
+import '../App.css';
 //import voiceBanner from '../assets/voicebanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 import { FootnoteProvider } from '../components/FootnoteContext';
 import FootnoteRef from '../components/FootnoteRef';
 

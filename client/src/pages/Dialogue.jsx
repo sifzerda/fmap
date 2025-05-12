@@ -2,6 +2,8 @@ import '../App.css'
 //import dialogueBanner from '../assets/dialoguebanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function Dialogue() {
   return (

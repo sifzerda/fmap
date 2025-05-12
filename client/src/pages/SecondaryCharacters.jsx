@@ -1,7 +1,9 @@
 import '../App.css'
-import secoBanner from '../assets/secobanner.png'
+import secoBanner from '../assets/secobanner.png';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function SecondaryCharacters() {
   return (

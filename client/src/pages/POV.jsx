@@ -2,6 +2,8 @@ import '../App.css'
 //import povBanner from '../assets/povbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function POV() {
   return (

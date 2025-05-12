@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
-import plotBanner from '../assets/plotbanner.jpg'
-import threeRt from '../assets/3rt.jpg'
-import crossArrow from '../assets/crossarrow.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
+import plotBanner from '../assets/plotbanner.jpg';
+import threeRt from '../assets/3rt.jpg';
+import crossArrow from '../assets/crossarrow.jpg';
 
 export default function Plot() {
   return (

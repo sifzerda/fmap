@@ -2,6 +2,8 @@ import '../App.css'
 import antagBanner from '../assets/antagbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function Antagonists() {
   return (
@@ -13,11 +15,11 @@ export default function Antagonists() {
         <div id="wrapper" className="text-left">
           <p className="lead my-3">Nobody is a villain in their own story. We are all heroes in our own stories </p>
           <i>— George R. R. Martin</i>
-                    <p className="lead my-3">Weeds are flowers too, once you get to know them.</p>
+          <p className="lead my-3">Weeds are flowers too, once you get to know them.</p>
           <i>— A. A. Milne</i>
-                              <p className="lead my-3">I love when a protagonist and antagonist can find common ground.</p>
+          <p className="lead my-3">I love when a protagonist and antagonist can find common ground.</p>
           <i>— Sam Esmail</i>
-                                        <p className="lead my-3">He that wrestles with us strengthens our nerves and sharpens our skill. Our antagonist is our helper.</p>
+          <p className="lead my-3">He that wrestles with us strengthens our nerves and sharpens our skill. Our antagonist is our helper.</p>
           <i>— Edmund Burke</i>
         </div>
       </div>

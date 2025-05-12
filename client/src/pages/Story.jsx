@@ -1,8 +1,10 @@
+import '../App.css';
 import { Link } from 'react-router-dom';
 import storyBanner from '../assets/storybanner.png';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import '../App.css'
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function Story() {
   return (

@@ -1,7 +1,9 @@
 import '../App.css'
-import premiseBanner from '../assets/premisebanner.jpg'
+import premiseBanner from '../assets/premisebanner.jpg';
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function Premise() {
   return (
