@@ -1,0 +1,31 @@
+// FootnoteRef.jsx
+import { useState, useEffect, useRef } from 'react';
+import { useFootnoteCounter } from './FootnoteContext';
+
+function FootnoteRef({ text }) {
+  const { getNextFootnoteNumber } = useFootnoteCounter();
+   const indexRef = useRef(null);
+  const [hovered, setHovered] = useState(false);
+
+  // Assign index only once
+  if (indexRef.current === null) {
+    indexRef.current = getNextFootnoteNumber();
+  }
+
+  return (
+    <span
+      className="footnote-ref"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <sup className="footnote-marker">{indexRef.current}</sup>
+      {hovered && (
+        <span className="footnote-tooltip">
+          {text}
+        </span>
+      )}
+    </span>
+  );
+}
+
+export default FootnoteRef;

@@ -2,10 +2,12 @@ import '../App.css'
 //import voiceBanner from '../assets/voicebanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
-import Footnotes from '../components/Footnotes';
+import { FootnoteProvider } from '../components/FootnoteContext';
+import FootnoteRef from '../components/FootnoteRef';
 
 export default function Voice() {
   return (
+    <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -58,7 +60,7 @@ export default function Voice() {
               </p>
 
               <p>
-                <u>Ben Yagoda</u> explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.<Footnotes text="Ben Yagoda, How to Not Write Bad." />
+                <u>Ben Yagoda</u> explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.<FootnoteRef text="Ben Yagoda, How to Not Write Bad." />
               </p>
               <hr></hr>
 
@@ -81,7 +83,7 @@ export default function Voice() {
               </p>
 
               <p>
-                The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:<Footnotes text="David Carroll, A Manual of Writer's Tricks." /></p>
+                The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:<FootnoteRef text="David Carroll, A Manual of Writer's Tricks." /></p>
                 <ol>
                   <li>Gain the audience's attention</li>
                   <li>Hold their interest</li>
@@ -159,7 +161,6 @@ export default function Voice() {
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
 <ThoughtForm />
-
 <ThoughtList />
 
 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
@@ -218,5 +219,6 @@ export default function Voice() {
       </main>
 
     </div>
+    </FootnoteProvider>
   );
 }
