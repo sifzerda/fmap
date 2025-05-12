@@ -228,6 +228,8 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] figure out how to work out the subjects href list when page flexed narrow or on mobile phone. Can it be pushed  to center (otherwise remaining the same, clicking to open)
 
+- [ ] up to plot footnotes
+
 Changes:
 
 - removed padding-top: 40px for div justify center (footer) /
