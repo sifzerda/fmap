@@ -1,4 +1,4 @@
-// FootnoteContext.jsx
+// FootnoteContext.jsx -- pre-zustand for use with FootnoteRef and wrapping App globally 
 import { createContext, useContext, useRef, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
