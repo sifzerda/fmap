@@ -208,7 +208,7 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
 
-- [ ] FOOTNOTES: up to description
+- [ ] FOOTNOTES: up to dialogue
 
 - [ ] remove the blue footnotes sections out of each chapter
 
