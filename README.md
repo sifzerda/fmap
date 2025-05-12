@@ -8,6 +8,7 @@
 - [Visuals ](#visuals)
 - [Installation ](#installation)
 - [Usage ](#usage)
+- [Tech](#tech)
 - [Support ](#support)
 - [Contributing ](#contributing)
 - [Authors and Acknowledgment ](#authors-and-acknowledgment)
@@ -68,15 +69,22 @@ User authentication with JWTs allow users to create an account, which stores use
 
 Registered users are welcome to leave comments, criticism, and feedback on the pages. I appreciate your feedback or comments if any part of the site has been helpful to your writing.
 
+# Tech <a name="tech"></a>
+
+- React Router: SPA with page router
+- Apollo: DB queries on user and comments
+- MongoDB: stores user accounts and comments
+- zustand: store dynamically managing footnote assignment
+
 ## Footnotes
 
-Footnotes are dynamically enumerated using the FootnoteContext /> Provider and FootnoteRef />. New Footnotes can be added by pasting: 
+New Footnotes can be added by pasting: 
 
 ```bash
-<FootnoteRef text="Author Name, Source Title." /></p>
+<FootnoteRef text="Author, Title." />
 ```
 
-Right after a reference/quote (no space) and filling in the full citation.
+Right after a reference/quote (no space) and filling in the full citation. Paste before </ p>  to preserve formatting.
 
 # Support <a name="support"></a>
 

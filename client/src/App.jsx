@@ -1,12 +1,13 @@
 import './App.css';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Hrefs from './components/Hrefs';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink, } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import { FootnoteProvider } from './components/FootnoteContext';
+import useFootnoteStore from './utils/footnoteStore.js';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -30,9 +31,17 @@ const client = new ApolloClient({
 // subjects //
 
 function App() {
+
+  const location = useLocation();
+  const resetCounter = useFootnoteStore((state) => state.resetCounter);
+
+  // Reset counter when location changes (page navigation)
+  useEffect(() => {
+    resetCounter();
+  }, [location, resetCounter]);
+
   return (
     <ApolloProvider client={client}>
-      <FootnoteProvider>
       <>
         <header className="header">
           <Header />
@@ -52,7 +61,6 @@ function App() {
 
         <Footer />
       </>
-      </FootnoteProvider>
     </ApolloProvider>
   );
 }

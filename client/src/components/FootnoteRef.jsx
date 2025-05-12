@@ -1,10 +1,10 @@
 // FootnoteRef.jsx
 import { useState, useRef } from 'react';
-import { useFootnoteCounter } from './FootnoteContext';
+import useFootnoteStore from '../utils/footnoteStore.js';
 
 function FootnoteRef({ text }) {
-  const { getNextFootnoteNumber } = useFootnoteCounter();
-   const indexRef = useRef(null);
+const getNextFootnoteNumber = useFootnoteStore(state => state.getNextFootnoteNumber); 
+  const indexRef = useRef(null);
   const [hovered, setHovered] = useState(false);
 
   // Assign index only once
