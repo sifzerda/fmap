@@ -68,6 +68,16 @@ User authentication with JWTs allow users to create an account, which stores use
 
 Registered users are welcome to leave comments, criticism, and feedback on the pages. I appreciate your feedback or comments if any part of the site has been helpful to your writing.
 
+## Footnotes
+
+Footnotes are dynamically enumerated using the FootnoteContext /> Provider and FootnoteRef />. New Footnotes can be added by pasting: 
+
+```bash
+<FootnoteRef text="Author Name, Source Title." /></p>
+```
+
+Right after a reference/quote (no space) and filling in the full citation.
+
 # Support <a name="support"></a>
 
 For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
