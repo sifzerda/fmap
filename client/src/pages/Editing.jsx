@@ -16,6 +16,8 @@ export default function Editing() {
           <i>— Ernest Hemingway</i>
           <p className="lead my-3">In writing, you must kill all your darlings.</p>
           <i>— William Faulkner</i>
+                    <p className="lead my-3">If you catch an adjective, kill it!</p>
+          <i>— Mark Twain</i>
         </div>
       </div>
 

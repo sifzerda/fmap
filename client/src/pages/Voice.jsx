@@ -14,8 +14,8 @@ export default function Voice() {
         <h1 className="display-4">Voice</h1>
 
         <div id="wrapper" className="text-left">
-        <p className="lead my-3">Style is […] a matter of knowing when one has said enough.<a href="#f1"><sup>1</sup></a></p>
-        <i>— Hallie & Whit Burnett, Fiction Writer&apos;s Handbook</i>
+        <p className="lead my-3">Style is […] a matter of knowing when one has said enough.</p>
+        <i>— Hallie & Whit Burnett</i>
         <p className="lead my-3">If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.</p>
         <i>— Somerset Maugham</i>
         <p className="lead my-3">Poor Faulkner. Does he really think big emotions come from big words?</p>
@@ -44,7 +44,7 @@ export default function Voice() {
               </p>
 
               <hr></hr>
-              <p>Sol Stein says voice has two components: <i>&lsquo;the originality of what is said and the originality of the way it is said.&rsquo;</i></p>
+              <p>Sol Stein says voice has two components: <i>&lsquo;the originality of what is said and the originality of the way it is said.&rsquo;</i><FootnoteRef text="Sol Stein, Stein on Writing: A Master Editor of Some of the Most Successful Writers of Our Century Shares His Craft Techniques and Strategies." /></p>
 
               <p>Like speaking voice, there are a multiple indicators of writing voice:
                 <ul>
@@ -60,7 +60,7 @@ export default function Voice() {
               </p>
 
               <p>
-                <u>Ben Yagoda</u> explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.<FootnoteRef text="Ben Yagoda, How to Not Write Bad." />
+                Ben Yagoda<FootnoteRef text="Ben Yagoda, How to Not Write Bad." /> explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.
               </p>
               <hr></hr>
 
@@ -70,7 +70,7 @@ export default function Voice() {
                 William Hazlitt gave it some other names, and a good characterization, back in 1821:
               </p>
 
-              <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i></p>
+              <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i><FootnoteRef text="William Hazlitt, INSERT REF." /></p>
 
               <p>
                 He also gives an example of voiceless – soulless – writing:
@@ -122,31 +122,30 @@ export default function Voice() {
 
               <div className="p-3 mb-3 rounded custom-light-box">
                 <p className="mb-0">One must be careful to distinguish between those who write beautiful things and those who write things beautifully</p>
-                <p></p><i>— Somerset Maugham</i><a href="#f4"><sup>4</sup></a>
+                <p></p><i>— Somerset Maugham</i><FootnoteRef text="Somerset Maugham, INSERT REF." />
               </div>
 
               <p>
                 The best voice/style is the least noticeable. Like symbolism, voice is not something you want shoved in your face while you’re reading – it’s something you appreciate in afterthought.
               </p>
 
-              <p>Bickham says:</p>
+              <p>Bickham says:<FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." /></p>
 
               <p className="code-left">
-                <code><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it’ll] <i>draw attention to you as a writer, rather than to what's happening.” </i></code>
-                <a href="#f5"><sup>5</sup></a></p>
+                <code><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it’ll] <i>draw attention to you as a writer, rather than to what's happening.” </i></code></p>
 
-              <u>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).</u>
-              <hr></hr>
+              <hr />
 
-              <p>Mittelmark and Newman agree, saying: words which draw attention to themselves draw attention away from the story you are telling and remind the reader that they are reading a story.</p>
+              <p>Mittelmark and Newman agree, saying:<FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." /> words which draw attention to themselves draw attention away from the story you are telling and remind the reader that they are reading a story.</p>
 
-              <p>Writing only works <i>"when both parties [reader and writer] agree beforehand on what words mean."</i><a href="#f6"><sup>6</sup></a>  They advise to choose only the word/s which are the best to express the idea.</p>
+              <p>Writing only works <i>"when both parties [reader and writer] agree beforehand on what words mean."</i></p>  
+              <p>They advise to choose only the word/s which are the best to express the idea.</p>
 
-              <p>There's no point consciously striving for style, as William Sloane says.  Your style should recreate your tone of voice. The paradoxical thing about style is it's like an accent; you shouldn't be aware of your own.<a href="#f7"><sup>7</sup></a></p>
+              <p>There's no point consciously striving for style, William Sloane says.<FootnoteRef text="William Sloane, The Craft of Writing." />  Your style should recreate your tone of voice. The paradoxical thing about style is it's like an accent; you shouldn't be aware of your own.</p>
 
-              <hr></hr>
+              <hr />
               Don’t worry too much about actively modifying your writing style (and if you are consciously striving to write in a ‘voice’, then it isn’t your real voice). Focus more on writing in a natural, comfortable way, Also, realise that writing style may surface as much in your editing technique as your writing technique – which words you remove and how you rearrange and re-write your sentences.
-              <hr></hr>
+              <hr />
 
               <h2 id="post-15-4" className="blog-post-title">15.4: Contrast</h2>
 
@@ -157,30 +156,11 @@ export default function Voice() {
               <p>If you haven’t yet read the subsequent chapter, this activity will still work, but it will also show you as the differences in structuring, plotting and pacing, between the author and yourself, which is also informative (works better if you haven’t read the subsequent chapter). </p>
             </div>
             </div>
-
+<hr />
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
 <ThoughtForm />
 <ThoughtList />
-
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
-
-<div className="footnotes">
-
-
-
-                  <h4>Footnotes</h4>
-
-                  <ol>
-                    <li id="f1">Hallie & Whit Burnett, <i>Fiction Writer's Handbook.</i></li>
-                    <li id="f2">Ben Yagoda, <i>How to Not Write Bad.</i></li>
-                    <li id="f3">David Carroll, <i>A Manual of Writer's Tricks.</i></li>
-                    <li id="f4">Hallie & Whit Burnett, <i>Fiction Writer's Handbook.</i></li>
-                    <li id="f5">Jack Bickham, <i>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).</i></li>
-                    <li id="f6">Howard Mittelmark and Sandra Newman, <i>How NOT to Write a Novel.</i></li>
-                    <li id="f7">William Sloane, <i>The Craft of Writing.</i></li>
-                  </ol>
-                </div>
 
 {/* ---------------------------------------------------------------------------------------------- */}
 
