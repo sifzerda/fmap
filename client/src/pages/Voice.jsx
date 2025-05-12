@@ -2,6 +2,7 @@ import '../App.css'
 //import voiceBanner from '../assets/voicebanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
+import Footnotes from '../components/Footnotes';
 
 export default function Voice() {
   return (
@@ -57,7 +58,7 @@ export default function Voice() {
               </p>
 
               <p>
-                <u>Ben Yagoda</u> explains:<a href="#f2"><sup>2</sup></a> There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.
+                <u>Ben Yagoda</u> explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.<Footnotes text="Ben Yagoda, How to Not Write Bad." />
               </p>
               <hr></hr>
 
@@ -80,13 +81,12 @@ export default function Voice() {
               </p>
 
               <p>
-                The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:<a href="#f3"><sup>3</sup></a>
+                The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:<Footnotes text="David Carroll, A Manual of Writer's Tricks." /></p>
                 <ol>
                   <li>Gain the audience's attention</li>
                   <li>Hold their interest</li>
                   <li>Win their long-term confidence so that they keep reading.</li>
                 </ol>
-              </p>
 
               <hr></hr>
 
@@ -165,7 +165,11 @@ export default function Voice() {
 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
 <div className="footnotes">
+
+
+
                   <h4>Footnotes</h4>
+
                   <ol>
                     <li id="f1">Hallie & Whit Burnett, <i>Fiction Writer's Handbook.</i></li>
                     <li id="f2">Ben Yagoda, <i>How to Not Write Bad.</i></li>
@@ -212,7 +216,6 @@ export default function Voice() {
           </aside>
         </div>
       </main>
-
 
     </div>
   );

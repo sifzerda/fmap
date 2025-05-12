@@ -300,8 +300,6 @@ export default function Story() {
 
                 {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
-
-
                 <div className="footnotes">
                   <div className="p-3 mb-3 rounded pixar-box">
                   <h4>Footnotes</h4>
