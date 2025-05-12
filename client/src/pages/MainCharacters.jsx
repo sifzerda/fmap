@@ -7,6 +7,7 @@ import FootnoteRef from '../components/FootnoteRef';
 
 export default function MainCharacters() {
   return (
+        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -733,5 +734,6 @@ export default function MainCharacters() {
       </main>
 
     </div>
+    </FootnoteProvider>
   );
 }

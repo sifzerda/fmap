@@ -7,6 +7,7 @@ import FootnoteRef from '../components/FootnoteRef';
 
 export default function Premise() {
   return (
+        <FootnoteProvider>
     <div>
 
       <div className="jumbotron p-3 p-md-3 text-white text-center rounded bg-dark">
@@ -70,7 +71,7 @@ export default function Premise() {
                 <p>Examples:</p>
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <ul>
-                    <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house? (1408, Stephen King);</li>
+                    <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?</li><FootnoteRef text="1408, Stephen King." />
                     <li>What if an intellectually handicapped man was in an experiment that made him a genius? (Flowers for Algernon, Daniel Keyes);</li>
                     <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? (The Incredible Shrinking Man, Richard Matheson) </li>
                   </ul>
@@ -369,5 +370,6 @@ export default function Premise() {
       </main>
 
     </div>
+        </FootnoteProvider>
   );
 }
