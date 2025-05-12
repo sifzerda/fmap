@@ -206,6 +206,20 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 
+- [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
+
+- [ ] FOOTNOTES: up to description
+
+- [ ] remove the blue footnotes sections out of each chapter
+
+- [ ] style the footnotes with black tooltip styling
+
+
+### LATER:
+- [ ] when page flexes in, the 'about' 'index' and 'also see' parts are pushed to the bottom of page. they need to be pushed to the top under the image banner.
+
+- [ ] figure out how to work out the subjects href list when page flexed narrow or on mobile phone. Can it be pushed  to center (otherwise remaining the same, clicking to open)
+
 Changes:
 
 - removed padding-top: 40px for div justify center (footer) /
@@ -219,3 +233,4 @@ Changes:
 - removed superfluous package json installations /
 - filled about section summaries
 - removed extra router links from main and app.jsx /
+- Made footnotes a dynamic context (see components)

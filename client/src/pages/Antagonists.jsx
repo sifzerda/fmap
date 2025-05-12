@@ -64,17 +64,16 @@ export default function Antagonists() {
                 <p>Compare with a ‘contradictory’ antagonist. Their values and goals are interlinked in direct opposition, which creates a zero sum game where only one can triumph. Together the protag and antag create a potential ‘cancelling out.’ The ‘town’ is not big enough for both the protagonist and antagonist to co-exist. The closer they get, the more imperative it becomes that one defeats or subverts the other.</p>
                 <p>You may have both antagonistic forces in your story: the protagonist progresses past contrary sub-antagonists until finally facing off against the contradictory head antagonist.</p>
                 <p>Alternatively, your head antagonist starts off contrary, but transforms into a contradictory antagonist by the end.</p>
-                <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein<a href="#f1"><sup>1</sup></a>  suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”</p>
-                <u>How To Grow A Novel, Sol Stein.</u>
+                <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein<a href="#f1"><sup>1</sup></a>  suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
 
                 <h2 id="post-16-5" className="blog-post-title">16.5: The Negation of a Negation</h2>
-                <p>This is a concept introduced by Robert McKee. </p><u>ROBERT MCKEE BOOK</u>
+                <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p> 
                 <p>Think of the antagonist as basically the negation of the protagonist. The protagonist stands for certain values. Whatever they are, the antagonist stands for the opposite value/s. Some examples are: truth/deception; justice/injustice; idealism/materialism; love/power; money/integrity…etc.</p>
                 <p>A more effective, even sublime, antagonist is ‘the negation of a negation.’ This is where the antagonistic forces go even further than negation, making even the original antagonist look good by comparison. A ‘neg x neg’ turns the original pos/neg dichotomy on its head.</p>
                 <h5>16.4.1 Values Are Neutral</h5>
                 <p>Remember, all values are neutral – money could be positive, and love negative; for instance a young teen novel about a poor high school graduate who learns to delay young, idealistic romance until they’re older, in order to focus on getting a job and making themselves financially secure. </p>
                 <p>Example:</p>
-                <p>Let’s say the value dichotomy is intelligence/ignorance.<a href="#f2"><sup>2</sup></a> This is a neutral dichotomy and could go either way. For instance, while George Orwell’s 1984 made intelligence the positive value, Daniel Keyes, Flowers for Algernon, made intelligence the negative value. There are two potential ‘neg x negs’: if ignorance is the negative value, the neg x neg is ignorance confused for intelligence. If intelligence is the negative value, the neg x neg is intelligence confused for ignorance.</p>
+                <p>Let’s say the value dichotomy is intelligence/ignorance. This is a neutral dichotomy and could go either way. For instance, while George Orwell’s 1984 made intelligence the positive value, Daniel Keyes, Flowers for Algernon, made intelligence the negative value. There are two potential ‘neg x negs’: if ignorance is the negative value, the neg x neg is ignorance confused for intelligence. If intelligence is the negative value, the neg x neg is intelligence confused for ignorance.</p>
                 <p>These are even worse situations than the negatives, because not only is the negative the state of affairs, but it’s not being responded to as the true state of affairs. If something is not recognized for what it is, it cannot be challenged and subverted. So it’s like there are two levels of antagonism: the value’s existence and its lack of acknowledgement/resistance.</p>
                 <p>More examples of neg x negs:</p>
 
@@ -135,7 +134,6 @@ export default function Antagonists() {
                     <h4>Footnotes</h4>
                     <ol>
                       <li id="f1">Sol Stein, <i>How To Grow A Novel.</i></li>
-                      <li id="f2">For instance, while George Orwell’s <i> 1984 </i>made intelligence the positive value, Daniel Keyes  <i> Flowers for Algernon </i>made intelligence the negative value. </li>
                     </ol>
                   </div>
                 </div>

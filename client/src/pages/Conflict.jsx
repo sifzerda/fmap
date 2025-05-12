@@ -37,8 +37,7 @@ export default function Conflict() {
                   <p>Conflict also gives your character an opportunity to respond; they have some power to try to change the course of events (even if they fail). Blind misfortune, on the other hand, doesn’t care who your protagonist is, and gives him no opportunity, and no recourse.</p>
 
                   <div className="p-3 mb-3 rounded custom-light-box">
-                    <p className="mb-0">Your character can&apos;t sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn&apos;t want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue.</p>
-                    <p></p><i>— Jack Bickham.</i><a href="#f1"><sup>1</sup></a>
+                    <p className="mb-0">Your character can&apos;t sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn&apos;t want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue.<FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." /></p>
                   </div>
 
                   <p>Notice how the conflict, by making the information harder to get, makes it seem more valuable and after the effort, will make the reader more interested to know what it is. This reinforces an economy of information (see 11.3 Information Economy).</p>
@@ -49,7 +48,7 @@ export default function Conflict() {
                   <p>Any scene with conflict must be ‘shown’ as if it’s happening, not ‘told,’ (summarized). </p>
 
                   <h2 id="post-5-3" className="blog-post-title">5.3. Types of Conflict</h2>
-                  <p>Robert McKee outlines 3 types of conflict. You can distinguish these by whether it involves individuals or entities:</p>
+                  <p>Robert McKee outlines 3 types of conflict.<FootnoteRef text="Robert Mckee, Story: Style, Structure, Substance, and the Principles of Screenwriting." /> You can distinguish these by whether it involves individuals or entities:</p>
 
                   <h5>5.3.1 	Inner Conflicts</h5>
                   <p>These involve the minds and selves of characters; struggles not articulated to or involving other characters. There is one individual involved: the character themselves, but there is no conflict between separate individuals.</p>
@@ -62,7 +61,7 @@ export default function Conflict() {
 
                   <h2 id="post-5-4" className="blog-post-title">5.4. Conflict ≠ Fight</h2>
                   <p>Many people hear ‘conflict’ and immediately think of a fight: verbal or physical. The problem with this notion is that you put an overt ‘fight’ in your story every time you want to add conflict, it will emotionally exhaust your reader, and make your characters implausibly argumentative, and by extension unlikeable. A better way of conceiving of conflict is in the context of a ‘conflict of interest’; like the scenario you may face where your professional duty is in opposition with your personal interest. </p>
-                  <p>Another misconception is that you need a ‘big’ scene to convey ‘big’ conflict. Often it’s more effective to convey big conflict through small scenes. Look at this example from Harper Lee’s ‘To Kill a Mockingbird,’ — </p>
+                  <p>Another misconception is that you need a ‘big’ scene to convey ‘big’ conflict. Often it’s more effective to convey big conflict through small scenes. Look at this example:<FootnoteRef text="To Kill A Mockingbird, Harper Lee." /> </p>
 
                   <div className="p-3 mb-3 rounded custom-light-box">
                     <p className='indent-text-1'>&quot;Atticus,&quot; I said one evening, &quot;what exactly is a nigger-lover?&quot; Atticus&apos;s face was grave. &quot;Has somebody been calling you that?&quot;</p>
@@ -86,12 +85,11 @@ export default function Conflict() {
 
                   <h5>5.4.2 	Promise a Difficult Decision</h5>
                   <p>You don’t need to write in a ‘fight’ scene to make conflict. You may merely pose a zero-sum-game choice to the protagonist. The problem with doing that is you require the protagonist to choose; and once the choice is made, the conflict dissipates. The conflict is stronger before the protagonist makes the choice. So consider inserting conflict through subtext and promise, which may then eventually culminate and get resolved by a confrontation. And the purpose of this subtext and promise is to remind your reader that there will be a confrontation.</p>
-                  <p>The decision may play out in different ways. One, the protagonist may anguish over the inevitable decision long before it happens. An example of this is in The Jungle Book, where, throughout the story, Mowgli’s conflict is that he is torn between living amongst the animals rather than living amongst humans. He gradually shows more interest in returning to humankind, and, when the animals become alienated from him, ultimately returns to the human village. Two, the decision may come prematurely, and the protagonist makes an impulsive choice, and the conflict occurs for long after, whereon the protagonist realizes the full consequences of their choice. An example of this is in A Separate Peace, where Gene’s conflict is his feeling guilty throughout the story for perceivedly causing Phinny’s accident and injury at the beginning of the story (and ultimately death). </p>
+                  <p>The decision may play out in different ways. One, the protagonist may anguish over the inevitable decision long before it happens. An example of this is in The Jungle Book,<FootnoteRef text="The Jungle Book, Rudyard Kipling." /> where, throughout the story, Mowgli’s conflict is that he is torn between living amongst the animals rather than living amongst humans. He gradually shows more interest in returning to humankind, and, when the animals become alienated from him, ultimately returns to the human village. Two, the decision may come prematurely, and the protagonist makes an impulsive choice, and the conflict occurs for long after, whereon the protagonist realizes the full consequences of their choice. An example of this is in A Separate Peace,<FootnoteRef text="A Separate Peace, John Knowles." /> where Gene’s conflict is his feeling guilty throughout the story for perceivedly causing Phinny’s accident and injury at the beginning of the story (and ultimately death). </p>
 
                   <h2 id="post-5-5" className="blog-post-title">5.5. How to Create Conflict</h2>
 
-                  <p>Robert Meredith and John Fitzgerald  provide a step by step method of creating conflict:</p><a href="#f2"><sup>2</sup></a>
-                  <u>Structuring your novel: From basic idea to finished manuscript.</u>
+                  <p>Robert Meredith and John Fitzgerald  provide a step by step method of creating conflict:<FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." /></p>
 
                   <h5>5.5.1 	Conflict with Environment</h5>
                   <p>Step One: Place the protagonist in conflict with his own environment or the environment of others. There are different ways to do this:</p>
@@ -218,6 +216,6 @@ export default function Conflict() {
         </main>
 
       </div>
-      </FootnoteProvider>
-      );
+    </FootnoteProvider>
+  );
 }
