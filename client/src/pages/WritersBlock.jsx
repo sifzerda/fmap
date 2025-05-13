@@ -79,7 +79,7 @@ export default function WritersBlock() {
 <p>Same as above, but imagine if the idea played out as a movie. This will help write scenes which have more immediacy, because you can’t film a scene with abstract content.</p>
                
                 <h2 id="post-21-7" className="blog-post-title">21.7: The Lover’s Quarrel</h2>
-<p>This is a writing exercise from Sol Stein for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here’s a hint: the characters don’t have to be talking directly at each other (could be making an observation or statement).</p>
+<p>This is a writing exercise from Sol Stein<FootnoteRef text="Sol Stein, Stein On Writing." /> for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here’s a hint: the characters don’t have to be talking directly at each other (could be making an observation or statement).</p>
 <p><strong>Lovers’ Quarrel in Ten Brief Exchanges:</strong></p>    
 <p className='indent-text-1'>He:</p>
 <p className='indent-text-1'>She:</p>   
@@ -105,7 +105,7 @@ export default function WritersBlock() {
 <p className='indent-text-1'>"Isn't it obvious?"</p>   
 
                 <h2 className="blog-post-title">21.8: Write What You Love</h2>
-<p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”  The answer needn’t always be ‘yes.’ But if it’s never ‘yes,’ then you have a problem. Go back to writing what you really enjoy.</p>
+<p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”<FootnoteRef text="Stephen King, Chapter 1: Everything You Need To Know About Writing Successfully — in Ten Minutes, The Writer's Handbook 1988." /> The answer needn’t always be ‘yes.’ But if it’s never ‘yes,’ then you have a problem. Go back to writing what you really enjoy.</p>
 
 
 {/* ------------------------------------------ footnotes --------------------------------- */}

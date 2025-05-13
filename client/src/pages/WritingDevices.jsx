@@ -46,13 +46,11 @@ export default function WritingDevices() {
                 <p>This refers to story details making an implied promise to the audience that a particular idea will later unfold in a particular way. </p>
                 
                 <div className="p-3 mb-3 rounded custom-light-box">
-                  <p className="mb-0">“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”<a href="#f1"><sup>1</sup></a></p>
-                  <p></p><i>— David Carroll</i>
+                  <p className="mb-0">“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”</p>
+                  <p></p><i>— David Carroll</i><FootnoteRef text="David Carroll, A Manual of Writer's Tricks." />
                 </div>
 
-                <u>A Manual of Writer's Tricks, David Carroll.</u>
-
-                <p>Example, in context, Rick Blaine's (Humphrey Bogart) "Of all the gin joints in all the towns in all the world, she walks into mine," is a promise that Ilsa and himself will interact later, and buried feelings will resurface.</p>
+                <p>Example, in context, Rick Blaine's<FootnoteRef text="Casablanca, (1942)." /> "Of all the gin joints in all the towns in all the world, she walks into mine," is a promise that Ilsa and himself will interact later, and buried feelings will resurface.</p>
 
                 <p>Subsequently denying the development of that idea constitutes 'blocking' - see below. </p>
                 <p>Example: In Pet Sematary, by establishing that the ‘Sematary’ resurrects creatures, King makes an offer that a character will die and be resurrected. If the main character decided not to resurrect someone at the last minute, it would result in the offer being ‘blocked’ (below).</p>
@@ -79,7 +77,7 @@ export default function WritingDevices() {
                 <p className='indent-text-1'>X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I’ve never stopped there. Not once. Never seen anyone swimming either. It’s interesting. You enjoy yourself.”</p>
 
                 <p><strong>'Fortune Telling'</strong></p>
-                <p className='indent-text-1'>X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.</p><u>Carrie</u>
+                <p className='indent-text-1'>X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.<FootnoteRef text="Carrie, Stephen King." /></p>
 
                 <p><strong>'Cryptic Gobbledygook'</strong></p>
                 <p className='indent-text-1'>“The Mother,” Marie said. </p>
@@ -94,7 +92,7 @@ export default function WritingDevices() {
                 <p className='indent-text-1'>“By the sea?”   </p>
                 <p className='indent-text-1'>“It’s different here.”   </p>
                 <p className='indent-text-1'>“What does that mean?”   </p>
-                <p className='indent-text-1'>“You’ll see,” she said, and crossed the road.  </p>
+                <p className='indent-text-1'>“You’ll see,” she said, and crossed the road.<FootnoteRef text="The Fisherman, John Langerman." /></p>
 
                 <h2 id="post-20-4" className="blog-post-title">20.4: Reincorporation</h2>
                 <p>Revisiting an idea established earlier on in a story. For instance, Chekhov said that if a gun is shown in Act one, it must go off by Act three.</p>
@@ -109,7 +107,7 @@ export default function WritingDevices() {
 
 <h5>20.5.2 Setting the Story: The Question</h5>
 <p>Another – similar – way to start a story is to pose a question or raise an issue which isn’t properly realised or answered by the reader until they have all the details of the story. The question or issue can once again be put to the reader at the very end of the story, with new significance. The advantage of this method is that it deals with both start and end in one swoop.</p>
-<p><u>Example: The Events At Poroth Farm </u> at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people’s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
+<p>Example: In The Events At Poroth Farm<FootnoteRef text="The Events At Poroth Farm, T.E.D. Klein." /> at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people’s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
 
                 <h2 id="post-20-7" className="blog-post-title">20.7: Self-Awareness</h2>
 <p>Characters referencing writing devices in-story, e.g. 'that's so meta'. On a sliding scale of '1' (least self-aware) to '3' (most self-aware), it includes: </p>
@@ -165,9 +163,9 @@ export default function WritingDevices() {
 <p><i><strong>(1) Verbal Irony:</strong></i></p>
 <p>This is irony that comes out in dialogue; a speaker’s intention is the opposite of what they are saying. For example, when it’s raining and someone says “Nice weather.” </p>
 <p>Arguably, it’s also ‘verbal’ irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
-<p>Here is a written example of verbal irony: <a href="#f2"><sup>2</sup></a></p>
+<p>Here is a written example of verbal irony:</p>
 <p className='indent-text-1'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
-<p className='indent-text-1'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.</p>
+<p className='indent-text-1'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.<FootnoteRef text="A Modest Proposal, Jonathan Swift." /></p>
 
 <p><i><strong> (2) Situational Irony</strong></i></p>
 <p>This is where the result of a situation is the opposite of what you’d expect. For example, in O. Henry’s <i>The Gift of the Magi</i>, a husband sells his watch to buy his wife a hair comb, while his wife sells her hair to buy her husband a watch chain.</p>
@@ -176,12 +174,11 @@ export default function WritingDevices() {
 <p><i><strong> (3) Dramatic Irony</strong></i></p>
 <p>This is where the audience or reader knows a critical piece of information – unknown by a character – which dramatically alters their perception of a situation. This is basically situational irony, except the reader has knowledge which allows them to perceive the irony of the situation before it actually happens.</p>
 <p>For example, in Romeo and Juliet, we know Juliet’s intention to fake her death, where Romeo – failing to get the message – does not. This creates tragic irony when Romeo mistakes her for actually being dead, and kills himself.</p>
-<p>As Robert McKee says, like with symbolism, “to point at irony destroys it.” It cannot be obvious.  </p>
+<p>As Robert McKee<FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting."  /> says, like with symbolism, “to point at irony destroys it.” It cannot be obvious.  </p>
 
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
 <ThoughtForm />
-
 <ThoughtList />
 
 {/* ------------------------------------------------- footnotes --------------------------------------------- */}

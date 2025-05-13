@@ -59,13 +59,13 @@ export default function Synopsis() {
 
                 <h5>25.2.1 What Is Structure?</h5>
                 <p>There is no separate section of ‘Structure’ above, so it’s worth defining here. It should have its own section because, in my opinion, it’s the most important aspect of storytelling. </p>
-                <p>The importance of structure is reflected in this comment on Dante's Inferno by translator John Ciardi: it's <i>"power is structural: everything relates to everything else."</i></p>
+                <p>The importance of structure is reflected in this comment on Dante's Inferno by translator John Ciardi: it's <i>"power is structural: everything relates to everything else."</i><FootnoteRef text="Dante's Inferno (translated by John Ciardi), Dante Alighieri." /></p>
                 <p>Structure makes every part of a story fit into place like jigsaw pieces.</p>
                 <p>Structure makes words into a story.</p>
                 <p>Structure <i>makes</i> Story.</p>
                 <p>Yet, a lot of people – including people who know how to write -- are ignorant of how important it is. </p>
 
-                <p>Jack Hart makes a remark relevant here:<a href="#f1"><sup>1</sup></a></p>
+                <p>Jack Hart says:<FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." /></p>
                 <p className='indent-text-1'>“The display of current best sellers no doubt contains several titles by tin- eared pop novelists who wouldn’t recognize a graceful sentence if it asked them to dance. The likes of Jean Auel and Tom Clancy sell books by the millions because they understand story structure, a point that’s lost on the critics who savage their syntax.”</p>
 
                 <p>Hart also says: Structure is more visual than logical, a pattern of parts with its own rules for fitting pieces together, and most experienced writers create some sort of visual guide to the assembly of a story. Like an architect, they express their structural ideas as a kind of blueprint. They must see their structure in graphic terms.</p>
@@ -89,9 +89,9 @@ export default function Synopsis() {
                   <li>Part/Volume</li>
                   <li>Story</li>
                   <li>Series</li>
-                  <li>Multi-Series<a href="#f2"><sup>2</sup></a></li>
-                  <li>Multi-verse<a href="#f3"><sup>3</sup></a></li>
-                  <li>Mythos<a href="#f4"><sup>4</sup></a></li>
+                  <li>Multi-Series<FootnoteRef text="This is where you have a separate series which is the sequel of another separate series, e.g. David Eddings’ the Mallorean series is the sequel of his the Belgariad series." /></li>
+                  <li>Multi-verse<FootnoteRef text="This is where you have a canon of works (including series, prequels and spin-offs) set in the same story world, such as (in addition to the Mallorean and the Belgariad, Belgarath the Sorcerer, and <i>Polgara the Sorceress)." /></li>
+                  <li>Mythos<FootnoteRef text="This is where you have works set in the same story world, but including those not by the original author, e.g. the Lovecraft Mythos, created by or originating with H. P. Lovecraft but contributed to by authors such as Frank Belknap Long, August Derleth,  Robert Bloch, Robert E. Howard, and Clark Ashton Smith." /></li>
                 </ol>
 
                 <h2 id="post-25-3" className="blog-post-title">25.3 The Value of a Synopsis</h2>
@@ -101,16 +101,10 @@ export default function Synopsis() {
                 <h2 id="post-25-4" className="blog-post-title">25.4 How To Write A Synopsis</h2>
                 <p>Even though your synopsis is not your story and will not show off your writing ability, you ideally want your synopsis to make your publisher think, ‘I want to read that’. Yes, the synopsis will inevitably water down and spoil your plot and remove all mystery, but realistically, if the publisher doesn’t feel interested by the end of your synopsis, what’s going to convince them to read the manuscript and subsequently want to publish your story?</p>
                 <p>Remember, your publisher is a business person. They are not thinking primarily about picking up your manuscript for enjoyment. They are thinking about marketing – the ‘pitch’ or the ‘sell’ or the ‘hook’. </p>
-                <p>Side note: Whether your synopsis is any good doesn’t just depend on the synopsis itself, but also, obviously, your actual product – the story. If you have the reputation you can convince the publisher to publish almost anything  (). The plot of your first novel needs to be like a flash-bang grenade (gets your attention instantly); subsequent novels can effect more like smoke grenades (subtler, more gradual, but just as powerful). There are some kinds of plots which are big smokers; about which a seasoned writer can get published (on the back of their reputation), and which a first time author cannot. Literally cannot; doors closed, shows over, go home daddy-O. This is because they make terrible synopses, terrible summaries, and terrible blurbs. An unfortunate example is Ramsey Campbell’s ‘The Grin of the Dark’. It has an intriguing plot and is filled with dread, it’s just not ‘my-first-novel’ material, and indeed it’s far from the author’s first novel – but you couldn’t pitch it as a ‘nobody’. Here’s why:</p>
-                <p className='indent-text-1'>"Heard of this new horror book –?"</p>
-                <p className='indent-text-1'>“Who wrote it?”</p>
-                <p className='indent-text-1'>“Don’t know, but it’s about this guy who researches old films, and he’s researching an old comedian who used to be really famous, who’s long dead – ”</p>
-                <p className='indent-text-1'>“Boring.”</p>
+                <p>Side note: Whether your synopsis is any good doesn’t just depend on the synopsis itself, but also, obviously, your actual product – the story. If you have the reputation you can convince the publisher to publish almost anything. The plot of your first novel needs to be like a flash-bang grenade (gets your attention instantly); subsequent novels can effect more like smoke grenades (subtler, more gradual, but just as powerful). There are some kinds of plots which are big smokers; about which a seasoned writer can get published (on the back of their reputation), and which a first time author cannot.</p>
 
-                <p>That’s why. Tough but honest (and remember I love this novel). The problem here are the phrases ‘researches’, ‘old films’, ‘old comedian’, ‘used to be really famous’ and ‘long dead’ – it’s all historic; so who cares now? Of course, in the story, that effects the horror: if it’s long over, why are creepy things happening? But the emphasis on the past and the over-explaining you have to do to describe the effect this novel has means you can’t summarise it as if it was a ‘flash-bang’. </p>
-                <p>There is another huge summary gap as well, which I have to spoil the novel to describe: while the events that happen are genuinely and creatively scary and paranoia-inducing, in the end, the protagonist is revealed to be crazy; it’s all imagined. As soon as the publisher hits that convenient ‘explain-it-all-away’ ending to your synopsis – bang; it’s over, you’re dead, you’re forgotten.</p>
                 <p>Bob Mayer says:</p>
-                <p className='indent-text-1'>“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.” <a href="#f5"><sup>5</sup></a></p>
+                <p className='indent-text-1'>“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.”<FootnoteRef text="Bob Mayer, Fiction Writers’ Toolkit." /></p>
 
                 <h5>21.4.1 Basic Rules</h5>
                 <h6>(1) Obey Your Publisher's Style Guide</h6>
