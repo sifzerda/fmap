@@ -38,7 +38,7 @@ export default function Plot() {
                 <p>What you should be asking is, 'What is an ideal plot, and what do I need to know to write it?'</p>
 
                 <h2 id="post-3-2" className="blog-post-title">3.2: Types of Plots</h2>
-                <p>Robert McKee makes the distinction between three different kinds of plots: </p>
+                <p>Robert McKee<FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> makes the distinction between three different kinds of plots: </p>
                 <ol>
                   <li>Archplot (the ‘Hero’ story)</li>
                   <li>Miniplot (the ‘journey’ story)</li>
@@ -61,7 +61,7 @@ export default function Plot() {
                   <li>Linear timeframe;</li>
                 </ul>
 
-                <p>Example: Star Wars</p>
+                <p>Example: Star Wars.<FootnoteRef text="Star Wars, (1977)." /></p>
 
                 <h5>3.2.2 	Miniplot</h5>
                 <p>Typified by:</p>
@@ -76,7 +76,7 @@ export default function Plot() {
                   <li>Nonlinear timeframe;</li>
                 </ul>
 
-                <p>Example: Lost in Translation</p>
+                <p>Example: Lost in Translation.<FootnoteRef text="Lost in Translation, (2003)." /></p>
 
                 <h5>3.2.3 	Antiplot</h5>
                 <p>Typified by:</p>
@@ -86,7 +86,7 @@ export default function Plot() {
                   <li>Intellectual work required by the audience;</li>
                 </ul>
 
-                <p>Example: Seinfeld</p>
+                <p>Example: Seinfeld.<FootnoteRef text="Seinfeld, (1989-1998)." /></p>
 
                 <h5>3.2.4 	Nonplot</h5>
                 <p>The Nonplot is basically is where there isn’t a clear, satisfying conclusion to the events.</p>
@@ -97,7 +97,7 @@ export default function Plot() {
                   <li>Intellectual work required by the audience;</li>
                 </ul>
 
-                <p>Example: The Big Lebowski</p>
+                <p>Example: The Big Lebowski.<FootnoteRef text="The Big Lebowski, (1998)." /></p>
 
                 <p>The difference between the Antiplot and the Nonplot is that the former is generally made in jest or for satirical effect, done in a super-real style. Whereas, the latter is more realistic and may be sobering and insightful.</p>
 
@@ -110,16 +110,15 @@ export default function Plot() {
                 <h2 id="post-3-4" className="blog-post-title">3.4: Three Act Structure</h2>
                 <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they’re bad, then they’re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third ‘Good’ only spans the last half/quarter of the Act).</p>
                 <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
-                <p>McKee suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act’s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn’t fit into the above categories: the Quidditch games, the spell classes, sorting hat – there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones – you give the reader that many more clues as to how you’ve structured your story ‘behind the curtain.’ The reader will think ‘oh, this scene’s fairly unmemorable, it mustn’t be integral to the plot.’ Memorable ‘in-between’ scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?</p>
-                <p>Blake Snyder<a href="#f1"><sup>1</sup></a> says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It’s the world and its rules set up for us. Antithesis is the reverse or ‘upside-down’ version or ‘funhouse mirror reflection’ of the world. Characters from ‘Thesis’ may reappear in ‘Antithesis’ in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the ‘Third way’ in world 3. By this time, the hero has ‘died’ and been ‘reborn’, so he can’t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn’t have happen instantaneously, it should happen bit by bit – every scene in the structure changes the hero a little.</p>
-                <u>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of, Blake Snyder.</u>
+                <p>McKee<FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act’s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn’t fit into the above categories: the Quidditch games, the spell classes, sorting hat – there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones – you give the reader that many more clues as to how you’ve structured your story ‘behind the curtain.’ The reader will think ‘oh, this scene’s fairly unmemorable, it mustn’t be integral to the plot.’ Memorable ‘in-between’ scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?</p>
+                <p>Blake Snyder<FootnoteRef text="Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." /> says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It’s the world and its rules set up for us. Antithesis is the reverse or ‘upside-down’ version or ‘funhouse mirror reflection’ of the world. Characters from ‘Thesis’ may reappear in ‘Antithesis’ in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the ‘Third way’ in world 3. By this time, the hero has ‘died’ and been ‘reborn’, so he can’t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn’t have happen instantaneously, it should happen bit by bit – every scene in the structure changes the hero a little.</p>
 
-                <p>This may sound reminiscent of Joseph Campbell’s <Link to="/HeroJourney">Hero’s Journey.</Link></p>
+                <p>This may sound reminiscent of Joseph Campbell’s <Link to="/HeroJourney">Hero’s Journey.</Link><FootnoteRef text="Joseph Campbell, The Hero With A Thousand Faces." /></p>
                 <p>There’s another dimension to this structure, two intertwining forces: the hero’s tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero’s awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
 
                 <h5>3.4.1 	Sub-Plots</h5>
                 <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection’s love (climax of subplot).</p>
-                <p>McKee also says that main plots and subplots can have different protagonists (though I’m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
+                <p>McKee<FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> also says that main plots and subplots can have different protagonists (though I’m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
                 <ul>
                   <li>The subplot/s tie back into the main plot’s theme, i.e. the sub-plots are variations on a theme;</li>
                   <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu’s world, and for both characters to affect each other. </li>
@@ -127,7 +126,7 @@ export default function Plot() {
                 </ul>
 
                 <h2 id="post-3-5" className="blog-post-title">3.5: Three Right-Angled Turns</h2>
-                <p>Aristotle wrote of the “peripeteia,” or “reversal of the situation.”</p>
+                <p>Aristotle<FootnoteRef text="Aristotle, Poetics." /> wrote of the “peripeteia,” or “reversal of the situation.”</p>
                 <p>The ‘Three Right-Angled Turn’ is a basic concept you can use to make sense of the Three Act Structure. And by the examples below, suggests other writers have stumbled on it before me. In reiteration, this is a screenwriting structure, but can be implemented in any writing. You can also play with it in the planning stage, before you start writing, or mix it with other planning concepts, such as in conjunction with the ‘E Chain.’</p>
                 <p>At the end of the first act, your protagonist makes a ‘turn’ which sets them off from where they were. Ideally this will be a ‘diametric’ turn (see 6.5 Diametrics). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust. </p>
                 <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can’t just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn’t just flip back and forth like this.</p>
@@ -142,12 +141,12 @@ export default function Plot() {
                 <h5>3.5.1 	Doubling: ‘Doppelgängers’ and ‘Flips’</h5>
                 <p>For instance, a protagonist police officer may be framed for a crime, prosecuted by the police force, and get sentenced to prison, where he befriends some of the prison inmates. Previously he saw the police as good, and the prison inmates as bad, but after the right angle turn (he gets convicted for a crime) he begins to see the police as bad and prison inmates as good.</p>
                 <p>A ‘doppleganger’ is where that character, setting, or story element remains the same, but is duplicated, and the double is contrastingly different, if not entirely the opposite (like the ‘good twin, evil twin’ cliché).</p>
-                <p>For instance, a character finds a portal to a fantasy world, which contain vague doubles of their real world counterparts (the Wizard of Oz “…and you were there…and you were there…” idea). Often there is some kind of threshold dividing the doppelgängers, but there doesn’t have to be. The more obvious the double, the more of a border exists between them – virtual twins are almost guaranteed to never meet. The more subtle a double, the more ability they can interact with their double. The point of this rule is, characters should not be aware they are doubles.</p>
+                <p>For instance, a character finds a portal to a fantasy world, which contain vague doubles of their real world counterparts (the Wizard of Oz<FootnoteRef text="The Wizard of Oz, (1939)." /> “…and you were there…and you were there…” idea). Often there is some kind of threshold dividing the doppelgängers, but there doesn’t have to be. The more obvious the double, the more of a border exists between them – virtual twins are almost guaranteed to never meet. The more subtle a double, the more ability they can interact with their double. The point of this rule is, characters should not be aware they are doubles.</p>
                 <p>The double is a concept related specifically to right-angle turn plots (right angles bestow double status), compared to a ‘foil’ who is not necessarily a double, nor do they require a right-angle to exist). A double’s existence is predicated on their ‘twin’ – apart from which, they don’t really have a reason to exist. Whereas, a foil isn’t dependent on its partner, rather, its traits have been adjusted to maximize contrast with another character.</p>
                 <p>In both cases, the effect is to give the protagonist a new perspective.</p>
 
                 <h5>3.5.2 	Examples of Three Right Angle Turns</h5>
-                <p>To illustrate the concept in its entirety I’ll use the examples of two very different stories: Beauty and the Beast (1991), and The Shawshank Redemption (Stephen King, 1982) (the first is a movie, but originated from written story).</p>
+                <p>To illustrate the concept in its entirety I’ll use the examples of two very different stories: Beauty and the Beast,<FootnoteRef text="Beauty and the Beast, (1991)." /> and The Shawshank Redemption.<FootnoteRef text="Stephen King (novel), and the film The Shawshank Redemption, (1994)." /></p>
 
                 <p><strong>#1 Beauty and the Beast: </strong></p>
                 <div className="p-3 mb-3 rounded custom-light-box">
@@ -237,7 +236,7 @@ export default function Plot() {
                 </div>
 
                 <p>Chiastic structure can effect a sense of ‘circularity,’ or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
-                <p>Here is an example of the Chiastic structure of the Genesis Flood Narrative: </p>
+                <p>Here is an example of the Chiastic structure of the Genesis Flood Narrative:<FootnoteRef text="The Bible, Gen 1:1-50." /> </p>
 
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <div className="chiastic">
@@ -298,9 +297,8 @@ export default function Plot() {
 
                 <h2 id="post-3-7" className="blog-post-title">3.7: Plots with Problems</h2>
                 <h5>3.7.1 	P.R.O.B.L.E.M</h5>
-                <p>Bork<a href="#f2"><sup>2</sup></a> says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
-                <u>The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction, Erik Bork.</u>
-
+                <p>Bork<FootnoteRef text="Erik Bork, The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction." /> says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
+                
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className='purple-bold'>Punishing</p>
                   <p>It's long (lasts the whole story), every scene is spent trying to solve the problem. It may be complicated or get more complicated as the story goes on.</p>
@@ -341,8 +339,7 @@ export default function Plot() {
                 </div>
 
                 <h5>3.7.3 	Snyder’s Story Problems</h5>
-                <u>Save The Cat!, Blake Snyder.</u>
-                <p>Blake Snyder says all stories centre around one of these 10 problems:</p><a href="#f3"><sup>3</sup></a>
+                <p>Blake Snyder<FootnoteRef text="Blake Snyder, Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." /> says all stories centre around one of these 10 problems:</p>
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <ol>
                     <li><p className='purple-bold'>Monster in the House</p> Characters are trapped in a confined space with a ‘monster’ or dangerous entity out to get them.</li>
@@ -360,12 +357,12 @@ export default function Plot() {
 
                 <h5>3.7.4 	Problems with Plots</h5>
 
-                <p>Howard Mittelmark and Sandra Newman list common problems with plots: </p><a href="#f4"><sup>4</sup></a>
+                <p>Howard Mittelmark and Sandra Newman list common problems with plots: <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." /></p>
 
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className='purple-bold'> I. The Lost Sock</p>
                   <p>The plot is too slight or trivial. </p>
-                  <p>The plot of a story “should be important enough to change someone’s life forever.”<a href="#f5"><sup>5</sup></a> It should also have broad interest – just because you find something fascinating, doesn’t mean the broader public does.</p>
+                  <p>The plot of a story “should be important enough to change someone’s life forever.”<FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." /> It should also have broad interest – just because you find something fascinating, doesn’t mean the broader public does.</p>
                   <u>Solutions: </u>
                   <ul>
                     <li>Ensure your plot revolves around a dilemma involving a ‘sex word’ (see 6.2 Sex Words);</li>
@@ -394,7 +391,6 @@ export default function Plot() {
                   </ul>
 
                   <p className='purple-bold'> IV. The Vacation Slide Show</p>
-                  <p>Author substitutes location for story. </p>
                   <p>Author substitutes location for story.</p>
                   <u>Solutions: </u>
                   <ul>
@@ -450,7 +446,7 @@ export default function Plot() {
                   <p className='purple-bold'> Example of TD Planning:</p>
                   <p className='indent-text-1'>It'll be a supernatural crime story. In the first Act there'll be a really strange murder. In the second Act the perpetrator is suspected innocent by the unpopular detective, but the body goes missing. In the third Act the detective has to fight the system to prevent the innocent getting executed, and get him out of prison. At the conclusion the victim turns out to be a shapeshifter (or intelligent zombie). The detective fails to prevent execution of the innocent, but he was infected by the zombie anyway, so it's a bittersweet ending as the innocent accepts the execution, but the detective doesn’t. In the epilogue, it’s implied the execution failed, because the innocent is now a zombie/shapeshifter as well – maybe his body has gone missing from the morgue.</p>
                 </div>
-                <p>See how in BU planning it takes a long time – if at all – to get an entire plot? But in TD planning you end up with a plot outline really quickly. You might be wondering: how did you come up with that plot outline so quickly (less than ten minutes) – see the sections on E Chain and Right-Angled Plot. </p>
+                <p>See how in BU planning it takes a long time – if at all – to get an entire plot? But in TD planning you end up with a plot outline really quickly.</p>
 
                 <h5>3.8.2 	Word Generation is not Storytelling</h5>
                 <p>Don’t get word generation confused with story writing. When you write, making it up as you go along (or start off with BU writing), you’re experimenting with idea generation, but you have no story. Remember, from ‘1.2.3 More than a Series of Events,’ a story is not merely a series of events or details. It has gestalt meaningfulness. The example of BU planning above, is not a story. It’s a series of events or details – any one of them can be added or removed without substantive loss or gain. The example of TD planning, above, is a story. You cannot remove any single element without changing the overall meaning.</p>
@@ -493,7 +489,7 @@ export default function Plot() {
                 <p className='purple-bold'> (2) Revelation</p>
                 <p>The protagonist isn’t in love initially, but later in the story, comes to a revelation that they have fallen in love with someone who was there all along.</p>
                 <p>In contrast to ‘pursuit’ the plot should work to keep the LIs as together as possible, even against their personal preferences. There may be some exterior device to justify this: the LIs are members of a team tasked with some objective, and fall in love incidentally, or even at the risk of the objective (to create conflict and suspense). Such a device is especially necessary if LIs despise or deride each other initially. </p>
-                <p>An example of the Revelation is The Silver Linings Playbook. Interestingly, the romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
+                <p>An example of the Revelation is Silver Linings Playbook.<FootnoteRef text="Silver Linings Playbook, (2012)." /> The romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
 
                 <p><u>Potential Pitfalls of Revelation</u></p>
                 <p className='blue-bold'> (A) Unlikeable Love Interests</p>
@@ -504,7 +500,7 @@ export default function Plot() {
 
                 <p className='purple-bold'> (3) Conspiracy</p>
                 <p>It’s evident the LIs love each other deeply, but the externalized obstacle is broad and sweeping, possibly global, cultural – the story’s entire milieu is the antagonist. It’s usually some outside force (e.g. their small-minded community) set upon keeping them apart. There is an understanding the union breaks the accepted rules and customs or infringes some social code, or risks some great harm to society. Alternatively, it may bring about a bad event. Or, maybe nothing bad would happen, rather a good thing would be foreclosed. It doesn’t matter if the risk would not happen, only that the antagonist is convinced it would happen – often the conclusion involves realizing the antagonist’s dire projections were proven categorically wrong.</p>
-                <p>Examples of the conspiracy romance include Romeo and Juliet, 1984, and Twilight. </p>
+                <p>Examples of the conspiracy romance include Romeo and Juliet,<FootnoteRef text="William Shakespeare, 1597." /> 1984,<FootnoteRef text="1984, George Orwell." /> and Twilight.<FootnoteRef text="Twilight, Stephenie Meyer." /></p>
                 <p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship’s toll or even dies, it almost definitely is a Conspiracy. </p>
 
                 <h5>3.9.1 Main Differences Between the Three Types</h5>
@@ -512,19 +508,19 @@ export default function Plot() {
                 <ul>
                   <li>In a <strong>Pursuit</strong>, the affection is initially unilateral, which is what drives the pursuit. The end goal is the pursuit becoming mutual (the LI reciprocating the affection);</li>
                   <li>In a <strong>Revelation</strong>, the affection is non-existent initially, although not necessarily mutually so – the LI may like the protagonist, but cannot be the converse. The main plot goal drives the story, and the inevitable emergence  of affection creates a kind of obstacle (more accurately, the plot goal is the obstacle of the affection);</li>
-                  <li>In a <strong>Conspiracy</strong>, the affection is present initially. The goal is not for the relationship to begin or develop, but to endure. If anything, the relationship may slowly risk eroding or destructing as the story progresses. </li><a href="#f7"><sup>7</sup></a>
+                  <li>In a <strong>Conspiracy</strong>, the affection is present initially. The goal is not for the relationship to begin or develop, but to endure. If anything, the relationship may slowly risk eroding or destructing as the story progresses. </li>
                 </ul>
 
                 <p>Know which type best suits which genre: pursuits work well for almost anything, particularly adventure and action, but not horror. Revelation works better in horror. Conspiracy works well for time-period altered stories (set in the future or past) or anything with background lore, but not so well for action or adventure. </p>
 
                 <h5>3.9.2 Other Types</h5>
-                <p>There might conceivably be other types of romances, such as romantic tragedies such as ‘unrequited romances’ or the traditional ‘comic’ romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker would probably argue these are merely ‘dark’ versions of the established types, e.g: <a href="#f8"><sup>8</sup></a></p>
+                <p>There might conceivably be other types of romances, such as romantic tragedies such as ‘unrequited romances’ or the traditional ‘comic’ romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker<FootnoteRef text="Chris Booker, The Seven Basic Plots." /> would probably argue these are merely ‘dark’ versions of the established types, e.g:</p>
                 <p>The unrequited romance is merely a ‘dark’ pursuit; the protagonist never actually gets the LI. </p>
 
                 <h5>3.9.3 Final Note: Mixing It Up: </h5>
                 <p>Making these delineations is not to say a romance must follow them on rails. You might have a romance which fuses different elements of all three.</p>
                 <p>For instance, a protagonist starts with a pursuit in the first act. By the end of the first act protagonist has successfully ‘won’ the LI, but now realizes he/she is different than first appeared (e.g. by deceit or misunderstanding). In the second act, the protagonist is stuck with the LI to the completion of a task, and in the meantime, gives them a second chance, getting to know them better (and accurately). In the third act, the protagonist has a revelation he/she has fallen in love with the accurate LI, but some larger force now conspires to keep them apart (bonus points if it was something the protagonist earlier set off after being insulted by the LIs deceit).</p>
-                <p>Beauty and the Beast is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
+                <p>Beauty and the Beast<FootnoteRef text="Beauty and the Beast, (1991)." /> is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 

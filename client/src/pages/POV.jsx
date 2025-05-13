@@ -37,9 +37,9 @@ export default function POV() {
 
 <h2 id="post-14-2" className="blog-post-title">14.2: First Person</h2>
 
-<p>The narrator is your main character themselves, e.g.</p>
+<p>The narrator is your main character themselves, e.g.<FootnoteRef text="Sol Stein, On Writing." /></p>
 
-<p className="code-left"><code><i>I looked longingly at Mary, hoping she would notice me. She not only noticed me, she said: “I wish you would take me in your arms.” I noticed Mary’s mother watching from the window, and hoped she thought we were a perfect match.  </i></code><a href="#f1"><sup>1</sup></a></p>
+<p className="code-left"><code><i>I looked longingly at Mary, hoping she would notice me. She not only noticed me, she said: “I wish you would take me in your arms.” I noticed Mary’s mother watching from the window, and hoped she thought we were a perfect match.</i></code></p>
 
 <p>Your main choice is between this and Third Person, but your default should be Third Person. However, there are a number of reasons why you might opt for this POV:</p>
 
@@ -123,9 +123,9 @@ export default function POV() {
 
 <p>A big factor is the ‘how would the narrator know that?’ test. If you want to write something your narrator shouldn’t/wouldn’t know, you need to change the POV to suit.</p>
 <p>Bob Mayer observes:</p>
-<p className='indent-text-1'><i>"Think of the Sherlock Holmes stories—who is narrating? Watson. Why? Because this allows Conan Doyle to withhold what Holmes is thinking from the audience."</i><a href="#f3"><sup>3</sup></a></p>
+<p className='indent-text-1'><i>"Think of the Sherlock Holmes stories—who is narrating? Watson. Why? Because this allows Conan Doyle to withhold what Holmes is thinking from the audience."</i><FootnoteRef text="Bob Mayer, 70 Solutions to Common Writing Mistakes." /></p>
 
-<p>Jack Hart provides an anecdote illustrating the importance of selecting the correct point of view:</p><a href="#f4"><sup>4</sup></a>
+<p>Jack Hart provides an anecdote illustrating the importance of selecting the correct point of view:<FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." /></p>
 <p className='indent-text-1'><i>“Several years back a fuel tanker on the freeway east of downtown Portland hit a car and burst into furious fl ames. Smoke boiled into the sky, a dark column visible from my downtown perch in the Oregonian’s newsroom. The next morning’s newspaper described the smoke rising into the midsummer sky and “obscuring Mount Hood.”</i></p>
 <p className='indent-text-1'><i>The reporter who produced the truck- crash story simply assumed that everybody who saw the smoke viewed it from the same direction. Yes, the dark column obscured Mount Hood if you saw it from the expensive West Hills homes looming over downtown. But newspaper readers east of the crash site saw the smoke obscuring not Mount Hood, but the West Hills.”</i></p>
 

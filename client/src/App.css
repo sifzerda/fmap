@@ -9,6 +9,8 @@
 :root {
   --blue: #2684ff;
   --lblue: #4f9bff;
+  --llblue: rgb(0, 217, 255);
+  --cyan: #01fff7;
   --light-blue: #63f8f1;
   --volt: #c8ff00;
   --dark-blue: #072752;
@@ -17,7 +19,6 @@
   --bootstrap-dark: #212529;
   --bootstrap-lighter: #364459;
   --bootstrap-lightest: #96a4b3;
-  --cyan: #01fff7;
   --light-red: #f02652;
   --gold: #ffc107;
 }
@@ -339,7 +340,7 @@ body,
 .bucket-app {
   display: flex;
   flex-direction: row;
-  /* Change to row to align items horizontally */
+  border-top: var(--yellow) ridge 8px;
   justify-content: flex-start;
   width: 100%;
   min-height: 100vh;
@@ -461,6 +462,7 @@ body,
 }
 
 /* ---- chapter banner rounded corners ----*/
+
 .card-img-top {
   border-radius: 0.375rem;
   border: solid 1px var(--bootstrap-dark);
@@ -480,6 +482,10 @@ body,
 h1 {
   display: inline-block;
   font-size: 5em;
+  margin: 32px 0;
+  color: var(--blue);
+  font-size: 50px;
+  font-family: 'Josefin Sans', 'Rubik', 'Arial Narrow Bold', sans-serif;
   text-shadow: .03em .03em 0 rgb(0, 255, 221);
 }
 
@@ -500,6 +506,12 @@ h1:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shad-anim 15s linear infinite;
+}
+
+h3 {
+  margin: auto;
+  color: var(--cyan);
+  font-size: 20px;
 }
 
 .m-0.p-0 {
@@ -670,14 +682,6 @@ footer {
   margin: 25px;
 }
 
-.bucket-app {
-  border-top: var(--yellow) ridge 8px;
-}
-
-.sidebar {
-  border-right: var(--yellow) ridge 8px;
-}
-
 .nav-tabs-subjects {
   justify-content: right;
 }
@@ -693,7 +697,6 @@ footer {
 
 .nav-links li {
   margin: 0 20px;
-  /* border: red solid 2px; */
 }
 
 .nav-link {
@@ -719,19 +722,7 @@ footer {
   background-color: var(--bootstrap-dark);
   color: white;
   padding-top: 20px;
-}
-
-h1 {
-  margin: 32px 0;
-  color: var(--blue);
-  font-size: 50px;
-  font-family: 'Josefin Sans', 'Rubik', 'Arial Narrow Bold', sans-serif
-}
-
-h3 {
-  margin: auto;
-  color: var(--cyan);
-  font-size: 20px;
+  border-right: var(--yellow) ridge 8px;
 }
 
 .separator-line {
@@ -740,7 +731,6 @@ h3 {
   background-color: #000000;
   margin: 20px 0;
 }
-
 
 .index-card {
   background-color: #f4f4f4;
@@ -771,9 +761,7 @@ h3 {
   text-align: left;
   font-size: 16px;
   font-family: 'Georgia', serif;
-  /* Book-like font for the list */
   color: black !important;
-  /* Set the text color to black */
 }
 
 .index-list li:last-child {
@@ -830,6 +818,7 @@ p {
 
 .footer-text {
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 .red-text {
@@ -842,25 +831,32 @@ p {
   font-family: 'Source Code Pro';
 }
 
-.volt-text {
-  color: var(--volt);
-  font-family: 'Source Code Pro';
-}
-
-.volt-text:hover {
-  color: var(--light-red);
-  font-family: 'Source Code Pro';
-  font-style: italic;
-}
-
 a {
-  color: rgb(0, 183, 255);
+  color: var(--blue);
+  font-weight: bold;
   font-family: 'Source Code Pro';
 }
 
 a:hover {
-  color: var(--yellow);
+  color: var(--yellow)!important;
   font-family: 'Source Code Pro';
+}
+
+.sidebar-container a,
+.col-lg-8 a,
+.list-unstyled a
+ {
+  color: var(--llblue)!important;
+  text-decoration: none;
+  font-weight: normal!important;
+}
+
+.sidebar-container a:hover,
+.col-lg-8 a:hover,
+.list-unstyled a:hover {
+  color: var(--yellow)!important;
+  font-family: 'Source Code Pro';
+  text-decoration: underline;
 }
 
 a.icon:hover {
@@ -1034,6 +1030,7 @@ form {
 }
 
 /* ================ tooltip ========================== */
+
 .footnote-marker {
   font-weight: bold;
   text-decoration: underline dotted;
@@ -1056,7 +1053,7 @@ form {
   text-align: left;
   z-index: 1000;
   transition: opacity 0.3s;
-  font-size: 16px!important;
+  font-size: 16px !important;
 }
 
 .footnote-tooltip {

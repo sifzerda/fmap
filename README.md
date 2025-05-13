@@ -216,12 +216,13 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
 
-- [ ] FOOTNOTES: up to dialogue
+- [ ] FOOTNOTES: up to scenes
 
 - [ ] remove the blue footnotes sections out of each chapter
 
 - [ ] style the footnotes with black tooltip styling
 
+- [ ] style the under the volcano part in scenes like the nexus stuff (with footnotes)
 
 ### LATER:
 - [ ] when page flexes in, the 'about' 'index' and 'also see' parts are pushed to the bottom of page. they need to be pushed to the top under the image banner.
