@@ -40,7 +40,7 @@ export default function Scenes() {
               <div id="content">
 
                 <h5>6.1.1 What Is A Scene?</h5>
-                <p>Robert McKee says that a scene is an ‘event,’ and an ‘event’ is change. A story event creates meaningful change in your main character’s life, expressed in terms of a value/s and achieved through conflict.</p>
+                <p>Robert McKee<FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." /> says that a scene is an ‘event,’ and an ‘event’ is change. A story event creates meaningful change in your main character’s life, expressed in terms of a value/s and achieved through conflict.</p>
                 <p>The ‘value’ is something meaningful to your character, which is at stake: love, life, liberty, truth, justice, etc. The conflict is the obstacle threatening the value. The state of the character’s relation to the value should change by the end of a scene (this is the ‘change’ referred to above), otherwise the scene is pointless. The change needs to be contrasting or oppositional – you can’t go from ‘good’ to ‘better,’ but you can go from ‘bad’ to ‘worse,’ (bad changes are, by their nature, always oppositional; i.e. they oppose the protagonist. Also, there is some relativity when a situation becomes ‘worse,’ it makes the previous ‘bad’ situation look ‘good’ by comparison). </p>
                 <p>Mckee says a novel may have over 60 scenes/events, as a rough estimate. That figure sounds a little big to me; my analysis of Pet Sematary<FootnoteRef text="Pet Sematary, Stephen King." /> (144K words) identified about 45 scenes, and that was a long novel. A standard 80K word novel (little more than half that size) will have even less.</p>
                 <p>Every scene must move towards the conclusion. If a scene’s only purpose is to provide exposition, delete it and work the information into the story.</p>
@@ -669,7 +669,7 @@ export default function Scenes() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">A scene is a unit of story which results in action or change to a character.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

@@ -139,7 +139,7 @@ export default function Subtext() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">Subtext is the deeper or hidden meaning implied by the story text.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

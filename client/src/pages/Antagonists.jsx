@@ -149,7 +149,7 @@ export default function Antagonists() {
           <aside className="col-md-4 blog-sidebar">
             <div className="p-3 mb-3 blue rounded">
               <h4 className="font">About</h4>
-              <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p className="mb-0-1">The antagonist is the main character whose goal provides the main source of conflict and obstacle to the protagonist.</p>
             </div>
 
             <div className="p-3 mb-3 blue rounded">

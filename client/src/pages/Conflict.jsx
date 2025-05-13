@@ -186,7 +186,7 @@ export default function Conflict() {
             <aside className="col-md-4 blog-sidebar">
               <div className="p-3 mb-3 blue rounded">
                 <h4 className="font">About</h4>
-                <p className="mb-0-1">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <p className="mb-0-1">Conflict is made up in the obstacles which keep the protagonist struggling to attain their goals.</p>
               </div>
 
               <div className="p-3 mb-3 blue rounded">
