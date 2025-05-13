@@ -227,7 +227,7 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] figure out how to work out the subjects href list when page flexed narrow or on mobile phone. Can it be pushed  to center (otherwise remaining the same, clicking to open)
 
-- [ ] up to footnotes: setting, story, the first words, the last words, the last words, title, 
+- [x] footnotes
 
 Changes:
 

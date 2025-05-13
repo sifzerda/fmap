@@ -44,24 +44,24 @@ export default function Title() {
                 <p>However, your title might be eye-catching for other reasons:</p>
 
                 <ul>
-                  <li>It provokes debate and controversy, e.g. <i>Rape: A Love Story</i> by Joyce Carol Oates</li>
-                  <li>It overturns commonly accepted moral positions, e.g. <i>Live and Let Die</i> by Ian Fleming</li>
+                  <li>It provokes debate and controversy, e.g. <i>Rape: A Love Story</i><FootnoteRef text="Rape: A Love Story, Joyce Carol Oates." /></li>
+                  <li>It overturns commonly accepted moral positions, e.g. <i>Live and Let Die</i><FootnoteRef text="Live and Let Die, Ian Fleming." /> </li>
                   <li>It makes an oddly specific designation, e.g. <i>Fahrenheit 451</i> by Ray Bradbury</li>
-                  <li>It creates an image you don’t normally see in real life, e.g. <i>Flow my tears, the policeman said</i> by Philip K. Dick</li>
-                  <li>It suggests an answer to an age-old mystery, e.g. <i>The Da Vinci Code</i> by Dan Brown</li>
-                  <li>It makes a witty or ironic observation, e.g. <i>When You Look Like Your Passport Photo, It's Time to Go Home</i> by Erma Bombeck</li>
-                  <li>An evocation of something exotic, e.g. <i>Water for Elephants</i> by Sara Gruen</li>
+                  <li>It creates an image you don’t normally see in real life, e.g. <i>Flow my tears, the policeman said</i><FootnoteRef text="Flow My Tears, the Policeman Said, Philip K. Dick." /></li>
+                  <li>It suggests an answer to an age-old mystery, e.g. <i>The Da Vinci Code</i><FootnoteRef text="The Da Vinci Code, Dan Brown." /></li>
+                  <li>It makes a witty or ironic observation, e.g. <i>When You Look Like Your Passport Photo, It's Time to Go Home</i><FootnoteRef text="When You Look Like Your Passport Photo, It's Time to Go Home, Erma Bombeck." /></li>
+                  <li>An evocation of something exotic, e.g. <i>Water for Elephants</i><FootnoteRef text="QWater for Elephants, Sara Gruen." /></li>
                 </ul>
 
                 <p>Other effective titles:</p>
                 <ul>
-                  <li><i>Do Androids Dream of Electric Sheep? </i>(Philip K. Dick)</li>
-                  <li><i>I, Robot </i>(Isaac Asimov)</li>
-                  <li><i>I Have No Mouth and I Must Scream </i>(Harlan Ellison)</li>
-                  <li><i>Atlas Shrugged </i>(Ayn Rand)</li>
-                  <li><i>The Postman Always Rings Twice </i>(James M. Cain)</li>
-                  <li><i>The Big Sleep </i>(Raymond Chandler)</li>
-                  <li><i>War of the Worlds </i>(H. G. Wells)</li>
+                  <li><i>Do Androids Dream of Electric Sheep? </i><FootnoteRef text="Do Androids Dream of Electric Sheep?, Philip K. Dick." /></li>
+                  <li><i>I, Robot </i><FootnoteRef text="I, Robot, Isaac Asimov." /></li>
+                  <li><i>I Have No Mouth and I Must Scream </i><FootnoteRef text="I Have No Mouth and I Must Scream, Harlan Ellison." /></li>
+                  <li><i>Atlas Shrugged </i><FootnoteRef text="Atlas Shrugged, Ayn Rand." /></li>
+                  <li><i>The Postman Always Rings Twice </i><FootnoteRef text="The Postman Always Rings Twice, James M. Cain." /></li>
+                  <li><i>The Big Sleep </i><FootnoteRef text="The Big Sleep, Raymond Chandler." /></li>
+                  <li><i>War of the Worlds </i><FootnoteRef text="War of the Worlds, H. G. Wells." /></li>
                 </ul>
 
                 <h2 id="post-23-2" className="blog-post-title">23.2: Tips</h2>

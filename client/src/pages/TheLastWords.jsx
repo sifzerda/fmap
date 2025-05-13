@@ -48,7 +48,7 @@ export default function TheLastWords() {
                 
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
-                  <p></p><i>— Roy Clark </i>
+                  <p></p><i>— Roy Clark <FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></i>
                 </div>
 
                 <p>He’s not referring to the words that come at the end of the sentences and paragraphs, but sentences and paragraphs throughout your writing.</p>
