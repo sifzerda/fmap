@@ -159,7 +159,7 @@ This project is substantially complete, with minor formalization and addition of
 - [x] fill in About summary cards for each chapter
 
 - [x] change bs-light gold boxes to 'custom light box' (pale yellow)
-- [ ] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
+- [x] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
 - add quotes for each chapter:
     - [x] story
