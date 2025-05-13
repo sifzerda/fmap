@@ -33,7 +33,7 @@ export default function Subtext() {
                 <p>Stories are made up of text and subtext. Text is the surficial and literal meaning conveyed by the words. Subtext is the latent implied (or belied) meaning. </p>
                 <p>One way of thinking of it; Subtext conveys that people cohabit two worlds simultaneously: one of present reality, of words, sights, sounds and activity. And a second; the inner world of conscious and subconscious thought, desire, impulse and emotion.</p>
                 <p>When your characters are in a position where they wouldn’t realistically express what they mean, you use subtext to communicate.</p>
-                <p>Example:</p><a href="#f1"><sup>1</sup></a>
+                <p>Example:<FootnoteRef text="War of the Worlds, (2005)." /></p>
 
                 <p className='indent-text-1'>Father: Here we go, some nice peanut butter sandwiches.</p>
                 <p className='indent-text-1'>Daughter: I’m allergic to peanut butter.</p>
@@ -48,8 +48,8 @@ export default function Subtext() {
                 <p className='indent-text-1'>She: “You’ve had plenty of opportunities to get closer.”</p>
                 <p className='indent-text-1'>He: “I want to surprise you.”</p>
 
-                <p>Another example: In Daniel Keyes’ <i>Flowers for Algernon</i>, the main character is developing new romantic interest in the love interest, but doesn’t consciously realise it (yet). The protagonist idly reminisces; ‘she looked younger than I remembered.’ That is the textual/primary meaning, while the secondary/subtextual meaning is that he finds her more physically attractive.</p>
-                <p>Another example: In Stephen King’s <i>The Dead Zone</i>, the secondary protagonist evaluates the relationship material of her date by thinking, ‘[He] <i>never made</i> [her] <i>cry</i>.’ The subtext being that a previous boyfriend has.   </p>
+                <p>Another example: In <i>Flowers for Algernon</i>,<FootnoteRef text="Flowers for Algernon, Daniel Keyes." /> the main character is developing new romantic interest in the love interest, but doesn’t consciously realise it (yet). The protagonist idly reminisces; ‘she looked younger than I remembered.’ That is the textual/primary meaning, while the secondary/subtextual meaning is that he finds her more physically attractive.</p>
+                <p>Another example: In <i>The Dead Zone</i>,<FootnoteRef text="The Dead Zone, Stephen King." /> the secondary protagonist evaluates the relationship material of her date by thinking, ‘[He] <i>never made</i> [her] <i>cry</i>.’ The subtext being that a previous boyfriend has.   </p>
 
                 <h5>10.1.1 Types of Subtext</h5>
 
@@ -64,7 +64,7 @@ export default function Subtext() {
 
                 <p>This is where the subtextual meaning – although different to – is not in contradiction with the textual meaning. That is, both meanings can be taken together, without affecting each other.</p>
                 <p>For example, the way a character describes their house may be subtext for the way the character subconsciously feels about themselves. Description of the interior may also suggest things about the character’s mentality (messy, organized, artistic, etc). That the description/dialogue describes both the house and the character is not in contradiction – maybe the character intended the likeness. </p>
-                <p>The title of Hemingway’s short story, ‘A clean, well-lighted place’ is subtext for a person’s place in the world, in that it’s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
+                <p>The title of the short story, ‘A Clean, Well-Lighted Place’<FootnoteRef text="Winner Take Nothing, Ernest Hemingway." /> is subtext for a person’s place in the world, in that it’s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
 
                 <h6>Contradictory</h6>
 
@@ -87,11 +87,13 @@ export default function Subtext() {
                   <li>Symbolism should not be consciously acknowledged by the reader; it should be noticed on some unassuming, subconscious level. Whereas, the point of subtext is to be consciously noticed. </li>
                 </ol>
 
-                <li>Subtext is absolutely necessary for a work pitched at anyone over the age of eight, however, symbolism is optional. Why not be simple about it: if you don’t need it, why have it? Where the work is complicated or subtle or has a lot of different thematic concerns, symbolism might be useful to flag and distinguish each concern. </li>
-                <li>If you do use it, make sure it’s not obvious, but in the background to build mood. For instance:</li>
+                <p>Subtext is absolutely necessary for a work pitched at anyone over the age of eight, however, symbolism is optional. Why not be simple about it: if you don’t need it, why have it? Where the work is complicated or subtle or has a lot of different thematic concerns, symbolism might be useful to flag and distinguish each concern. </p>
+                <p>If you do use it, make sure it’s not obvious, but in the background to build mood. For instance:</p>
+                <ol>
                 <li>Good (subtle/effective) symbolism: A character is walking through a fairground. In the background, some circus attractions are described, including a tiger in a cage. The tiger in the cage symbolizes a mounting danger, or risk.</li>
                 <li>Bad (clumsy/ineffective) symbolism: A character is walking through a park. In the background, a circus is setting up, including a tiger in a cage, symbolizing impending danger or risk. This is clumsy because the circus and tiger in cage draws attention to itself, and risks making itself known purely as symbolism. Don’t enable your reader become more of an expert on your story than you are.</li>
-                <li>Symbolism is very easy to get wrong. There’s a risk that you could rely on symbolism as a substitute for thematic development through actual writing, for instance, using the colour red to denote love rather than having characters just act and interact in ways which suggest love, and assuming the reader will pick up on it. </li>
+                </ol>
+                <p>Symbolism is very easy to get wrong. There’s a risk that you could rely on symbolism as a substitute for thematic development through actual writing, for instance, using the colour red to denote love rather than having characters just act and interact in ways which suggest love, and assuming the reader will pick up on it. </p>
 
                 <h6>10.2.1 	Types of Symbolism</h6>
 

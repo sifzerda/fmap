@@ -573,7 +573,7 @@ export default function MainCharacters() {
 
                 <h2 id="post-7-24" className="blog-post-title">7.24 The 'Strange Sandwich'</h2>
                 <p>Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). </p>
-                <p>Burnett and Burnett<FootnoteRef text="Sandra Burnett and Whit Burnett, Fiction Writer's Handbook." /> states that, <i>“...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</i></p>
+                <p>Burnett and Burnett<FootnoteRef text="Hallie Burnett and Whit Burnett, Fiction Writer's Handbook." /> states that, <i>“...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</i></p>
                 <p>In other words, don’t place an oddball in an odd land, and don’t place an unremarkable wallflower in a wallpaper town.</p>
 
                 <h2 id="post-7-25" className="blog-post-title">7.25. Earn What You Learn</h2>
