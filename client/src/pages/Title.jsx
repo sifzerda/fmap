@@ -77,7 +77,6 @@ export default function Title() {
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
 <ThoughtForm />
-
 <ThoughtList />
 
 {/* ------------------------------------------------- footnotes 

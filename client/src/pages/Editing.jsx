@@ -196,7 +196,6 @@ export default function Editing() {
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />
-
                 <ThoughtList />
 
                 <div className="footnotes">

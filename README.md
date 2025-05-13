@@ -216,20 +216,18 @@ This project is substantially complete, with minor formalization and addition of
 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
 
-- [ ] FOOTNOTES: up to scenes
-
 - [ ] remove the blue footnotes sections out of each chapter
 
 - [ ] style the footnotes with black tooltip styling
 
-- [ ] style the under the volcano part in scenes like the nexus stuff (with footnotes)
+- [x] style the under the volcano part in scenes like the nexus stuff (with footnotes)
 
 ### LATER:
 - [ ] when page flexes in, the 'about' 'index' and 'also see' parts are pushed to the bottom of page. they need to be pushed to the top under the image banner.
 
 - [ ] figure out how to work out the subjects href list when page flexed narrow or on mobile phone. Can it be pushed  to center (otherwise remaining the same, clicking to open)
 
-- [ ] up to plot footnotes
+- [ ] up to footnotes: setting, story, the first words, the last words, the last words, title, 
 
 Changes:
 

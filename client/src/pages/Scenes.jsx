@@ -271,25 +271,79 @@ export default function Scenes() {
                 <p>Here’s an extended example from <i>‘Under the Volcano’ </i><FootnoteRef text="Under the Volcano, Malcolm Lowe." /> – notice it communicates information without ever actually stating it:</p>
 
                 <div className="p-3 mb-3 rounded pixar-box">
-                  <p><i>Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house <strong>[1]</strong>, his brother’s jacket balanced on his shoulder <strong>[2] </strong>, one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised — <strong> [3]</strong></i></p>
-                  <p><i> Yvonne, or something woven from the filaments of the past that looked like her <strong>[4]</strong>, was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks  <strong>[5] </strong>— and was squinting at him, one hand raised to shield her eyes from the sun.</i></p>
-                  <p><i> Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.  <strong>[6]</strong> The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City <strong>[7]. </strong>Yvonne was waving.</i></p>
+                  <p><i>Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house
+                    <span className='blue-text-span tooltip-container'><strong>[1]</strong>
+                      <span className='tooltip-box'>
+                        Hugh’s slow pace suggests he is reluctant to see his brother
+                      </span>
+                    </span>, his brother’s jacket balanced on his shoulder
+                    <span className='blue-text-span tooltip-container'>
+                      <strong>[2]</strong>
+                      <span className='tooltip-box'>
+                        Contrasting with above, Hugh’s possession of his brother’s jacket as if it were his own suggests he retains affection for his brother – so we know it’s not that he dislikes his brother, but there’s something troubling between them.
+                      </span>
+                    </span>
+                    , one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised —
+                    <span className='blue-text-span tooltip-container'><strong> [3]</strong>
+                      <span className='tooltip-box'>
+                        Hugh is very distracted, maybe deeply troubled.
+                      </span>
+                    </span>
+                  </i></p>
+                  <p><i> Yvonne, or something woven from the filaments of the past that looked like her
+                    <span className='blue-text-span tooltip-container'><strong>[4]</strong>
+                      <span className='tooltip-box'>
+                        This suggests Hugh has not seen Yvonne for a long time.
+                      </span>
+                    </span>
+                    , was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks
+                    <span className='blue-text-span tooltip-container'><strong> [5] </strong>
+                      <span className='tooltip-box'>
+                        Yvonne’s mood is better than Hugh’s; she’s working outside in the sun and wearing yellow;
+                      </span>
+                    </span>
+                    — and was squinting at him, one hand raised to shield her eyes from the sun.</i></p>
+                  <p><i> Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.
+                    <span className='blue-text-span tooltip-container'><strong> [6] </strong>
+                      <span className='tooltip-box'>
+                        Hugh did not expect to find Yvonne at his brother’s, but is eager to see her;
+                      </span>
+                    </span>
+                    The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City
+                    <span className='blue-text-span tooltip-container'><strong> [7]. </strong>
+                      <span className='tooltip-box'>
+                        Hugh planned to stay at his brother’s house – more subtly, the fact that the bag’s overnight contents is detailed only after Yvonne is identified, suggests that Hugh may not have been set on staying with his brother, and only became certain of it after he saw Yvonne was there;
+                      </span>
+                    </span>
+                    Yvonne was waving.</i></p>
                   <p><i> And he was advancing (just as on the Ebro they were retreating) the borrowed jacket still somehow balanced, half slung on his shoulder, his broad hat in one hand, the cable, folded, still somehow in the other.</i></p>
-                  <p><i> ‘Hullo, Hugh. Gosh, I thought for a moment you were Bill Hodson <strong>[8]</strong> Geoffrey said you were here. How nice to see you again.’ </i></p>
-                  <p><i> Yvonne brushed the dirt from her palms and held out her hand,  <strong>[9]</strong> which he did not grip, nor even feel at first, then dropped as if carelessly, becoming conscious of a pain in his heart and also of a faint giddiness.  <strong>[10]. </strong> ‘How absolutely something or other. <strong>[11]. </strong> When did you get here?’</i></p>
+                  <p><i> ‘Hullo, Hugh. Gosh, I thought for a moment you were Bill Hodson
+                    <span className='blue-text-span tooltip-container'><strong> [8] </strong>
+                      <span className='tooltip-box'>
+                        This suggests Yvonne has not seen Hugh in a long time, and perhaps did not expect to see him – even though she was forewarned – suggesting, she doesn’t have the same excitement to see him as he has seeing her;
+                      </span>
+                    </span>
+                    Geoffrey said you were here. How nice to see you again.’ </i></p>
+                  <p><i> Yvonne brushed the dirt from her palms and held out her hand,
+                    <span className='blue-text-span tooltip-container'><strong> [9] </strong>
+                      <span className='tooltip-box'>
+                        The dirt on palms (and her lack of embarrassment thereof) further suggests she doesn’t receive him as a ‘special’ guest;
+                      </span>
+                    </span>
+                    which he did not grip, nor even feel at first, then dropped as if carelessly, becoming conscious of a pain in his heart and also of a faint giddiness.
+                    <span className='blue-text-span tooltip-container'><strong> [10]. </strong>
+                      <span className='tooltip-box'>
+                        This hints that Yvonne is involved in whatever was troubling Hugh, above;
+                      </span>
+                    </span>
+                    ‘How absolutely something or other.
+                    <span className='blue-text-span tooltip-container'><strong> [11]. </strong>
+                      <span className='tooltip-box'>
+                        ‘How absolutely something or other’ undoes the effect of her previous ‘How nice to see you again’ and cementing her indifference at Hugh’s arrival.
+                      </span>
+                    </span>
+                    When did you get here?’</i></p>
                 </div>
-
-                <p><strong>[1] </strong>Hugh’s slow pace suggests he is reluctant to see his brother</p>
-                <p><strong>[2] </strong>Contrasting with above, Hugh’s possession of his brother’s jacket as if it were his own suggests he retains affection for his brother – so we know it’s not that he dislikes his brother, but there’s something troubling between them.</p>
-                <p><strong>[3] </strong> Hugh is very distracted, maybe deeply troubled.</p>
-                <p><strong>[4] </strong>This suggests Hugh has not seen Yvonne for a long time.</p>
-                <p><strong>[5] </strong>Yvonne’s mood is better than Hugh’s; she’s working outside in the sun and wearing yellow;</p>
-                <p><strong>[6] </strong>Hugh did not expect to find Yvonne at his brother’s, but is eager to see her;</p>
-                <p><strong>[7] </strong>Hugh planned to stay at his brother’s house – more subtly, the fact that the bag’s overnight contents is detailed only after Yvonne is identified, suggests that Hugh may not have been set on staying with his brother, and only became certain of it after he saw Yvonne was there;</p>
-                <p><strong>[8] </strong>This suggests Yvonne has not seen Hugh in a long time, and perhaps did not expect to see him – even though she was forewarned – suggesting, she doesn’t have the same excitement to see him as he has seeing her;</p>
-                <p><strong>[9] </strong>The dirt on palms (and her lack of embarrassment thereof) further suggests she doesn’t receive him as a ‘special’ guest;</p>
-                <p><strong>[10] </strong>This hints that Yvonne is involved in whatever was troubling Hugh, above;</p>
-                <p><strong>[11] </strong> ‘How absolutely something or other’ undoes the effect of her previous ‘How nice to see you again’ and cementing her indifference at Hugh’s arrival.</p>
 
                 <p>In the story, Yvonne and Hugh only know each other through Hugh’s brother, Geoffrey – who Yvonne is in an on-again-off-again relationship with. Notice how this scene refers to this by interposing the ‘brother’ between them without even making him present.</p>
 
@@ -583,7 +637,6 @@ export default function Scenes() {
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />
-
                 <ThoughtList />
 
                 {/* ------------------------------------------------- footnotes --------------------------------------------- */}

@@ -81,7 +81,6 @@ export default function TheLastWords() {
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
 <ThoughtForm />
-
 <ThoughtList />
 
 {/* ------------------------------------------------- footnotes 
