@@ -817,8 +817,11 @@ p {
 /* Footer -------------------------------------------------------------- */
 
 .footer-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2px;
   color: white;
-  margin-bottom: 0.5rem;
 }
 
 .red-text {
@@ -831,47 +834,20 @@ p {
   font-family: 'Source Code Pro';
 }
 
-.fox-head {
-filter: 
-brightness(0) 
-saturate(100%) 
-invert(74%) 
-sepia(29%) 
-saturate(7025%) 
-hue-rotate(147deg) 
-brightness(106%) 
-contrast(101%);
-}
-
-.fox-head:hover {
-filter: 
-brightness(0) 
-saturate(100%) 
-invert(95%) 
-sepia(76%) 
-saturate(4200%) 
-hue-rotate(352deg) 
-brightness(96%) 
-contrast(87%);
-}
-
-.footer-text img {
-  margin-left: -10px; 
-  margin-right: -10px;
-}
-
-.footer-center {
+.footer-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-
-  position: relative;
   text-align: center;
 }
 
 .footer-side {
   font-size: 1rem;
+}
+
+.footer-content a {
+  color: var(--llblue);
+  text-decoration: none;
 }
 
 a {
