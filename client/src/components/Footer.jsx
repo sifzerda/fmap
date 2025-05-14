@@ -1,32 +1,38 @@
 //import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import f3 from '../../src/assets/f3.png';
 
 function Footer() {
   return (
     <footer className="text-center text-white">
-      <div className="row d-flex justify-content-center">
         <div className="col-lg-8">
-
-          <p className="footer-text">2024 <span className='red-text-x'>☄️</span> sifzerda</p>
-          <a href="https://github.com/sifzerda/fiction" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub repository" >
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+        
+        <p className="footer-text footer-center">
+          sifzerda
+          <a 
+            href="https://github.com/sifzerda/fiction" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            aria-label="Visit my GitHub repository"
+          >
+            <img
+              src={f3}
+              alt="fox head"
+              className="fox-head"
+              width="23"
+              height="23"
+            />
           </a>
-
-          <br></br>
+          2024-25
+        </p>
 
           <a href="https://react-td-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View my project portfolio">Portfolio</a>
 
-        </div>
       </div>
     </footer>
   );
 }
 
 export default Footer;
-
-
-
 
 
 
