@@ -1,5 +1,3 @@
-import React from 'react';
-import f3 from '../../src/assets/f3.png';
 
 function Footer() {
   return (
