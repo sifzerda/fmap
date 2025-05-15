@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
@@ -11,7 +13,7 @@ function Footer() {
             rel="noopener noreferrer"
             aria-label="Visit my GitHub repository"
           >
-          <span className="comet">☄️</span>  
+          <FontAwesomeIcon icon={faPencilAlt} className="ml-1" />
           </a>
           2024–25
         </p>
