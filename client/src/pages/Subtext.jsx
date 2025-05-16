@@ -17,7 +17,7 @@ export default function Subtext() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={subtextBanner} alt="Thumbnail" />
       </div>
@@ -28,7 +28,7 @@ export default function Subtext() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-10-1" className="blog-post-title">10.1: What is subtext?</h2>
-            
+
               <div id="content">
                 <p>Stories are made up of text and subtext. Text is the surficial and literal meaning conveyed by the words. Subtext is the latent implied (or belied) meaning. </p>
                 <p>One way of thinking of it; Subtext conveys that people cohabit two worlds simultaneously: one of present reality, of words, sights, sounds and activity. And a second; the inner world of conscious and subconscious thought, desire, impulse and emotion.</p>
@@ -90,43 +90,45 @@ export default function Subtext() {
                 <p>Subtext is absolutely necessary for a work pitched at anyone over the age of eight, however, symbolism is optional. Why not be simple about it: if you don’t need it, why have it? Where the work is complicated or subtle or has a lot of different thematic concerns, symbolism might be useful to flag and distinguish each concern. </p>
                 <p>If you do use it, make sure it’s not obvious, but in the background to build mood. For instance:</p>
                 <ol>
-                <li>Good (subtle/effective) symbolism: A character is walking through a fairground. In the background, some circus attractions are described, including a tiger in a cage. The tiger in the cage symbolizes a mounting danger, or risk.</li>
-                <li>Bad (clumsy/ineffective) symbolism: A character is walking through a park. In the background, a circus is setting up, including a tiger in a cage, symbolizing impending danger or risk. This is clumsy because the circus and tiger in cage draws attention to itself, and risks making itself known purely as symbolism. Don’t enable your reader become more of an expert on your story than you are.</li>
+                  <li>Good (subtle/effective) symbolism: A character is walking through a fairground. In the background, some circus attractions are described, including a tiger in a cage. The tiger in the cage symbolizes a mounting danger, or risk.</li>
+                  <li>Bad (clumsy/ineffective) symbolism: A character is walking through a park. In the background, a circus is setting up, including a tiger in a cage, symbolizing impending danger or risk. This is clumsy because the circus and tiger in cage draws attention to itself, and risks making itself known purely as symbolism. Don’t enable your reader become more of an expert on your story than you are.</li>
                 </ol>
                 <p>Symbolism is very easy to get wrong. There’s a risk that you could rely on symbolism as a substitute for thematic development through actual writing, for instance, using the colour red to denote love rather than having characters just act and interact in ways which suggest love, and assuming the reader will pick up on it. </p>
 
                 <h6>10.2.1 	Types of Symbolism</h6>
 
-<p>There are generally two types of symbolism:</p>
+                <p>There are generally two types of symbolism:</p>
 
-<ol>
-  <li>External Imagery:</li>
-</ol>
+                <ol>
+                  <li>External Imagery:</li>
+                </ol>
 
-<p>This relies on an existing connection between image (logos) and meaning (semantic), e.g. spiders = fear; applies = temptation. The risk with this is if the reader doesn’t make the connection (e.g. they don’t fear spiders, or dislike apples) the effect fails. </p>
+                <p>This relies on an existing connection between image (logos) and meaning (semantic), e.g. spiders = fear; applies = temptation. The risk with this is if the reader doesn’t make the connection (e.g. they don’t fear spiders, or dislike apples) the effect fails. </p>
 
-<ol>
-  <li>External Imagery:</li>
-</ol>
+                <ol>
+                  <li>External Imagery:</li>
+                </ol>
 
-<p>This creates a new connection between image and meaning, for instance, birds = anxiety; oranges = death. This is harder, relying more on organic writing ability, but can be memorably evocative if done right.</p>
+                <p>This creates a new connection between image and meaning, for instance, birds = anxiety; oranges = death. This is harder, relying more on organic writing ability, but can be memorably evocative if done right.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <hr />
 
-<ThoughtForm />
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                <ThoughtForm />
+                <ThoughtList />
 
-<div className="footnotes">
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
+
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">From Steven Spielberg’s <i>War of the Worlds.</i></li>
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
-             
+                {/* ---------------------------------------------------------------------------------------------- */}
+
               </div>
             </div>
 

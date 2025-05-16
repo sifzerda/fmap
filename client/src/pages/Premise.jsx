@@ -304,6 +304,8 @@ export default function Premise() {
 
                 <p>There are countless examples you could think up. For example, maybe the protag steals the alien device from a museum or bids for it at a junk sale; weird but relatable. Maybe protag watches a sci-fi video before realizing he is viewing footage of the actual alien planet (people can relate better to watching something strange on TV than seeing it in real life). Maybe protag communicates long distance with the alien prince/princess for a long time, before meeting him/her in person and realizing he/she’s an alien – people can relate to long distance communication where the person in real life doesn’t seem anything like their long distance self. </p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

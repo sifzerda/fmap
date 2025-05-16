@@ -218,4 +218,4 @@ Changes:
 - removed superfluous package json installations /
 - filled about section summaries
 - removed extra router links from main and app.jsx /
-- Made footnotes a dynamic context (see components)
+- ~~Made footnotes a dynamic context (see components)~~ changed to zustand store

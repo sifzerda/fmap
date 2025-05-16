@@ -17,7 +17,7 @@ export default function Title() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={titleBanner} alt="Thumbnail" />
       </div>
@@ -28,7 +28,7 @@ export default function Title() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-23-1" className="blog-post-title">23.1: What is An Effective Title?</h2>
-             
+
               <div id="content">
 
                 <p>Some writers may defer this stage until they finish the story, but I recommend creating a list of possible titles for your story as you write it, continually adding or subtracting from the list as you think of a new one. </p>
@@ -74,12 +74,14 @@ export default function Title() {
                 <p>It doesn't have to lay the whole story out bare once you 'get' the title. It could merely raise questions or a line of inquiry. In other words, it doesn't contain an 'answer' to a thematic question, rather it is a thematic question itself. The title shouldn't contain an answer to a thematic question as to remove the point of reading the book itself, because the title gives the answer.</p>
                 <p>Apply the 'person you know' or 'person on the street' test: Could you say that you've written a story under that name to a person you know or a person on the street without feeling silly?</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <hr />
 
-<ThoughtForm />
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes 
+                <ThoughtForm />
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes 
 
 <div className="footnotes">
                   <h4>Footnotes</h4>

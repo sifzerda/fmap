@@ -516,6 +516,8 @@ export default function Description() {
                 <p className="indent-text-1">She crossed her legs, raising one expensive leather heel into the air.</p>
                 <p>Rather than use the above description to punctuate a still, lifeless scene, a skilful writer will use such a description to further punctuate an already moving, changing scene, or charged dialogue, emphasizing a sense of direction change or momentum and motion.</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

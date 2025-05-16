@@ -323,6 +323,8 @@ export default function TheFirstWords() {
                 <p>Simple and effective. It generates a question or live issue immediately: people do not normally feel uneasy about telephones etc., but this narrator does. It requires explaining, creating a promise it will be explained, eventually.</p>
                 <p>Secondly, this line establishes a link of trust with the narrator, by his disclosure of vulnerability. People generally don’t lie about things that make them seem more vulnerable, so we are inclined to believe him, as opposed to suspecting he is an unreliable narrator. This is important in a story where improbable or impossible things are reported to have happened (such as here).</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

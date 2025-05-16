@@ -65,7 +65,7 @@ export default function Antagonists() {
                 <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
 
                 <h2 id="post-16-5" className="blog-post-title">16.5: The Negation of a Negation</h2>
-                <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p> 
+                <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p>
                 <p>Think of the antagonist as basically the negation of the protagonist. The protagonist stands for certain values. Whatever they are, the antagonist stands for the opposite value/s. Some examples are: truth/deception; justice/injustice; idealism/materialism; love/power; money/integrity…etc.</p>
                 <p>A more effective, even sublime, antagonist is ‘the negation of a negation.’ This is where the antagonistic forces go even further than negation, making even the original antagonist look good by comparison. A ‘neg x neg’ turns the original pos/neg dichotomy on its head.</p>
                 <h5>16.4.1 Values Are Neutral</h5>
@@ -119,6 +119,7 @@ export default function Antagonists() {
 
                 <p>Then, referring back to 14.4 The Negation of a Negation, the negxneg in both above cases would be for protagonist to be friendless, but duped into thinking he has friends. The antagonist may cause this to prevent protagonist from challenging his influence.</p>
 
+                <hr />
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

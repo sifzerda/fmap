@@ -134,6 +134,8 @@ export default function Themes() {
                 <p>We can derive two available ‘anti’ positions: (a) There exists a bad God, and (b) there exists a bad human. The movie supplies these alternate explorations and form character material. There is also another opposition along a different dimension: There exists a good man. A position derived from that is: (a) There exists a bad woman. The movie also supplies this position.</p>
                 <p>Polarities/oppositions don’t just have to be positive/negative. Robert McKee<FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> refers to the idea of ‘negatives against negatives’. Basically, the idea there is a state opposing negativity which is to negativity what negativity is to positivity. A state even more negative than negative, but also opposite. See: 14.4 The Negation of a Negation.</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

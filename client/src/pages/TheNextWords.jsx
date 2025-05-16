@@ -19,7 +19,7 @@ export default function TheNextWords() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={nextWBanner} alt="Thumbnail" />
       </div>
@@ -30,7 +30,7 @@ export default function TheNextWords() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-18-1" className="blog-post-title">18.1: Don't Do This!</h2>
-             
+
               <div id="content">
 
                 <p>Before detailing what to do, here’s a general list of things not to do:</p>
@@ -256,7 +256,7 @@ export default function TheNextWords() {
                   <span className='cyan-text-span'><i> There were dreadful lacerations; the skin was torn in strips and shreds. </i></span></p>
                 <p className="code-left-black">
                   <span className='cyan-text-span'><i> The coroner moved round to the end of the table and undid a silk handkerchief which had been passed under the chin and knotted on the top of the head. When the handkerchief was drawn away it exposed what had been the throat. Some of the jurors who had risen to get a better view repented their curiosity and turned away their faces. Witness Harker went to the open window and leaned out across the sill, faint and sick. Dropping the handkerchief upon the dead man's neck the coroner stepped to an angle of the room and from a pile of clothing produced one garment after another, each of which he held up a moment for inspection. All were torn, and stiff with blood.  </i></span><FootnoteRef text="That Damned Thing, Ambrose Bierce." /></p>
-               
+
                 <p>Obviously you don’t have to write your autopsy scene exactly like that, but it’s an example of what information is important and should be foregrounded.</p>
 
                 <p className='purple-bold'>I.	Objects, Others and Outsides</p>
@@ -333,7 +333,7 @@ export default function TheNextWords() {
 
                 <p><i>Example 1: </i></p>
                 <p className='indent-text-1'>For a minute he thought it was an optical illusion, because <i>instead of being thrown back onto the street </i>the woman melted into the wooden curlicues...<FootnoteRef text="HEX, Thomas Olde Heuvelt." /> </p>
-               
+
                 <p>Here, the woman is hit by a big organ on wheels. The example is so bizarre there is no normal precedent for this situation (what on earth normally happens to someone who is hit by a big organ on wheels?). I have no idea whether ‘being thrown back’ is what you’d normally expect in this situation, and there aren’t enough details to specify anyway (speed and size of organ?). Therefore, being no more or less likely, the neg description does no work at all. </p>
 
                 <p><i>Example 2: </i></p>
@@ -527,7 +527,7 @@ export default function TheNextWords() {
                 <h5>18.1.13 	Double Words</h5>
                 <p>What is wrong with this paragraph?</p>
                 <p className='indent-text-1'><i>I went over to her place to see how she was getting on on my way home one evening. Once I got there, the patient gave me a list of symptoms she had had. Scanning it, I gave her her list back. I didn't think she was suicidal then, but later that evening when I realised it it was too late. At the time, I was merely thinking 'What she is is a time waster.'</i></p>
-               
+
                 <p>It only takes two seconds to restructure the sentences, and reads better for it, e.g.</p>
                 <p className='indent-text-1'><i>On my way home one evening, I went by her place to see how she was getting on. Once there, the patient gave me a list of her symptoms. I scanned it and gave it back to her, merely feeling irritated by her wasting my time. Later that evening, I realised she had been suicidal, but by then it was too late.</i></p>
                 <p>Also see this version from the song 'Que será será' -- <i>Whatever will be, will be.</i> Ironically, as 'Que será será' itself means ‘whatever will be, will be,’ it’s a fourfold repetition. </p>
@@ -936,12 +936,14 @@ export default function TheNextWords() {
                   <li> Another tip about love plots; writing a romance is about keeping the lovers apart (physically or psychologically) for as long as possible. Once they are together, there’s nowhere else for the story to go (quoth Shakespeare: ‘Journeys end in lovers meeting’);</li>
                 </ol>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <hr />
 
-<ThoughtForm />
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                <ThoughtForm />
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
 
                 <div className="footnotes">
                   <h4>Footnotes</h4>

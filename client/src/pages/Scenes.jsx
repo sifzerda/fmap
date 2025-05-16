@@ -634,6 +634,8 @@ export default function Scenes() {
                 <p>This is even worse when the present scene gets disregarded for the imaginary scene, e.g.</p>
                 <p className='indent-text-1'>She walked into the upper-class Manhattan party, a secret wonderland of plutocratic excess. But she couldn’t relate to any of these people; their old money and fortune 500 fathers. Right then, she wanted nothing more than to be back home on the farm, with her Irish Draught stallion, Icarus, riding over the broad, green hills. She wouldn’t even mind the frequent rain showers; the smell of wet hay was infinitely preferable to the smog of tobacco and perfume in here. Thirty minutes later, having talked to no one, she left the hotel lobby. </p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

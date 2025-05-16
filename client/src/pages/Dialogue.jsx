@@ -389,6 +389,8 @@ export default function Dialogue() {
 
                 <p>The dialogue is summarized to convey that her response is standard and expected (e.g. she doesn’t make up a name) and the author has wanted to get it out of the way without drawing attention to it. Also, you get ‘she’ is not interested in Lenny; her mind is elsewhere. By having the characters’ dialogue delivered differently than Lenny’s it places the characters’ exchanges on unequal terms. Lenny is attentive and speaking directly, as if to us – the reader – while ‘she’ is disinterested and her dialogue is not distinguished from her other concerns.</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

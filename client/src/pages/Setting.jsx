@@ -123,6 +123,8 @@ export default function Setting() {
 
                 <p>Setting can be transformed as the character is. If a character is very small (e.g. Stuart Little<FootnoteRef text="Stuart Little, E. B. White." />) a single setting might be a creek or part of a room. If a character is very large, (e.g. Gulliver's Travels<FootnoteRef text="Gulliver's Travels, Jonathan Swift." />) a setting might be an entire city. Setting can also be an entire time period, e.g. the Late Cretaceous period Age in A Sound of Thunder by Ray Bradbury.<FootnoteRef text="Ray Bradbury, The Golden Apples of the Sun." /></p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

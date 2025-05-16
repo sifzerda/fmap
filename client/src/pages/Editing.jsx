@@ -193,6 +193,8 @@ export default function Editing() {
                 <h2 id="post-22-5" className="blog-post-title">22.5: Guarding Word Territory</h2>
                 <p>Roy Clark coined the useful concept ‘word territory’. It basically means giving important words their own space. Don’t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

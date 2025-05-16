@@ -138,6 +138,8 @@ export default function Suspense() {
                 <p className='indent-text-1'>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.<FootnoteRef text="To Hellholes and Back, Chuck Thompson." /></p>
                 <p>Multiple parts of this paragraph jump time ahead – ‘ninety beers’, the sky changing colour, several ‘conversations.’</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

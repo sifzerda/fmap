@@ -19,7 +19,7 @@ export default function TheLastWords() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={lastWBanner} alt="Thumbnail" />
       </div>
@@ -30,7 +30,7 @@ export default function TheLastWords() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-19-1" className="blog-post-title">19.1: What is an Ending?</h2>
-            
+
               <div id="content">
 
                 <p>In order to know what an ending is supposed to do, you need to know what an ending is.</p>
@@ -45,7 +45,7 @@ export default function TheLastWords() {
 
                 <h2 id="post-19-2" className="blog-post-title">19.2: Ending a Scene</h2>
                 <p>Your story may not have just one ending. If you raise live issues throughout your story (as you should) each of these will have endings, giving your story several ‘mini’ endings. These are also good practice for writing your ultimate ending.</p>
-                
+
                 <div className="p-3 mb-3 rounded custom-light-box">
                   <p className="mb-0">Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
                   <p></p><i>— Roy Clark <FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></i>
@@ -78,12 +78,14 @@ export default function TheLastWords() {
                 <h2 id="post-19-5" className="blog-post-title">19.5: Ending the Story</h2>
                 <p>NOTHING HERE YET</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <hr />
 
-<ThoughtForm />
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes 
+                <ThoughtForm />
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes 
 
 <div className="footnotes">
                   <h4>Footnotes</h4>

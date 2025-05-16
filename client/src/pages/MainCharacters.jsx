@@ -632,6 +632,8 @@ export default function MainCharacters() {
                 <p><u>Tangible Want:</u> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
                 <p><u>Effect:</u> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

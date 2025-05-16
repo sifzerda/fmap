@@ -25,7 +25,7 @@ export default function Logline() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={logBanner} alt="Thumbnail" />
       </div>
@@ -36,7 +36,7 @@ export default function Logline() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-24-1" className="blog-post-title">24.1 What Is A Logline?</h2>
-            
+
               <div id="content">
 
                 <p>In Dante’s Inferno, the punishment of writing a logline sits between the 5th-6th level of Hell. You do it over and over until you get it right (you never do). If it sounds scary, don’t worry, you have to murder about 10 people to be punished with it in the afterlife. </p>
@@ -103,94 +103,96 @@ export default function Logline() {
                 <ol>
                   <li>On the verge of...
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Stasis = Death..
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Catalyst...
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Breaks into Two...
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>B Story...
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Midpoint...
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Theme Stated…
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>All is Lost…
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
 
                   <li>Flawed Antagonist…
                     <ol><li>Scene 1;</li>
-                        <li>Scene 2;</li>
+                      <li>Scene 2;</li>
                     </ol>
                   </li>
                 </ol>
 
-<p>This is only an example. In reality, you may need to rearrange elements and alter how many scenes they generate. But it’s a starting point to experiment with. The advantage of starting with structure is you aim to have a full outlined story before you start writing it. You troubleshoot plot issues long before sinking time into writing. This is the opposite approach of most fiction dabblers, and in my opinion, only lets them down; wasting time labouring under the sunk cost fallacy trying to fix a broken plot only because they’ve come so far with it.</p>
-<p>Once you’ve got your scenes, you can start giving them beats. Snyder says you can structure scenes in the above way: giving each scene a ‘catalyst’ and ‘midpoint’ and ‘all is lost’ etc, in bitesize forms. Maybe that’s too pedantic at this stage, but it’s possible. Every scene starts with a hero, an expectation, an obstacle, a change, a possible reward or goal and a possible ‘death.’ And if your scenes don’t have these beats, then where’s the momentum and interest?</p>
+                <p>This is only an example. In reality, you may need to rearrange elements and alter how many scenes they generate. But it’s a starting point to experiment with. The advantage of starting with structure is you aim to have a full outlined story before you start writing it. You troubleshoot plot issues long before sinking time into writing. This is the opposite approach of most fiction dabblers, and in my opinion, only lets them down; wasting time labouring under the sunk cost fallacy trying to fix a broken plot only because they’ve come so far with it.</p>
+                <p>Once you’ve got your scenes, you can start giving them beats. Snyder says you can structure scenes in the above way: giving each scene a ‘catalyst’ and ‘midpoint’ and ‘all is lost’ etc, in bitesize forms. Maybe that’s too pedantic at this stage, but it’s possible. Every scene starts with a hero, an expectation, an obstacle, a change, a possible reward or goal and a possible ‘death.’ And if your scenes don’t have these beats, then where’s the momentum and interest?</p>
 
-<h2 id="post-24-4" className="blog-post-title">24.4 Loglines Need Causation</h2>
-<p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
- 
-<p>Compare these summaries:<FootnoteRef text="The Virgin Suicides, Jeffrey Eugenides." /></p>
- 
- <p><u>Logline #1</u></p>
-<p>Some girls inexplicably commit suicide</p>
+                <h2 id="post-24-4" className="blog-post-title">24.4 Loglines Need Causation</h2>
+                <p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
 
- <p><u>Logline #2</u></p>
-<ol>
-  <li>A girl inexplicably commits suicide; </li>
-  <li>Her parents and the community fail to respond;</li>
-  <li>The girl's sisters commit suicide.</li>
-</ol>
+                <p>Compare these summaries:<FootnoteRef text="The Virgin Suicides, Jeffrey Eugenides." /></p>
 
-<p>Both summaries work to simplify the plot -- neither is incorrect -- but if the story hadn't yet been written and you were at the front-end of story planning, which summary would help you more? Probably summary #2 because it implies causation.</p>
+                <p><u>Logline #1</u></p>
+                <p>Some girls inexplicably commit suicide</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <p><u>Logline #2</u></p>
+                <ol>
+                  <li>A girl inexplicably commits suicide; </li>
+                  <li>Her parents and the community fail to respond;</li>
+                  <li>The girl's sisters commit suicide.</li>
+                </ol>
 
-<ThoughtForm />
-<ThoughtList />
+                <p>Both summaries work to simplify the plot -- neither is incorrect -- but if the story hadn't yet been written and you were at the front-end of story planning, which summary would help you more? Probably summary #2 because it implies causation.</p>
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                <hr />
 
-<div className="footnotes">
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+
+                <ThoughtForm />
+                <ThoughtList />
+
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
+
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Blake Snyder, <i>Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.</i></li>
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>

@@ -290,6 +290,8 @@ export default function Story() {
                   </ol>
                 </div>
 
+                <hr />
+
                 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
                 <ThoughtForm />

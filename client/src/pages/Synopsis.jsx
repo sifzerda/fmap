@@ -25,7 +25,7 @@ export default function Synopsis() {
         </div>
       </div>
 
-{/* 
+      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={synBanner} alt="Thumbnail" />
       </div>
@@ -36,7 +36,7 @@ export default function Synopsis() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-25-1" className="blog-post-title">25.1 Purpose of a Synopsis</h2>
-            
+
               <div id="content">
 
                 <p>Now that you’ve written your story, you want to think about marketing and publishing. Most publishers require a synopsis to generate interest in your manuscript. This is critical because if the synopsis is no good, they won’t look at your manuscript. However, a synopsis must be written differently to your story.</p>
@@ -230,19 +230,21 @@ export default function Synopsis() {
                   <li><strong>Event: <span className='green-text-x'>L buries his wife in the burial ground, and she returns to the house, in no better state than L’s son;</span></strong>
                     <ol><li><strong>Effect: </strong>The magnitude and stress borne by L in managing his wife’s death, and undertaking the terrifying task of burying her in the burial ground, causes L to go insane.</li></ol>
                   </li>
-                  </ol>
+                </ol>
 
-<p>Notice how this structure breaks the plot into two kinds of information: (1) a physical happening, action or behaviour, followed by; (2) what the character thinks of feels about the event, which suggest the action the character will take next. Reading only the events gives you the basic plot. Reading only the effects gives you the basic character arc. There is a problem if, at any stage, the character’s thoughts or feelings do not match the character’s subsequent actions. </p>
-<p>At this point you can keep adding detail as required. You’ll find compared to a top-down method, with one of these two bottom-up methods it is easier to keep the size of your synopsis/summary controlled.</p>
+                <p>Notice how this structure breaks the plot into two kinds of information: (1) a physical happening, action or behaviour, followed by; (2) what the character thinks of feels about the event, which suggest the action the character will take next. Reading only the events gives you the basic plot. Reading only the effects gives you the basic character arc. There is a problem if, at any stage, the character’s thoughts or feelings do not match the character’s subsequent actions. </p>
+                <p>At this point you can keep adding detail as required. You’ll find compared to a top-down method, with one of these two bottom-up methods it is easier to keep the size of your synopsis/summary controlled.</p>
 
-{/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
+                <hr />
 
-<ThoughtForm />
-<ThoughtList />
+                {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-{/* ------------------------------------------------- footnotes --------------------------------------------- */}
+                <ThoughtForm />
+                <ThoughtList />
 
-<div className="footnotes">
+                {/* ------------------------------------------------- footnotes --------------------------------------------- */}
+
+                <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
                     <li id="f1">Jack Hart, <i>Storycraft: Complete Guide to Writing Narrative Nonfiction.</i></li>
@@ -253,7 +255,7 @@ export default function Synopsis() {
                   </ol>
                 </div>
 
-{/* ---------------------------------------------------------------------------------------------- */}
+                {/* ---------------------------------------------------------------------------------------------- */}
 
               </div>
             </div>
