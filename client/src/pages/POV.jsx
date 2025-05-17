@@ -1,5 +1,5 @@
 import '../App.css'
-//import povBanner from '../assets/povbanner.jpg'
+import povBanner from '../assets/povbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 import FootnoteRef from '../components/FootnoteRef';
@@ -17,11 +17,9 @@ export default function POV() {
         </div>
       </div>
 
-      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={povBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">

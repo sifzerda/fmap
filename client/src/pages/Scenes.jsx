@@ -1,5 +1,5 @@
 import '../App.css';
-//import scenesBanner from '../assets/scenesbanner.jpg'
+import scenesBanner from '../assets/scenesbanner.jpg'
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 import FootnoteRef from '../components/FootnoteRef';
@@ -25,11 +25,9 @@ export default function Scenes() {
         </div>
       </div>
 
-      {/* 
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={scenesBanner} alt="Thumbnail" />
       </div>
-*/}
 
       <main role="main" className="container">
         <div className="row">

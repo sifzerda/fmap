@@ -130,20 +130,21 @@ This project is substantially complete, with minor formalization and addition of
 - [ ] ~~Go through source word .doc, find all review comments, insert these as cross-hyperlinks to page paragraphs~~
 - [ ] Fix up reference page, grab all footnotes
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff:
+banners are 1200 x 400
     - [x] story
     - [x] premise
     - [x] plot
     - [x] themes
     - [x] conflict
-    - [ ] scenes
+    - [x] scenes 
     - [x] main characters
     - [x] secondary characters
     - [x] setting
-    - [ ] subtext 
+    - [x] subtext 
     - [ ] description
     - [ ] dialogue
     - [ ] suspense
-    - [ ] pov
+    - [x] pov
     - [ ] voice
     - [x] antagonists
     - [ ] the first words
